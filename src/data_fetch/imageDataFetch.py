@@ -43,9 +43,9 @@ def getImage(objId, specObjId, imgClass, ra, dec, scale, height, width, opt):
     specSearchUrl = SDSS_SPECTRA_BASE + str(specObjId)
 
     if(opt is None):
-        searchUrl = "ra=" + str(ra) + "&dec=" + str(dec) + "&scale=" + str(scale) + "&height=" + str(height) + "&width=" + str(width)
+        searchUrl = f"ra={ra}&dec={dec}&scale={scale}&height={height}&width={width}"
     else:
-        searchUrl = "ra=" + str(ra) + "&dec=" + str(dec) + "&scale=" + str(scale) + "&height=" + str(height) + "&width=" + str(width) + "&opt=" + str(opt)
+        searchUrl = f"ra={ra}&dec={dec}&scale={scale}&height={height}&width={width}&opt={opt}"
 
     imageResult = reqObj.get(SDSS_IMAGE_CUTOUT_BASE + searchUrl)
     #specImageResult = reqObj.get(SDSS_SPECTRA_BASE + str(specObjId))

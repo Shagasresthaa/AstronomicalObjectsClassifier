@@ -19,3 +19,11 @@ SDSS_SPECTRA_BASE = "http://skyserver.sdss.org/dr18/en/get/specById.ashx?ID="
 # format = To specify the output format (json, csv, fits, xml, html, etc)
 
 SDSS_OBJ_SQL_SEARCH_BASE = "http://skyserver.sdss.org/dr18/SkyServerWS/SearchTools/SqlSearch?"
+
+# For fetching FITS data from Science Archive Server (SAS)
+# Takes following parameters
+# plateid
+# mjd
+# fiberid
+
+SAS_SPEC_FITS_FETCH_BASE = "http://dr18.sdss.org/optical/spectrum/view/data/format=fits?"

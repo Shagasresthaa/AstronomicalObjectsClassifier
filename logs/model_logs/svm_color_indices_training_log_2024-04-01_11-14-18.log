@@ -1,0 +1,34 @@
+2024-04-01 11:14:18,098 - INFO - Training session initiated.....
+2024-04-01 11:14:20,750 - INFO - Combined DataFrame stats:
+                u-g           g-r
+count  20000.000000  20000.000000
+mean       1.331541     -4.205980
+std      100.197387    223.956679
+min   -10018.216710 -10019.049030
+25%        0.524995      0.197803
+50%        1.179370      0.696690
+75%        1.945260      1.360045
+max    10019.670130      8.303000
+2024-04-01 11:14:20,752 - INFO - Combined DataFrame stats:
+    class      u-g      g-r
+0  GALAXY  4.93165  1.74958
+1  GALAXY  1.14409  0.65768
+2  GALAXY  1.81583  1.21367
+3  GALAXY  0.67811  0.92357
+4  GALAXY  2.95084  0.99048
+2024-04-01 11:14:20,752 - INFO - Training with rbf kernel initiated.....
+2024-04-01 11:15:54,374 - INFO - Best Parameters for rbf kernel: {'C': 100.0, 'gamma': 100.0}
+2024-04-01 11:15:54,374 - INFO - Best Score for rbf kernel: 0.90
+2024-04-01 11:15:54,770 - INFO - Test Set Accuracy with rbf kernel: 0.90
+2024-04-01 11:15:54,826 - INFO - Classification Report with rbf kernel:
+              precision    recall  f1-score   support
+
+      GALAXY       0.88      0.93      0.90      2019
+         QSO       0.92      0.87      0.90      1981
+
+    accuracy                           0.90      4000
+   macro avg       0.90      0.90      0.90      4000
+weighted avg       0.90      0.90      0.90      4000
+
+2024-04-01 11:15:54,827 - INFO - Best model with rbf kernel saved to models/svm_rbf_best_2024-04-01_11-15-54.joblib
+2024-04-01 11:15:54,883 - INFO - (SVC(C=100.0, gamma=100.0), {'best_parameters': {'C': 100.0, 'gamma': 100.0}, 'best_cv_score': 0.8981875, 'test_accuracy': 0.90025, 'classification_report': {'GALAXY': {'precision': 0.8813559322033898, 'recall': 0.9271916790490342, 'f1-score': 0.9036929761042722, 'support': 2019.0}, 'QSO': {'precision': 0.9216417910447762, 'recall': 0.872791519434629, 'f1-score': 0.896551724137931, 'support': 1981.0}, 'accuracy': 0.90025, 'macro avg': {'precision': 0.901498861624083, 'recall': 0.8999915992418316, 'f1-score': 0.9001223501211016, 'support': 4000.0}, 'weighted avg': {'precision': 0.9013075037945865, 'recall': 0.90025, 'f1-score': 0.9001562710679418, 'support': 4000.0}}})

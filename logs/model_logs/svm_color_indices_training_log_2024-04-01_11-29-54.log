@@ -1,0 +1,50 @@
+2024-04-01 11:29:54,012 - INFO - Training session initiated.....
+2024-04-01 11:29:56,748 - INFO - Combined DataFrame stats:
+                u-g           g-r
+count  40000.000000  40000.000000
+mean       1.297381     -2.950767
+std       70.853411    193.965982
+min   -10018.216710 -10019.049030
+25%        0.477403      0.200577
+50%        1.140740      0.687405
+75%        1.920518      1.386950
+max    10019.670130      8.303000
+2024-04-01 11:29:56,750 - INFO - Combined DataFrame stats:
+    class      u-g      g-r
+0  GALAXY  4.93165  1.74958
+1  GALAXY  1.14409  0.65768
+2  GALAXY  1.81583  1.21367
+3  GALAXY  0.67811  0.92357
+4  GALAXY  2.95084  0.99048
+2024-04-01 11:29:56,750 - INFO - Training with rbf kernel initiated.....
+2024-04-01 11:34:48,141 - INFO - Best Parameters for rbf kernel: {'C': 1000.0, 'gamma': 1000.0}
+2024-04-01 11:34:48,141 - INFO - Best Score for rbf kernel: 0.91
+2024-04-01 11:34:49,388 - INFO - Test Set Accuracy with rbf kernel: 0.91
+2024-04-01 11:34:49,516 - INFO - Classification Report with rbf kernel:
+              precision    recall  f1-score   support
+
+      GALAXY       0.88      0.95      0.91      4014
+         QSO       0.94      0.87      0.91      3986
+
+    accuracy                           0.91      8000
+   macro avg       0.91      0.91      0.91      8000
+weighted avg       0.91      0.91      0.91      8000
+
+2024-04-01 11:34:49,518 - INFO - Best model with rbf kernel saved to models/svm_rbf_best_2024-04-01_11-34-49.joblib
+2024-04-01 11:34:49,648 - INFO - (SVC(C=1000.0, gamma=1000.0), {'best_parameters': {'C': 1000.0, 'gamma': 1000.0}, 'best_cv_score': 0.9128125, 'test_accuracy': 0.909625, 'classification_report': {'GALAXY': {'precision': 0.8829415871538282, 'recall': 0.9451918285999004, 'f1-score': 0.9130068583804596, 'support': 4014.0}, 'QSO': {'precision': 0.9405887118552525, 'recall': 0.8738083291520321, 'f1-score': 0.905969566913773, 'support': 3986.0}, 'accuracy': 0.909625, 'macro avg': {'precision': 0.9117651495045404, 'recall': 0.9095000788759662, 'f1-score': 0.9094882126471162, 'support': 8000.0}, 'weighted avg': {'precision': 0.9116642670363129, 'recall': 0.909625, 'f1-score': 0.9095005279071829, 'support': 8000.0}}})
+2024-04-01 11:34:49,649 - INFO - Training with sigmoid kernel initiated.....
+2024-04-01 11:40:27,610 - INFO - Best Parameters for sigmoid kernel: {'C': 0.1, 'gamma': 100.0}
+2024-04-01 11:40:27,610 - INFO - Best Score for sigmoid kernel: 0.86
+2024-04-01 11:40:29,989 - INFO - Test Set Accuracy with sigmoid kernel: 0.86
+2024-04-01 11:40:30,126 - INFO - Classification Report with sigmoid kernel:
+              precision    recall  f1-score   support
+
+      GALAXY       0.84      0.90      0.87      4014
+         QSO       0.89      0.83      0.86      3986
+
+    accuracy                           0.86      8000
+   macro avg       0.86      0.86      0.86      8000
+weighted avg       0.86      0.86      0.86      8000
+
+2024-04-01 11:40:30,127 - INFO - Best model with sigmoid kernel saved to models/svm_sigmoid_best_2024-04-01_11-40-30.joblib
+2024-04-01 11:40:30,254 - INFO - (SVC(C=0.1, gamma=100.0, kernel='sigmoid'), {'best_parameters': {'C': 0.1, 'gamma': 100.0}, 'best_cv_score': 0.8594687500000001, 'test_accuracy': 0.862625, 'classification_report': {'GALAXY': {'precision': 0.8401400233372228, 'recall': 0.8968609865470852, 'f1-score': 0.8675744065550066, 'support': 4014.0}, 'QSO': {'precision': 0.8885598923283984, 'recall': 0.8281485198193678, 'f1-score': 0.857291260875211, 'support': 3986.0}, 'accuracy': 0.862625, 'macro avg': {'precision': 0.8643499578328107, 'recall': 0.8625047531832265, 'f1-score': 0.8624328337151088, 'support': 8000.0}, 'weighted avg': {'precision': 0.8642652230620761, 'recall': 0.862625, 'f1-score': 0.8624508292200485, 'support': 8000.0}}})

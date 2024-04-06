@@ -1,0 +1,13 @@
+2024-03-27 23:46:42,056 - INFO - Fetching data for: GALAXY
+2024-03-27 23:46:47,273 - INFO - Size: 2790253	Last Object ID: **NA**	File Path: data/raw/csv_extract/galaxy/astro_data_batch_1.csv
+2024-03-27 23:47:46,960 - INFO - Size: 1790253	Last Object ID: 1237661849867125370	File Path: data/raw/csv_extract/galaxy/astro_data_batch_2.csv
+2024-03-27 23:48:20,032 - INFO - Size: 1290253	Last Object ID: 1237664672716816539	File Path: data/raw/csv_extract/galaxy/astro_data_batch_3.csv
+2024-03-27 23:48:57,178 - INFO - Size: 790253	Last Object ID: 1237667736660804138	File Path: data/raw/csv_extract/galaxy/astro_data_batch_4.csv
+2024-03-27 23:49:34,966 - INFO - Size: 290253	Last Object ID: 1237678881023460316	File Path: data/raw/csv_extract/galaxy/astro_data_batch_5.csv
+2024-03-27 23:49:47,175 - INFO - Size: 0	Last Object ID: 1237680531356582673	File Path: data/raw/csv_extract/galaxy/astro_data_batch_6.csv
+2024-03-27 23:49:47,176 - INFO - Fetching data for: STAR
+2024-03-27 23:49:48,437 - INFO - Size: 962162	Last Object ID: **NA**	File Path: data/raw/csv_extract/star/astro_data_batch_1.csv
+2024-03-27 23:50:46,009 - INFO - Size: 0	Last Object ID: 1237680531356516800	File Path: data/raw/csv_extract/star/astro_data_batch_2.csv
+2024-03-27 23:50:46,011 - INFO - Fetching data for: QSO
+2024-03-27 23:50:49,721 - INFO - Size: 866338	Last Object ID: **NA**	File Path: data/raw/csv_extract/qso/astro_data_batch_1.csv
+2024-03-27 23:51:40,232 - INFO - Size: 0	Last Object ID: 1237680531356582786	File Path: data/raw/csv_extract/qso/astro_data_batch_2.csv

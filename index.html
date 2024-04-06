@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astronomical Data Index</title>
+    <!-- Bootstrap icons stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(0, 0, 0, 0.5) 100%
+          ),
+          url("https://images.unsplash.com/photo-1488866022504-f2584929ca5f?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+            no-repeat center center fixed;
+        background-size: cover;
+        color: #00ff00;
+        font-family: "Courier New", monospace;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+      }
+
+      .container {
+        max-width: max-content;
+        padding: 20px;
+      }
+
+      h1,
+      h2 {
+        text-align: left;
+        color: #9cf;
+        font-family: monospace;
+        margin-top: 0;
+      }
+
+      .terminal {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        position: relative;
+      }
+
+      .terminal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        height: max-content;
+      }
+
+      .terminal-links {
+        display: flex;
+        align-items: center;
+      }
+
+      .terminal-link {
+        color: #00ff00;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: monospace;
+        margin-right: 10px;
+      }
+
+      .terminal-link:hover {
+        text-decoration: underline;
+      }
+
+      .directory-listing {
+        margin-top: 3%;
+      }
+
+      .directory-listing ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      .directory-listing li {
+        margin-bottom: 10px;
+      }
+
+      .folder a {
+        color: #00ff00;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .file a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .team-banner {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        margin-top: 2.5%;
+        border-radius: 5px;
+      }
+
+      .team-banner h2 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .team-banner i {
+        margin-right: 5px;
+      }
+
+      /* Terminal icon styles */
+      .terminal-icon {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #00ff00;
+        font-size: 24px;
+      }
+
+      /* Dummy button icon container styles */
+      .dummy-buttons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+      }
+
+      /* Individual dummy button icon styles */
+      .dummy-button {
+        color: #00ff00;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+
+      .homeBack {
+        color: #00ff00;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+      .b1 {
+        color: red;
+      }
+
+      .b2 {
+        color: yellow;
+      }
+
+      .b3 {
+        color: #00ff00;
+      }
+
+      .folFile:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Astronomical Objects Classifier Project Data Directory</h1>
+      <div class="terminal">
+        <!-- Terminal icon -->
+        <i class="bi bi-terminal terminal-icon"></i>
+        <div class="terminal-header">
+          <div class="terminal-links">
+            <!-- Dummy button icons -->
+            <div class="dummy-buttons">
+              <i class="bi bi-circle-fill dummy-button b1"></i>
+              <i class="bi bi-circle-fill dummy-button b2"></i>
+              <i class="bi bi-circle-fill dummy-button b3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="team-banner">
+          <h2><i class="bi bi-people-fill"></i> #Team NASA!</h2>
+
+          <div class="directory-listing" id="file-list">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.813.0.min.js"></script>
+    <script>
+      AWS.config.region = "us-east-1";
+      AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+        IdentityPoolId: "", // Not to be put in repo
+      });
+
+      var bucketName =
+        "astronomical-objects-classifier-ml-cs-5821-sp-2024-team-nasa";
+      var s3 = new AWS.S3({
+        apiVersion: "2006-03-01",
+        params: { Bucket: bucketName },
+      });
+
+      var prefixHistory = [""];
+
+      function listObjects(prefix) {
+        s3.listObjectsV2(
+          { Prefix: prefix, Delimiter: "/" },
+          function (err, data) {
+            if (err) {
+              console.log(err, err.stack);
+              document.getElementById("file-list").innerHTML =
+                "Error loading files: " + err.message;
+              return;
+            }
+
+            var filesHtml = "";
+
+            if (prefix !== "") {
+              filesHtml +=
+                '<li class="backLink"><a class="homeBack folFile" href="#" onclick="goBack()"><b>..</b></a></li>';
+            }
+            if (prefix !== "" && prefixHistory.length > 1) {
+              // Only include home link if in subdirectory
+              filesHtml +=
+                '<li class="homeLink"><b>> </b><a class="homeBack folFile" href="#" onclick="goHome()"><b>/Home</b></a></li>';
+            }
+            data.CommonPrefixes.forEach(function (commonPrefix) {
+              var folderName = commonPrefix.Prefix.replace(
+                new RegExp("^" + prefix + "|/$", "g"),
+                ""
+              );
+              filesHtml += `<li class="folder"><b>> </b><a class="folFile" href="#" onclick="listObjects('${commonPrefix.Prefix}')">${folderName}</a></li>`;
+            });
+            data.Contents.forEach(function (object) {
+              if (
+                !object.Key.endsWith("/") &&
+                object.Key !== prefix + "index.html" // Filter out "index.html"
+              ) {
+                var fileName = object.Key.replace(prefix, "");
+                filesHtml += `<li class="file"><b>>> </b><a class="folFile" href="https://${bucketName}.s3.amazonaws.com/${encodeURIComponent(
+                  object.Key
+                )}">${fileName}</a></li>`;
+              }
+            });
+
+            document.getElementById("file-list").innerHTML = filesHtml;
+            prefixHistory.push(prefix);
+          }
+        );
+      }
+
+      function goBack() {
+        if (prefixHistory.length > 1) {
+          prefixHistory.pop(); // Remove current prefix
+          var previousPrefix = prefixHistory[prefixHistory.length - 1];
+          listObjects(previousPrefix);
+        } else {
+          prefixHistory = [""]; // Reset history if already at root
+          listObjects(""); // Load root directory
+        }
+      }
+
+      function goHome() {
+        prefixHistory = [""]; // Reset history
+        listObjects(""); // Go to root directory
+      }
+
+      listObjects("");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+2024-04-05 13:37:28,965 - INFO - Training session initiated.....
+2024-04-05 13:37:31,753 - INFO - Combined DataFrame stats:
+                u-g           g-r
+count  50000.000000  50000.000000
+mean       1.272181     -2.194163
+std       63.375046    173.494928
+min   -10018.216710 -10019.049030
+25%        0.434600      0.198487
+50%        1.099220      0.680995
+75%        1.909648      1.417698
+max    10019.670130     10.783480
+2024-04-05 13:37:31,755 - INFO - Combined DataFrame stats:
+    class      u-g      g-r
+0  GALAXY  4.93165  1.74958
+1  GALAXY  1.14409  0.65768
+2  GALAXY  1.81583  1.21367
+3  GALAXY  0.67811  0.92357
+4  GALAXY  2.95084  0.99048
+2024-04-05 13:37:31,755 - INFO - Training with RBF kernel initiated.....
+2024-04-05 13:45:07,038 - INFO - Best Parameters for RBF kernel: {'C': 1000.0, 'gamma': 100.0}
+2024-04-05 13:45:07,038 - INFO - Best Cross-Validation Score for RBF kernel: 0.91
+2024-04-05 13:45:07,038 - INFO - Grid Search Detailed Results:
+2024-04-05 13:45:07,038 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.001, 'gamma': 0.001}
+2024-04-05 13:45:07,038 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.001, 'gamma': 0.01}
+2024-04-05 13:45:07,038 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.001, 'gamma': 0.1}
+2024-04-05 13:45:07,038 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.001, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.001, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.723 (+/-0.016) for {'C': 0.001, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.01, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.01, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.01, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.01, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.712 (+/-0.014) for {'C': 0.01, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.831 (+/-0.009) for {'C': 0.01, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.1, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.1, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 0.1, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.711 (+/-0.014) for {'C': 0.1, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.828 (+/-0.008) for {'C': 0.1, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.876 (+/-0.004) for {'C': 0.1, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 1.0, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 1.0, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.711 (+/-0.014) for {'C': 1.0, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.828 (+/-0.008) for {'C': 1.0, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.873 (+/-0.004) for {'C': 1.0, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.904 (+/-0.004) for {'C': 1.0, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.501 (+/-0.000) for {'C': 10.0, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.711 (+/-0.014) for {'C': 10.0, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.828 (+/-0.008) for {'C': 10.0, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.871 (+/-0.004) for {'C': 10.0, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.895 (+/-0.004) for {'C': 10.0, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.908 (+/-0.004) for {'C': 10.0, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.711 (+/-0.014) for {'C': 100.0, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.828 (+/-0.008) for {'C': 100.0, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.870 (+/-0.003) for {'C': 100.0, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.884 (+/-0.004) for {'C': 100.0, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.899 (+/-0.005) for {'C': 100.0, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.909 (+/-0.003) for {'C': 100.0, 'gamma': 100.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.829 (+/-0.008) for {'C': 1000.0, 'gamma': 0.001}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.870 (+/-0.004) for {'C': 1000.0, 'gamma': 0.01}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.879 (+/-0.004) for {'C': 1000.0, 'gamma': 0.1}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.896 (+/-0.005) for {'C': 1000.0, 'gamma': 1.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.903 (+/-0.003) for {'C': 1000.0, 'gamma': 10.0}
+2024-04-05 13:45:07,039 - INFO - Mean CV Score: 0.910 (+/-0.003) for {'C': 1000.0, 'gamma': 100.0}
+2024-04-05 13:45:13,551 - INFO - Training Set Accuracy with RBF kernel: 0.91
+2024-04-05 13:45:16,401 - INFO - Test Set Accuracy with RBF kernel: 0.91
+2024-04-05 13:45:16,429 - INFO - Confusion Matrix:
+[[7023  503]
+ [ 823 6651]]
+2024-04-05 13:45:16,687 - INFO - Classification Report with RBF kernel:
+{'GALAXY': {'precision': 0.8951057863879683, 'recall': 0.9331650279032687, 'f1-score': 0.9137392661982826, 'support': 7526.0}, 'QSO': {'precision': 0.9296896840928152, 'recall': 0.8898849344393899, 'f1-score': 0.9093519278096801, 'support': 7474.0}, 'accuracy': 0.9116, 'macro avg': {'precision': 0.9123977352403918, 'recall': 0.9115249811713293, 'f1-score': 0.9115455970039814, 'support': 15000.0}, 'weighted avg': {'precision': 0.9123377898177033, 'recall': 0.9116, 'f1-score': 0.911553201723855, 'support': 15000.0}}
+2024-04-05 13:45:16,690 - INFO - Best model with RBF kernel saved to models/svm_rbf_best_2024-04-05_13-37-28.joblib
+2024-04-05 13:45:16,691 - INFO - Scaler saved to models/scaler_2024-04-05_13-37-28.joblib
+2024-04-05 13:45:16,691 - INFO - Model and scaler training completed. Detailed metrics:
+{'best_parameters': {'C': 1000.0, 'gamma': 100.0}, 'best_cv_score': 0.9103428571428573, 'train_accuracy': 0.9107142857142857, 'test_accuracy': 0.9116, 'confusion_matrix': [[7023, 503], [823, 6651]], 'classification_report': {'GALAXY': {'precision': 0.8951057863879683, 'recall': 0.9331650279032687, 'f1-score': 0.9137392661982826, 'support': 7526.0}, 'QSO': {'precision': 0.9296896840928152, 'recall': 0.8898849344393899, 'f1-score': 0.9093519278096801, 'support': 7474.0}, 'accuracy': 0.9116, 'macro avg': {'precision': 0.9123977352403918, 'recall': 0.9115249811713293, 'f1-score': 0.9115455970039814, 'support': 15000.0}, 'weighted avg': {'precision': 0.9123377898177033, 'recall': 0.9116, 'f1-score': 0.911553201723855, 'support': 15000.0}}}

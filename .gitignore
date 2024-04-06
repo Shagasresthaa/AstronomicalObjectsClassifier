@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm, IntelliJ (for those who use JetBrains' IDEs)
+.idea/
+
+# VS Code (if used occasionally for editing)
+.vscode/
+
+# neovim
+*.swp
+*.swo
+*.swn
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+localEnv/
+
+# Datasets
+*.png
+*.fits
+*.tar
+*.csv
+data/raw/csv_extract/galaxy/*.csv
+data/raw/csv_extract/star/*.csv
+data/raw/csv_extract/qso/*.csv
+
+# Operating system files
+.DS_Store
+*.db
+
+# Development tools
+*.pylintrc
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+#downloaded files
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+
+# processed files
+data/processed/

@@ -1,0 +1,8 @@
+2024-04-01 09:51:39,581 - INFO - Processing PhotoMetric data initiated.....2024-04-01_09-51-39
+2024-04-01 09:51:42,077 - INFO - x range: -3.58971 to 10019.67013
+2024-04-01 09:51:42,077 - INFO - y range: -10019.04903 to 5.773019999999999
+2024-04-01 09:51:42,077 - INFO - Mean 'u-g': 2.369535849	Median 'u-g': 1.2118199999999995
+2024-04-01 09:51:42,077 - INFO - Mean 'g-r': -3.2092114389999997	Median 'g-r': 0.7091750000000001
+2024-04-01 09:51:42,142 - INFO - Starting Plotting
+2024-04-01 09:52:30,695 - INFO - Plotting Completed
+2024-04-01 09:53:25,663 - INFO - Processing PhotoMetric data completed.....2024-04-01_09-53-25

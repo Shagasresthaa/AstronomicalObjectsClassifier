@@ -1,0 +1,19 @@
+2024-04-01 12:05:21,617 - INFO - Training session initiated.....
+2024-04-01 12:05:24,165 - INFO - Combined DataFrame stats:
+                 u-g            g-r
+count  100000.000000  100000.000000
+mean        1.243107      -0.691190
+std        44.819383     122.689120
+min    -10018.216710  -10019.049030
+25%         0.398120       0.192748
+50%         1.050935       0.671330
+75%         1.890902       1.429588
+max     10019.670130      13.965820
+2024-04-01 12:05:24,167 - INFO - Combined DataFrame stats:
+    class      u-g      g-r
+0  GALAXY  4.93165  1.74958
+1  GALAXY  1.14409  0.65768
+2  GALAXY  1.81583  1.21367
+3  GALAXY  0.67811  0.92357
+4  GALAXY  2.95084  0.99048
+2024-04-01 12:05:24,167 - INFO - Training with rbf kernel initiated.....

@@ -1,0 +1,31 @@
+2024-04-01 17:33:50,317 - INFO - Training session initiated.....
+2024-04-01 17:33:52,973 - INFO - Combined DataFrame stats:
+                 u-g            g-r
+count  200000.000000  200000.000000
+mean        1.214251       0.067518
+std        31.702380      86.759026
+min    -10018.216710  -10019.049030
+25%         0.357550       0.190868
+50%         0.980215       0.662160
+75%         1.871940       1.458283
+max     10019.670130      13.965820
+2024-04-01 17:33:52,975 - INFO - Combined DataFrame stats:
+    class      u-g      g-r
+0  GALAXY  4.93165  1.74958
+1  GALAXY  1.14409  0.65768
+2  GALAXY  1.81583  1.21367
+3  GALAXY  0.67811  0.92357
+4  GALAXY  2.95084  0.99048
+2024-04-01 17:33:52,976 - INFO - Training with RBF kernel initiated.....
+2024-04-01 21:27:44,642 - INFO - Best Parameters for RBF kernel: {'C': 1000.0, 'gamma': 100.0}
+2024-04-01 21:27:44,642 - INFO - Best Cross-Validation Score for RBF kernel: 0.92
+2024-04-01 21:29:40,357 - INFO - Training Set Accuracy with RBF kernel: 0.92
+2024-04-01 21:30:09,229 - INFO - Test Set Accuracy with RBF kernel: 0.91
+2024-04-01 21:30:10,030 - INFO - Classification Report with RBF kernel:
+2024-04-01 21:30:10,030 - INFO - GALAXY: {'precision': 0.8949449711753775, 'recall': 0.9395288350922822, 'f1-score': 0.9166951344492704, 'support': 19993.0}
+2024-04-01 21:30:10,032 - INFO - QSO: {'precision': 0.9364052390721161, 'recall': 0.8897885739991003, 'f1-score': 0.9125019221897586, 'support': 20007.0}
+2024-04-01 21:30:10,032 - INFO - accuracy: 0.91465
+2024-04-01 21:30:10,032 - INFO - macro avg: {'precision': 0.9156751051237468, 'recall': 0.9146587045456913, 'f1-score': 0.9145985283195145, 'support': 40000.0}
+2024-04-01 21:30:10,032 - INFO - weighted avg: {'precision': 0.9156823606706286, 'recall': 0.91465, 'f1-score': 0.914597794507369, 'support': 40000.0}
+2024-04-01 21:30:10,034 - INFO - Best model with RBF kernel saved to models/svm_rbf_best_2024-04-01_21-30-10.joblib
+2024-04-01 21:30:10,035 - INFO - (SVC(C=1000.0, gamma=100.0), {'best_parameters': {'C': 1000.0, 'gamma': 100.0}, 'best_cv_score': 0.9171312500000001, 'train_accuracy': 0.9173125, 'test_accuracy': 0.91465, 'classification_report': {'GALAXY': {'precision': 0.8949449711753775, 'recall': 0.9395288350922822, 'f1-score': 0.9166951344492704, 'support': 19993.0}, 'QSO': {'precision': 0.9364052390721161, 'recall': 0.8897885739991003, 'f1-score': 0.9125019221897586, 'support': 20007.0}, 'accuracy': 0.91465, 'macro avg': {'precision': 0.9156751051237468, 'recall': 0.9146587045456913, 'f1-score': 0.9145985283195145, 'support': 40000.0}, 'weighted avg': {'precision': 0.9156823606706286, 'recall': 0.91465, 'f1-score': 0.914597794507369, 'support': 40000.0}}})

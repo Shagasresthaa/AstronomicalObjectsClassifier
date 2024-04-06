@@ -1,0 +1,21 @@
+2024-03-28 12:44:57,094 - INFO - Fetching PhotoMetric data initiated.....2024-03-28_12-44-57
+2024-03-28 12:44:57,094 - INFO - Fetching PhotoMetric data for: GALAXY
+2024-03-28 12:45:00,417 - INFO - data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_1.csv
+2024-03-28 12:45:42,279 - INFO - Size: 2790253	Last Object ID: **NA**	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_1.csv
+2024-03-28 12:46:38,778 - INFO - Size: 1790253	Last Object ID: 1237661849867125370	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_2.csv
+2024-03-28 12:47:43,851 - INFO - Size: 1290253	Last Object ID: 1237664672716816539	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_3.csv
+2024-03-28 12:48:51,640 - INFO - Size: 790253	Last Object ID: 1237667736660804138	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_4.csv
+2024-03-28 12:49:38,302 - INFO - Size: 290253	Last Object ID: 1237678881023460316	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_5.csv
+2024-03-28 12:50:05,474 - INFO - Size: 0	Last Object ID: 1237680531356582673	File Path: data/raw/photometricDataExtract/galaxy/photometric_data_batch_GALAXY_6.csv
+2024-03-28 12:50:05,477 - INFO - Fetching PhotoMetric data done for: GALAXY
+2024-03-28 12:50:05,477 - INFO - Fetching PhotoMetric data for: STAR
+2024-03-28 12:50:06,151 - INFO - data/raw/photometricDataExtract/star/photometric_data_batch_STAR_1.csv
+2024-03-28 12:50:45,620 - INFO - Size: 962162	Last Object ID: **NA**	File Path: data/raw/photometricDataExtract/star/photometric_data_batch_STAR_1.csv
+2024-03-28 12:51:29,995 - INFO - Size: 0	Last Object ID: 1237680531356516800	File Path: data/raw/photometricDataExtract/star/photometric_data_batch_STAR_2.csv
+2024-03-28 12:51:29,998 - INFO - Fetching PhotoMetric data done for: STAR
+2024-03-28 12:51:29,998 - INFO - Fetching PhotoMetric data for: QSO
+2024-03-28 12:51:31,901 - INFO - data/raw/photometricDataExtract/qso/photometric_data_batch_QSO_1.csv
+2024-03-28 12:52:22,427 - INFO - Size: 866338	Last Object ID: **NA**	File Path: data/raw/photometricDataExtract/qso/photometric_data_batch_QSO_1.csv
+2024-03-28 12:52:55,200 - INFO - Size: 0	Last Object ID: 1237680531356582786	File Path: data/raw/photometricDataExtract/qso/photometric_data_batch_QSO_2.csv
+2024-03-28 12:52:55,203 - INFO - Fetching PhotoMetric data done for: QSO
+2024-03-28 12:52:55,203 - INFO - Fetching PhotoMetric data completed.....2024-03-28_12-52-55

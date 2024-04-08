@@ -44,6 +44,8 @@ data/raw/csv_extract/galaxy/*.csv
 data/raw/csv_extract/star/*.csv
 data/raw/csv_extract/qso/*.csv
 
+!notebooks/*.png
+
 # Operating system files
 .DS_Store
 *.db

@@ -36,20 +36,29 @@ def classifStarByTemperature(temp):
 def augmentSpectraDataWithStarClass(csvInPath, objId):
     spectrumDf = pd.read_csv(csvInPath)
     spectrumDf.sort_values('wavelength', inplace=True)
+
+    # Calculate min and max for wavelength and smoothed_flux
+    wavelength_min = spectrumDf['wavelength'].min()
+    wavelength_max = spectrumDf['wavelength'].max()
+    smoothed_flux_min = spectrumDf['smoothed_flux'].min()
+    smoothed_flux_max = spectrumDf['smoothed_flux'].max()
+
     lambdaMax = spectrumDf.loc[spectrumDf['smoothed_flux'].idxmax(), 'wavelength']
     b = 2.897e-3  # Weins Displacement Constant
     lambdaMaxMeters = lambdaMax * 1e-10  # Convert Angstroms to meters
-    spectrumDf['wavelength_meters'] = spectrumDf['wavelength'] * 1e-10
     temperature = b / lambdaMaxMeters   # Calculate Temperature using Weins Displacement Law
     starClassExpected = classifStarByTemperature(temperature)
+    
     logging.info(f"Estimated Temperature and Class for object {objId}:")
     logging.info(f"Star Class: {starClassExpected}\tTemperature Estimate: {temperature} K")
+    
     csvOutPath = f"data/augmentation/finalProcessedSpectrumData/star/{starClassExpected}"
     os.makedirs(csvOutPath, exist_ok=True)
     outFilePath = f"{csvOutPath}/{objId}_spectra_main.csv"
     spectrumDf.to_csv(outFilePath, index=False)
 
-    return outFilePath, temperature, lambdaMax, lambdaMaxMeters, starClassExpected
+    return (outFilePath, temperature, lambdaMax, lambdaMaxMeters, starClassExpected,
+            wavelength_min, wavelength_max, smoothed_flux_min, smoothed_flux_max)
 
 
 def autoAugmentData():
@@ -72,8 +81,9 @@ def autoAugmentData():
             result = augmentSpectraDataWithStarClass(csvInPath, row['objid'])
             classifyResults.append((row['objid'],) + result)
         
-        df_results = pd.DataFrame(classifyResults, columns=['ObjID', 'OutputFilePath', 'TemperatureKelvin', 'MaxWavelengthAngstroms', 'MaxWaveLengthMeters', 'StarClass'])
-        df_results.to_csv('data/augmentation/finalProcessedSpectrumData/star/starClassMetaDataIndex.csv', index=False)
+            columns=['ObjID', 'OutputFilePath', 'TemperatureKelvin', 'MaxWavelengthAngstroms', 'MaxWaveLengthMeters', 'StarClass', 'WavelengthMin', 'WavelengthMax', 'SmoothedFluxMin', 'SmoothedFluxMax']
+            df_results = pd.DataFrame(classifyResults, columns=columns)
+            df_results.to_csv('data/augmentation/finalProcessedSpectrumData/star/starClassMetaDataIndex.csv', index=False)
             
     except Exception as e:
         logging.exception(f"Failed to Augment Spectra data.....")

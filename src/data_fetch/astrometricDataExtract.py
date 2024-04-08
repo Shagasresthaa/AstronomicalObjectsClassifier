@@ -96,11 +96,49 @@ def specMetaFetch(astroClass, fileName, imageFilterOptions, photoEnable, sasFetc
                     logging.info("Initiating Sleep for 3 sec for api server rate limitations")
                     time.sleep(3)
 
+def checkDataDownloadsCompletion(masterCsvFile, classes):
+    
+    astroClassFileDir = {"GALAXY": "data/raw/csv_extract/galaxy/", "STAR": "data/raw/csv_extract/star/", "QSO": "data/raw/csv_extract/qso/"}
+    scale = 0.25
+    height = 128
+    width = 128
+    for astroClass in classes:
+        classPath = astroClassFileDir.get(astroClass)
+        astroDataFilePath = classPath + masterCsvFile
+        baseImagePathTemplate = f"data/raw/image_extracts/astroImages/unFilteredImages/unFilteredFilter/{astroClass.lower()}/"
+        astroRawDataFrame = loadAndExtractData(astroDataFilePath)
+        i=0
+        for row in astroRawDataFrame.iloc[:25000].itertuples(index=False):
+            objid = row.objid
+            specobjid = row.specobjid
+            ra = row.ra
+            dec = row.dec
+            run2d = row.run2d
+            plate = row.plate
+            mjd = row.mjd
+            fiberid = row.fiberid
+            imagePath = f"{baseImagePathTemplate}{objid}.png"
+            i+=1
+            logging.info(f"At Index: {i}")
+
+            if(os.path.exists(imagePath)):
+                logging.info(f"File Exists at path {imagePath} Data OK...")
+            else:
+                logging.error(f"File Missing at path {imagePath} Redownloading...")
+                sdssFetchUrl = f"{SDSS_IMAGE_CUTOUT_BASE}ra={ra}&dec={dec}&scale={scale}&height={height}&width={width}"
+                sdssImageDataResp = reqObj.get(sdssFetchUrl)
+                os.makedirs(os.path.dirname(imagePath), exist_ok=True)  # Ensure directory exists
+                fileWriter(sdssImageDataResp, imagePath)
+                logging.info(f"File downloaded at path {imagePath} Done...")
+                logging.info("Initiating Sleep for 3 sec for api server rate limitations")
+                time.sleep(3)
+
 def automateFetching(classes, options):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     logging.info(f"Fetching Astrometric data initiated.....{timestamp}")
 
     threads = []  # List to keep track of threads
+    masterCsvFile = "astro_data_batch_2.csv"
 
     for i, astroClass in enumerate(classes):
         try:
@@ -109,7 +147,7 @@ def automateFetching(classes, options):
             photoEnable = True
             sasFetchEnable = False
             # Create a Thread for each class, giving it a meaningful name
-            thread = threading.Thread(target=specMetaFetch, args=(astroClass, "astro_data_batch_2.csv", options, photoEnable, sasFetchEnable), name=threadName)
+            thread = threading.Thread(target=specMetaFetch, args=(astroClass, masterCsvFile, options, photoEnable, sasFetchEnable), name=threadName)
             threads.append(thread)
             thread.start()
         except Exception as e:
@@ -118,6 +156,8 @@ def automateFetching(classes, options):
     # Wait for all threads to complete
     for thread in threads:
         thread.join()
+
+    checkDataDownloadsCompletion(masterCsvFile, classes)
 
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     logging.info(f"Fetching Astrometric data completed.....{timestamp}")

@@ -57,7 +57,6 @@ def evaluate_model(model, dataloader, criterion):
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=list(class_encoding.keys()), yticklabels=list(class_encoding.keys()))
     plt.xlabel('Predicted')
     plt.ylabel('True')
-    plt.show()
     # Save the plot to a file
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     fp = 'notebooks/starClassifierModel/'

@@ -35,7 +35,7 @@ processed_dir = data_dir + processed + current_dataset
 raw_dir = data_dir + raw + current_dataset
 
 model_name = "Zoom_1epoch"
-class_names = ['galaxy', 'qso', 'star']
+class_names = ['galaxy', 'star']
 
 
 start = time.time()
@@ -64,7 +64,7 @@ class MyCNN(nn.Module):
             nn.Flatten(),  # Flatten output of conv layers
             nn.Linear(64 * 32 * 32, 128),  # Adjust based on your image size
             nn.ReLU(),
-            nn.Linear(128, 3)  # Output classes = 3
+            nn.Linear(128, 2)  # Output classes = 3
         )
 
     def forward(self, x):

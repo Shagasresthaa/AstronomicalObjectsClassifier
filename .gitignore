@@ -66,3 +66,10 @@ data/cifar-10-python.tar.gz
 
 # processed files
 data/processed/
+
+# Manual ignore files
+logs/data_fetch_logs/star_class_data_aggregate_*
+logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-13-28.log
+logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-14-27.log
+logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-12-25.log
+logs/data_processing_logs/star_spectra_augmenter_2024-04-11_16-34-46.log

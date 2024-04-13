@@ -1,0 +1,35 @@
+2024-04-08 22:08:48,794 - INFO - [MainThread] - Using device: cuda
+2024-04-08 22:11:06,084 - INFO - [MainThread] - Epoch 1, Training Loss: 2.497480630874634
+2024-04-08 22:13:07,767 - INFO - [MainThread] - Epoch 2, Training Loss: 1.9994398355484009
+2024-04-08 22:15:05,379 - INFO - [MainThread] - Epoch 3, Training Loss: 0.1953466683626175
+2024-04-08 22:17:02,348 - INFO - [MainThread] - Epoch 4, Training Loss: 0.3497264087200165
+2024-04-08 22:18:58,793 - INFO - [MainThread] - Epoch 5, Training Loss: 0.08379680663347244
+2024-04-08 22:20:55,519 - INFO - [MainThread] - Epoch 6, Training Loss: 0.2582014203071594
+2024-04-08 22:22:52,002 - INFO - [MainThread] - Epoch 7, Training Loss: 0.7135415077209473
+2024-04-08 22:24:48,488 - INFO - [MainThread] - Epoch 8, Training Loss: 0.11409414559602737
+2024-04-08 22:26:45,086 - INFO - [MainThread] - Epoch 9, Training Loss: 0.04138558730483055
+2024-04-08 22:28:41,878 - INFO - [MainThread] - Epoch 10, Training Loss: 0.428067147731781
+2024-04-08 22:30:38,736 - INFO - [MainThread] - Epoch 11, Training Loss: 0.4850423336029053
+2024-04-08 22:32:35,558 - INFO - [MainThread] - Epoch 12, Training Loss: 0.38619405031204224
+2024-04-08 22:34:32,280 - INFO - [MainThread] - Epoch 13, Training Loss: 0.23740868270397186
+2024-04-08 22:36:29,716 - INFO - [MainThread] - Epoch 14, Training Loss: 0.8290767669677734
+2024-04-08 22:38:30,256 - INFO - [MainThread] - Epoch 15, Training Loss: 0.015070251189172268
+2024-04-08 22:40:36,446 - INFO - [MainThread] - Epoch 16, Training Loss: 0.07733853161334991
+2024-04-08 22:42:45,119 - INFO - [MainThread] - Epoch 17, Training Loss: 0.07393227517604828
+2024-04-08 22:44:54,051 - INFO - [MainThread] - Epoch 18, Training Loss: 0.014767594635486603
+2024-04-08 22:47:03,142 - INFO - [MainThread] - Epoch 19, Training Loss: 0.021723875775933266
+2024-04-08 22:49:12,869 - INFO - [MainThread] - Epoch 20, Training Loss: 0.11709599196910858
+2024-04-08 22:49:33,529 - INFO - [MainThread] - Loss: 353.9302, Accuracy: 0.8928
+2024-04-08 22:49:33,541 - INFO - [MainThread] - Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.86      0.90      0.88       632
+           F       0.91      0.89      0.90      1671
+           G       0.73      0.79      0.76       601
+           K       0.91      0.89      0.90       981
+           M       0.96      0.95      0.95      1115
+
+    accuracy                           0.89      5000
+   macro avg       0.88      0.88      0.88      5000
+weighted avg       0.89      0.89      0.89      5000
+

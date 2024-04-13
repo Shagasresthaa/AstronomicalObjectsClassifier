@@ -53,7 +53,7 @@ def photometricDataFetch(astroClass):
     photoMetricClassPath = photoMetricDataPathDir.get(astroClass)
     photoMetricFilePath = photoMetricClassPath + f'photometric_data_batch_{astroClass}_{iter}.csv'
     logging.info(photoMetricFilePath)
-    initFetchQuery = f"cmd=SELECT p.objid,s.specobjid, s.class, p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = '{astroClass}' ORDER BY p.objid"
+    initFetchQuery = f"cmd=SELECT p.objid,s.specobjid, s.class, p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.plate, s.mjd, s.fiberid, elodieTEff FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = '{astroClass}' ORDER BY p.objid"
     initFetchUrl = SDSS_OBJ_SQL_SEARCH_BASE + f"{initFetchQuery}&format=csv"
     
     initResponse = reqObj.get(initFetchUrl)
@@ -65,7 +65,7 @@ def photometricDataFetch(astroClass):
     while(size != 0):
         iter += 1
         photoMetricFilePath = photoMetricClassPath + f'photometric_data_batch_{astroClass}_{iter}.csv'
-        getphotoMetricBatched = SDSS_OBJ_SQL_SEARCH_BASE + f"cmd=SELECT p.objid,s.specobjid, s.class, p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.objid > {lastObjectID} AND s.class = '{astroClass}' ORDER BY p.objid&format=csv"
+        getphotoMetricBatched = SDSS_OBJ_SQL_SEARCH_BASE + f"cmd=SELECT p.objid,s.specobjid, s.class, p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.plate, s.mjd, s.fiberid, s.elodieTEff FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.objid > {lastObjectID} AND s.class = '{astroClass}' ORDER BY p.objid&format=csv"
         batchedDataResponse = reqObj.get(getphotoMetricBatched)
         multiPartFileWriter(batchedDataResponse, photoMetricFilePath)
         lastObjectID = getLastObjId(photoMetricFilePath)
@@ -90,5 +90,5 @@ def automateFetching(classes):
     logging.info(f"Fetching PhotoMetric data completed.....{timestamp}")
 
 if __name__ == "__main__":
-    classList = ["GALAXY", "STAR", "QSO"]
+    classList = ["STAR"]
     automateFetching(classList)

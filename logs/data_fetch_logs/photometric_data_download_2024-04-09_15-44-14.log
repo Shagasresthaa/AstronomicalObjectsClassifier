@@ -1,0 +1,7 @@
+2024-04-09 15:44:14,919 - INFO - Fetching PhotoMetric data initiated.....2024-04-09_15-44-14
+2024-04-09 15:44:14,920 - INFO - Fetching PhotoMetric data for: STAR
+2024-04-09 15:44:19,594 - INFO - data/raw/photometricDataExtract/star/photometric_data_batch_STAR_1.csv
+2024-04-09 15:45:01,013 - INFO - Size: 962162	Last Object ID: **NA**	File Path: data/raw/photometricDataExtract/star/photometric_data_batch_STAR_1.csv
+2024-04-09 15:45:36,838 - INFO - Size: 0	Last Object ID: 1237680531356516800	File Path: data/raw/photometricDataExtract/star/photometric_data_batch_STAR_2.csv
+2024-04-09 15:45:36,840 - INFO - Fetching PhotoMetric data done for: STAR
+2024-04-09 15:45:36,840 - INFO - Fetching PhotoMetric data completed.....2024-04-09_15-45-36

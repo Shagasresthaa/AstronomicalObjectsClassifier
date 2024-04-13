@@ -1,0 +1,14 @@
+2024-04-12 23:58:13,513 - INFO - [MainThread] - Attempting to download object: 1197126706575048749 Index: 0
+2024-04-12 23:58:13,513 - INFO - [MainThread] - Starting object download: 1197126706575048749
+2024-04-12 23:58:14,856 - ERROR - [MainThread] - Attempt 1 failed with error: 500 Server Error: Internal Server Error for url: https://dr18.sdss.org/optical/spectrum/view/data/format=fits?plateid=3454&mjd=55003&fiberid=603
+2024-04-12 23:58:18,559 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1197126706575048749_spec.fits on attempt 2.
+2024-04-12 23:58:18,560 - INFO - [MainThread] - Completed object download: 1197126706575048749
+2024-04-12 23:58:18,561 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-12 23:58:19,062 - INFO - [MainThread] - Attempting to download object: 1197131404758417814 Index: 1
+2024-04-12 23:58:19,062 - INFO - [MainThread] - Starting object download: 1197131404758417814
+2024-04-12 23:58:19,553 - ERROR - [MainThread] - Attempt 1 failed with error: 500 Server Error: Internal Server Error for url: https://dr18.sdss.org/optical/spectrum/view/data/format=fits?plateid=2377&mjd=53991&fiberid=142
+2024-04-12 23:58:23,319 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1197131404758417814_spec.fits on attempt 2.
+2024-04-12 23:58:23,320 - INFO - [MainThread] - Completed object download: 1197131404758417814
+2024-04-12 23:58:23,321 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-12 23:58:23,822 - INFO - [MainThread] - Attempting to download object: 1197131407975317692 Index: 2
+2024-04-12 23:58:23,822 - INFO - [MainThread] - Starting object download: 1197131407975317692

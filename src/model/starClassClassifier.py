@@ -50,53 +50,58 @@ class InceptionModule(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(InceptionModule, self).__init__()
         self.branch1x1 = nn.Conv1d(in_channels, out_channels, kernel_size=1)
+
         self.branch3x3 = nn.Conv1d(in_channels, out_channels, kernel_size=3, padding=1)
+        
         self.branch5x5 = nn.Conv1d(in_channels, out_channels, kernel_size=5, padding=2)
+        
         self.branch_pool = nn.Conv1d(in_channels, out_channels, kernel_size=1)
+        
         self.relu = nn.ReLU()
         self.batch_norm = nn.BatchNorm1d(out_channels * 4)
-        self.dropout = nn.Dropout(p=0.2)  
 
     def forward(self, x):
-        branch1x1 = self.dropout(self.branch1x1(x))
-        branch3x3 = self.dropout(self.branch3x3(x))
-        branch5x5 = self.dropout(self.branch5x5(x))
+        branch1x1 = self.branch1x1(x)
+        
+        branch3x3 = self.branch3x3(x)
+        
+        branch5x5 = self.branch5x5(x)
+        
         branch_pool = F.avg_pool1d(x, kernel_size=3, stride=1, padding=1)
-        branch_pool = self.dropout(self.branch_pool(branch_pool))
+        branch_pool = self.branch_pool(branch_pool)
+        
         outputs = [branch1x1, branch3x3, branch5x5, branch_pool]
-        return self.batch_norm(self.relu(torch.cat(outputs, 1)))
+        return self.batch_norm(self.relu(torch.cat(outputs, 1)))  # Concatenate in the depth dimension
 
 class StarCNN(nn.Module):
     def __init__(self, sequence_length):
         super(StarCNN, self).__init__()
         self.inception1 = InceptionModule(in_channels=2, out_channels=32)
         self.inception2 = InceptionModule(in_channels=128, out_channels=64)
-        self.inception3 = InceptionModule(in_channels=256, out_channels=128)
-        reduced_sequence_length = sequence_length // 8
+        self.inception3 = InceptionModule(in_channels=256, out_channels=128)  
+        reduced_sequence_length = sequence_length // 8  
         
-        self.dropout1 = nn.Dropout(p=0.5)
-        self.dropout2 = nn.Dropout(p=0.3)  
+        self.dropout = nn.Dropout(p=0.5)
         
-        flattened_size = reduced_sequence_length * 128 * 4
-        self.fc1 = nn.Linear(flattened_size, 128)
-        self.fc2 = nn.Linear(128, 7)
+        flattened_size = reduced_sequence_length * 128 * 4  
+        self.fc1 = nn.Linear(flattened_size, 128)  
+        self.fc2 = nn.Linear(128, 7)  
         
         self.batch_norm1 = nn.BatchNorm1d(128)
         self.relu = nn.ReLU()
 
     def forward(self, x):
         x = self.inception1(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = self.inception2(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = self.inception3(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = x.view(x.size(0), -1)
-        x = self.dropout1(x)
+        x = self.dropout(x)  
         x = self.fc1(x)
-        x = self.batch_norm1(x)
-        x = self.relu(x)
-        x = self.dropout2(x)
+        x = self.batch_norm1(x)  
+        x = self.relu(x)  
         x = self.fc2(x)
         return x
 
@@ -298,7 +303,7 @@ def trainModel():
     # Once that is done run script starClassDataPreprocessAndAugment under data_prep which will check for corrupt fits files redownload, extract, augment, normalize and pad the data
     # Once this is completed verify the master files under data>augmentation>modelTrainingData>masterFileData
     # Once this is done you can proceed with running the model as all data is prepped and ready
-    sampleSizes = {'O': 2896, 'B': 3000, 'A': 3000, 'F': 3000, 'G': 3000, 'K': 3000, 'M': 3000}
+    sampleSizes = {'O': 2896, 'B': 4000, 'A': 4000, 'F': 4000, 'G': 4000, 'K': 4000, 'M': 4000}
     generateCombinedMasterFile(sampleSizes)
     master_file_path = 'data/augmentation/modelTrainingData/combined_master_star_classes_shuffled.csv'
     master_data = pd.read_csv(master_file_path)
@@ -319,10 +324,8 @@ def trainModel():
         total_samples = len(train_subset)
         class_weights = {class_id: total_samples / count for class_id, count in class_counts.items()}
         # Manually adjust weights for specific classes
-        class_weights['B'] *= 1.5  
-        class_weights['F'] *= 1.5  
-        class_weights['G'] *= 1.5  
-        class_weights['M'] *= 0.8  
+        #class_weights['B'] *= 1.5 
+        #class_weights['O'] *= 1.5  
         weights = torch.tensor([class_weights.get(class_id, 1.0) for class_id in sorted(class_weights)], dtype=torch.float32).to(device)
         
         # Log class distribution in the subsets
@@ -333,13 +336,13 @@ def trainModel():
 
         train_dataset = StarDataset(train_subset)
         val_dataset = StarDataset(val_subset)
-        train_dataloader = DataLoader(train_dataset, batch_size=6, shuffle=True)
-        val_dataloader = DataLoader(val_dataset, batch_size=6)
+        train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
+        val_dataloader = DataLoader(val_dataset, batch_size=16)
 
         # Initialize model, criterion, optimizer, and scheduler
         model = StarCNN(sequence_length=seqLen).to(device)  # Ensure sequence length matches your data
         criterion = nn.CrossEntropyLoss(weight=weights)
-        optimizer = optim.AdamW(model.parameters(), lr=0.001, weight_decay=0.01)
+        optimizer = optim.AdamW(model.parameters(), lr=0.01, weight_decay=0.01)
         scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=3, verbose=True)
 
         epoch_metrics = train_and_evaluate_model(model, train_dataloader, val_dataloader, device, criterion, optimizer, scheduler)

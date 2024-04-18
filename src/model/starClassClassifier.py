@@ -55,16 +55,18 @@ class InceptionModule(nn.Module):
         self.branch_pool = nn.Conv1d(in_channels, out_channels, kernel_size=1)
         self.relu = nn.ReLU()
         self.batch_norm = nn.BatchNorm1d(out_channels * 4)
-        self.dropout = nn.Dropout(p=0.2)  
+        self.dropout = nn.Dropout(p=0.2)
 
     def forward(self, x):
-        branch1x1 = self.dropout(self.branch1x1(x))
-        branch3x3 = self.dropout(self.branch3x3(x))
-        branch5x5 = self.dropout(self.branch5x5(x))
+        branch1x1 = self.branch1x1(x)
+        branch3x3 = self.branch3x3(x)
+        branch5x5 = self.branch5x5(x)
         branch_pool = F.avg_pool1d(x, kernel_size=3, stride=1, padding=1)
-        branch_pool = self.dropout(self.branch_pool(branch_pool))
+        branch_pool = self.branch_pool(branch_pool)
+
         outputs = [branch1x1, branch3x3, branch5x5, branch_pool]
-        return self.batch_norm(self.relu(torch.cat(outputs, 1)))
+        outputs = self.dropout(torch.cat(outputs, 1))
+        return self.batch_norm(self.relu(outputs))
 
 class StarCNN(nn.Module):
     def __init__(self, sequence_length):
@@ -72,14 +74,16 @@ class StarCNN(nn.Module):
         self.inception1 = InceptionModule(in_channels=2, out_channels=32)
         self.inception2 = InceptionModule(in_channels=128, out_channels=64)
         self.inception3 = InceptionModule(in_channels=256, out_channels=128)
-        reduced_sequence_length = sequence_length // 8
-        
+        self.inception4 = InceptionModule(in_channels=512, out_channels=256)
+
         self.dropout1 = nn.Dropout(p=0.5)
-        self.dropout2 = nn.Dropout(p=0.3)  
-        
-        flattened_size = reduced_sequence_length * 128 * 4
+        self.dropout2 = nn.Dropout(p=0.3)
+
+        reduced_sequence_length = sequence_length // (2**4)  
+
+        flattened_size = reduced_sequence_length * 256 * 4
         self.fc1 = nn.Linear(flattened_size, 128)
-        self.fc2 = nn.Linear(128, 7)
+        self.fc2 = nn.Linear(128, 7)  
         
         self.batch_norm1 = nn.BatchNorm1d(128)
         self.relu = nn.ReLU()
@@ -90,6 +94,8 @@ class StarCNN(nn.Module):
         x = self.inception2(x)
         x = F.max_pool1d(x, kernel_size=2)
         x = self.inception3(x)
+        x = F.max_pool1d(x, kernel_size=2)
+        x = self.inception4(x)
         x = F.max_pool1d(x, kernel_size=2)
         x = x.view(x.size(0), -1)
         x = self.dropout1(x)
@@ -298,7 +304,7 @@ def trainModel():
     # Once that is done run script starClassDataPreprocessAndAugment under data_prep which will check for corrupt fits files redownload, extract, augment, normalize and pad the data
     # Once this is completed verify the master files under data>augmentation>modelTrainingData>masterFileData
     # Once this is done you can proceed with running the model as all data is prepped and ready
-    sampleSizes = {'O': 2896, 'B': 3000, 'A': 3000, 'F': 3000, 'G': 3000, 'K': 3000, 'M': 3000}
+    sampleSizes = {'O': 2896, 'B': 4000, 'A': 4000, 'F': 4000, 'G': 4000, 'K': 4000, 'M': 4000}
     generateCombinedMasterFile(sampleSizes)
     master_file_path = 'data/augmentation/modelTrainingData/combined_master_star_classes_shuffled.csv'
     master_data = pd.read_csv(master_file_path)
@@ -333,8 +339,8 @@ def trainModel():
 
         train_dataset = StarDataset(train_subset)
         val_dataset = StarDataset(val_subset)
-        train_dataloader = DataLoader(train_dataset, batch_size=6, shuffle=True)
-        val_dataloader = DataLoader(val_dataset, batch_size=6)
+        train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
+        val_dataloader = DataLoader(val_dataset, batch_size=16)
 
         # Initialize model, criterion, optimizer, and scheduler
         model = StarCNN(sequence_length=seqLen).to(device)  # Ensure sequence length matches your data

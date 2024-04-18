@@ -50,39 +50,41 @@ class InceptionModule(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(InceptionModule, self).__init__()
         self.branch1x1 = nn.Conv1d(in_channels, out_channels, kernel_size=1)
+
         self.branch3x3 = nn.Conv1d(in_channels, out_channels, kernel_size=3, padding=1)
+        
         self.branch5x5 = nn.Conv1d(in_channels, out_channels, kernel_size=5, padding=2)
+        
         self.branch_pool = nn.Conv1d(in_channels, out_channels, kernel_size=1)
+        
         self.relu = nn.ReLU()
         self.batch_norm = nn.BatchNorm1d(out_channels * 4)
-        self.dropout = nn.Dropout(p=0.2)
 
     def forward(self, x):
         branch1x1 = self.branch1x1(x)
+        
         branch3x3 = self.branch3x3(x)
+        
         branch5x5 = self.branch5x5(x)
+        
         branch_pool = F.avg_pool1d(x, kernel_size=3, stride=1, padding=1)
         branch_pool = self.branch_pool(branch_pool)
-
+        
         outputs = [branch1x1, branch3x3, branch5x5, branch_pool]
-        outputs = self.dropout(torch.cat(outputs, 1))
-        return self.batch_norm(self.relu(outputs))
+        return self.batch_norm(self.relu(torch.cat(outputs, 1)))  # Concatenate in the depth dimension
 
 class StarCNN(nn.Module):
     def __init__(self, sequence_length):
         super(StarCNN, self).__init__()
         self.inception1 = InceptionModule(in_channels=2, out_channels=32)
         self.inception2 = InceptionModule(in_channels=128, out_channels=64)
-        self.inception3 = InceptionModule(in_channels=256, out_channels=128)
-        self.inception4 = InceptionModule(in_channels=512, out_channels=256)
-
-        self.dropout1 = nn.Dropout(p=0.5)
-        self.dropout2 = nn.Dropout(p=0.3)
-
-        reduced_sequence_length = sequence_length // (2**4)  
-
-        flattened_size = reduced_sequence_length * 256 * 4
-        self.fc1 = nn.Linear(flattened_size, 128)
+        self.inception3 = InceptionModule(in_channels=256, out_channels=128)  
+        reduced_sequence_length = sequence_length // 8  
+        
+        self.dropout = nn.Dropout(p=0.5)
+        
+        flattened_size = reduced_sequence_length * 128 * 4  
+        self.fc1 = nn.Linear(flattened_size, 128)  
         self.fc2 = nn.Linear(128, 7)  
         
         self.batch_norm1 = nn.BatchNorm1d(128)
@@ -90,19 +92,16 @@ class StarCNN(nn.Module):
 
     def forward(self, x):
         x = self.inception1(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = self.inception2(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = self.inception3(x)
-        x = F.max_pool1d(x, kernel_size=2)
-        x = self.inception4(x)
-        x = F.max_pool1d(x, kernel_size=2)
+        x = F.max_pool1d(x, kernel_size=2)  
         x = x.view(x.size(0), -1)
-        x = self.dropout1(x)
+        x = self.dropout(x)  
         x = self.fc1(x)
-        x = self.batch_norm1(x)
-        x = self.relu(x)
-        x = self.dropout2(x)
+        x = self.batch_norm1(x)  
+        x = self.relu(x)  
         x = self.fc2(x)
         return x
 
@@ -325,10 +324,8 @@ def trainModel():
         total_samples = len(train_subset)
         class_weights = {class_id: total_samples / count for class_id, count in class_counts.items()}
         # Manually adjust weights for specific classes
-        class_weights['B'] *= 1.5  
-        class_weights['F'] *= 1.5  
-        class_weights['G'] *= 1.5  
-        class_weights['M'] *= 0.8  
+        #class_weights['B'] *= 1.5 
+        #class_weights['O'] *= 1.5  
         weights = torch.tensor([class_weights.get(class_id, 1.0) for class_id in sorted(class_weights)], dtype=torch.float32).to(device)
         
         # Log class distribution in the subsets
@@ -345,7 +342,7 @@ def trainModel():
         # Initialize model, criterion, optimizer, and scheduler
         model = StarCNN(sequence_length=seqLen).to(device)  # Ensure sequence length matches your data
         criterion = nn.CrossEntropyLoss(weight=weights)
-        optimizer = optim.AdamW(model.parameters(), lr=0.001, weight_decay=0.01)
+        optimizer = optim.AdamW(model.parameters(), lr=0.01, weight_decay=0.01)
         scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=3, verbose=True)
 
         epoch_metrics = train_and_evaluate_model(model, train_dataloader, val_dataloader, device, criterion, optimizer, scheduler)

@@ -46,6 +46,8 @@ data/raw/csv_extract/qso/*.csv
 
 !notebooks/*.png
 !notebooks/spectral_plots/*.png
+# Add only the final confusion matrix images after cleanup dont you push the 400 or so images
+#!notebooks/starClassifierModel/star_classifier_analysis_*/*.png
 
 # Operating system files
 .DS_Store
@@ -73,3 +75,5 @@ logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-13-28.log
 logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-14-27.log
 logs/data_processing_logs/star_spectra_augmenter_2024-04-12_09-12-25.log
 logs/data_processing_logs/star_spectra_augmenter_2024-04-11_16-34-46.log
+
+models/star_model_*

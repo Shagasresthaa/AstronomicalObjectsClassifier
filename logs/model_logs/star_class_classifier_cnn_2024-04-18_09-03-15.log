@@ -1,0 +1,110 @@
+2024-04-18 09:03:16,542 - INFO - [MainThread] - Using device: cuda
+2024-04-18 09:03:17,161 - INFO - [MainThread] - starClass
+B    4000
+G    4000
+M    4000
+F    4000
+A    4000
+K    4000
+O    2896
+Name: count, dtype: int64
+2024-04-18 09:03:17,171 - INFO - [MainThread] - Starting fold 1
+2024-04-18 09:03:17,177 - INFO - [MainThread] - Train class counts for fold 1: {'A': 3249, 'G': 3200, 'F': 3196, 'K': 3191, 'M': 3189, 'B': 3150, 'O': 2341}
+2024-04-18 09:03:17,178 - INFO - [MainThread] - Validation class counts for fold 1: {'B': 850, 'M': 811, 'K': 809, 'F': 804, 'G': 800, 'A': 751, 'O': 555}
+2024-04-18 09:05:08,825 - INFO - [MainThread] - Epoch 1, Training Loss: 1.0146, Training Accuracy: 63.96%
+2024-04-18 09:05:27,951 - INFO - [MainThread] - Testing Loss: 0.7260, Testing Accuracy: 73.40%
+2024-04-18 09:05:27,961 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.84      0.70      0.76       555
+           B       0.56      0.86      0.67       850
+           A       0.78      0.69      0.73       751
+           F       0.70      0.52      0.60       804
+           G       0.74      0.56      0.64       800
+           K       0.83      0.83      0.83       809
+           M       0.83      0.96      0.89       811
+
+    accuracy                           0.73      5380
+   macro avg       0.75      0.73      0.73      5380
+weighted avg       0.75      0.73      0.73      5380
+
+2024-04-18 09:05:28,275 - INFO - [MainThread] - Epoch 1, Current Learning Rate: 0.001
+2024-04-18 09:05:28,316 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-18_09-03-15/best_fold_model_epoch_1.pt for this fold
+2024-04-18 09:07:21,118 - INFO - [MainThread] - Epoch 2, Training Loss: 0.8659, Training Accuracy: 69.29%
+2024-04-18 09:07:40,844 - INFO - [MainThread] - Testing Loss: 0.6494, Testing Accuracy: 76.04%
+2024-04-18 09:07:40,854 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.76      0.77      0.77       555
+           B       0.62      0.77      0.69       850
+           A       0.80      0.72      0.75       751
+           F       0.73      0.59      0.65       804
+           G       0.67      0.72      0.69       800
+           K       0.87      0.81      0.84       809
+           M       0.94      0.94      0.94       811
+
+    accuracy                           0.76      5380
+   macro avg       0.77      0.76      0.76      5380
+weighted avg       0.77      0.76      0.76      5380
+
+2024-04-18 09:07:40,995 - INFO - [MainThread] - Epoch 2, Current Learning Rate: 0.001
+2024-04-18 09:07:41,035 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-18_09-03-15/best_fold_model_epoch_2.pt for this fold
+2024-04-18 09:09:31,360 - INFO - [MainThread] - Epoch 3, Training Loss: 0.8028, Training Accuracy: 71.49%
+2024-04-18 09:09:50,858 - INFO - [MainThread] - Testing Loss: 0.6180, Testing Accuracy: 76.43%
+2024-04-18 09:09:50,867 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.77      0.77      0.77       555
+           B       0.74      0.66      0.70       850
+           A       0.65      0.75      0.70       751
+           F       0.65      0.73      0.68       804
+           G       0.74      0.67      0.71       800
+           K       0.88      0.83      0.85       809
+           M       0.94      0.95      0.95       811
+
+    accuracy                           0.76      5380
+   macro avg       0.77      0.76      0.76      5380
+weighted avg       0.77      0.76      0.77      5380
+
+2024-04-18 09:09:51,008 - INFO - [MainThread] - Epoch 3, Current Learning Rate: 0.001
+2024-04-18 09:09:51,047 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-18_09-03-15/best_fold_model_epoch_3.pt for this fold
+2024-04-18 09:11:43,841 - INFO - [MainThread] - Epoch 4, Training Loss: 0.7656, Training Accuracy: 72.78%
+2024-04-18 09:12:04,241 - INFO - [MainThread] - Testing Loss: 0.6263, Testing Accuracy: 76.47%
+2024-04-18 09:12:04,251 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.85      0.74      0.79       555
+           B       0.68      0.74      0.71       850
+           A       0.82      0.69      0.75       751
+           F       0.76      0.57      0.65       804
+           G       0.67      0.77      0.71       800
+           K       0.85      0.84      0.85       809
+           M       0.79      0.99      0.87       811
+
+    accuracy                           0.76      5380
+   macro avg       0.77      0.76      0.76      5380
+weighted avg       0.77      0.76      0.76      5380
+
+2024-04-18 09:12:04,392 - INFO - [MainThread] - Epoch 4, Current Learning Rate: 0.001
+2024-04-18 09:13:55,884 - INFO - [MainThread] - Epoch 5, Training Loss: 0.7409, Training Accuracy: 73.62%
+2024-04-18 09:14:16,028 - INFO - [MainThread] - Testing Loss: 0.5732, Testing Accuracy: 78.61%
+2024-04-18 09:14:16,038 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.80      0.76      0.78       555
+           B       0.68      0.82      0.75       850
+           A       0.84      0.70      0.77       751
+           F       0.76      0.65      0.70       804
+           G       0.73      0.71      0.72       800
+           K       0.86      0.87      0.86       809
+           M       0.86      0.98      0.92       811
+
+    accuracy                           0.79      5380
+   macro avg       0.79      0.78      0.78      5380
+weighted avg       0.79      0.79      0.78      5380
+
+2024-04-18 09:14:16,188 - INFO - [MainThread] - Epoch 5, Current Learning Rate: 0.001
+2024-04-18 09:14:16,230 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-18_09-03-15/best_fold_model_epoch_5.pt for this fold
+2024-04-18 09:14:16,585 - INFO - [MainThread] - Starting fold 2
+2024-04-18 09:14:16,590 - INFO - [MainThread] - Train class counts for fold 2: {'G': 3239, 'B': 3219, 'F': 3204, 'A': 3195, 'K': 3182, 'M': 3167, 'O': 2311}
+2024-04-18 09:14:16,590 - INFO - [MainThread] - Validation class counts for fold 2: {'M': 833, 'K': 818, 'A': 805, 'F': 796, 'B': 781, 'G': 761, 'O': 585}

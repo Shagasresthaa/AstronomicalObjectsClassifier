@@ -120,7 +120,8 @@ def smoothFlux(csv_input_path, csv_output_path):
     logging.info(f"Input CSV Path: {csv_input_path}")
     logging.info(f"Output CSV Path: {csv_output_path}")
     df = pd.read_csv(csv_input_path)
-    df['smoothed_flux'] = savgol_filter(df['flux'], window_length=51, polyorder=3)
+    windowLen = min(51, len(df['flux']) // 2 * 2 + 1)
+    df['smoothed_flux'] = savgol_filter(df['flux'], window_length=windowLen, polyorder=3)
     df.to_csv(csv_output_path, index=False)
     logging.info(f"Smoothed data saved to {csv_output_path}")
 

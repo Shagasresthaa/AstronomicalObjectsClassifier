@@ -1,0 +1,158 @@
+2024-04-17 13:49:25,564 - INFO - [MainThread] - Initiating Missing Data Download
+2024-04-17 13:49:25,573 - INFO - [MainThread] - Attempting to download object: 1237661817097486790 Index: 0
+2024-04-17 13:49:25,573 - INFO - [MainThread] - Starting object download: 1237661817097486790
+2024-04-17 13:49:27,755 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817097486790_spec.fits on attempt 1.
+2024-04-17 13:49:27,756 - INFO - [MainThread] - Completed object download: 1237661817097486790
+2024-04-17 13:49:27,756 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:28,257 - INFO - [MainThread] - Attempting to download object: 1237661817099846360 Index: 1
+2024-04-17 13:49:28,257 - INFO - [MainThread] - Starting object download: 1237661817099846360
+2024-04-17 13:49:30,802 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817099846360_spec.fits on attempt 1.
+2024-04-17 13:49:30,803 - INFO - [MainThread] - Completed object download: 1237661817099846360
+2024-04-17 13:49:30,803 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:31,304 - INFO - [MainThread] - Attempting to download object: 1237661817634357547 Index: 2
+2024-04-17 13:49:31,304 - INFO - [MainThread] - Starting object download: 1237661817634357547
+2024-04-17 13:49:33,609 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817634357547_spec.fits on attempt 1.
+2024-04-17 13:49:33,610 - INFO - [MainThread] - Completed object download: 1237661817634357547
+2024-04-17 13:49:33,610 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:34,112 - INFO - [MainThread] - Attempting to download object: 1237661817636519980 Index: 3
+2024-04-17 13:49:34,112 - INFO - [MainThread] - Starting object download: 1237661817636519980
+2024-04-17 13:49:36,667 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817636519980_spec.fits on attempt 1.
+2024-04-17 13:49:36,668 - INFO - [MainThread] - Completed object download: 1237661817636519980
+2024-04-17 13:49:36,668 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:37,169 - INFO - [MainThread] - Attempting to download object: 1237661818169655668 Index: 4
+2024-04-17 13:49:37,169 - INFO - [MainThread] - Starting object download: 1237661818169655668
+2024-04-17 13:49:39,335 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818169655668_spec.fits on attempt 1.
+2024-04-17 13:49:39,336 - INFO - [MainThread] - Completed object download: 1237661818169655668
+2024-04-17 13:49:39,336 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:39,837 - INFO - [MainThread] - Attempting to download object: 1237661818170114415 Index: 5
+2024-04-17 13:49:39,838 - INFO - [MainThread] - Starting object download: 1237661818170114415
+2024-04-17 13:49:42,367 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818170114415_spec.fits on attempt 1.
+2024-04-17 13:49:42,369 - INFO - [MainThread] - Completed object download: 1237661818170114415
+2024-04-17 13:49:42,369 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:42,870 - INFO - [MainThread] - Attempting to download object: 1237661818170638678 Index: 6
+2024-04-17 13:49:42,870 - INFO - [MainThread] - Starting object download: 1237661818170638678
+2024-04-17 13:49:45,100 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818170638678_spec.fits on attempt 1.
+2024-04-17 13:49:45,101 - INFO - [MainThread] - Completed object download: 1237661818170638678
+2024-04-17 13:49:45,101 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:45,603 - INFO - [MainThread] - Attempting to download object: 1237661818171949193 Index: 7
+2024-04-17 13:49:45,603 - INFO - [MainThread] - Starting object download: 1237661818171949193
+2024-04-17 13:49:47,948 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818171949193_spec.fits on attempt 1.
+2024-04-17 13:49:47,949 - INFO - [MainThread] - Completed object download: 1237661818171949193
+2024-04-17 13:49:47,949 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:48,451 - INFO - [MainThread] - Attempting to download object: 1237661818174701949 Index: 8
+2024-04-17 13:49:48,451 - INFO - [MainThread] - Starting object download: 1237661818174701949
+2024-04-17 13:49:50,792 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818174701949_spec.fits on attempt 1.
+2024-04-17 13:49:50,793 - INFO - [MainThread] - Completed object download: 1237661818174701949
+2024-04-17 13:49:50,793 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:51,294 - INFO - [MainThread] - Attempting to download object: 1237661818174702129 Index: 9
+2024-04-17 13:49:51,294 - INFO - [MainThread] - Starting object download: 1237661818174702129
+2024-04-17 13:49:53,763 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818174702129_spec.fits on attempt 1.
+2024-04-17 13:49:53,764 - INFO - [MainThread] - Completed object download: 1237661818174702129
+2024-04-17 13:49:53,764 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:54,265 - INFO - [MainThread] - Attempting to download object: 1237661818175160850 Index: 10
+2024-04-17 13:49:54,265 - INFO - [MainThread] - Starting object download: 1237661818175160850
+2024-04-17 13:49:56,564 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818175160850_spec.fits on attempt 1.
+2024-04-17 13:49:56,564 - INFO - [MainThread] - Completed object download: 1237661818175160850
+2024-04-17 13:49:56,565 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:57,066 - INFO - [MainThread] - Attempting to download object: 1237661818175881988 Index: 11
+2024-04-17 13:49:57,066 - INFO - [MainThread] - Starting object download: 1237661818175881988
+2024-04-17 13:49:59,319 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661818175881988_spec.fits on attempt 1.
+2024-04-17 13:49:59,320 - INFO - [MainThread] - Completed object download: 1237661818175881988
+2024-04-17 13:49:59,320 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:49:59,822 - INFO - [MainThread] - Attempting to download object: 1237661849846350137 Index: 12
+2024-04-17 13:49:59,822 - INFO - [MainThread] - Starting object download: 1237661849846350137
+2024-04-17 13:50:02,373 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849846350137_spec.fits on attempt 1.
+2024-04-17 13:50:02,374 - INFO - [MainThread] - Completed object download: 1237661849846350137
+2024-04-17 13:50:02,375 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:02,876 - INFO - [MainThread] - Attempting to download object: 1237661849846808865 Index: 13
+2024-04-17 13:50:02,876 - INFO - [MainThread] - Starting object download: 1237661849846808865
+2024-04-17 13:50:05,343 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849846808865_spec.fits on attempt 1.
+2024-04-17 13:50:05,344 - INFO - [MainThread] - Completed object download: 1237661849846808865
+2024-04-17 13:50:05,344 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:05,845 - INFO - [MainThread] - Attempting to download object: 1237661849852379511 Index: 14
+2024-04-17 13:50:05,845 - INFO - [MainThread] - Starting object download: 1237661849852379511
+2024-04-17 13:50:08,425 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849852379511_spec.fits on attempt 1.
+2024-04-17 13:50:08,426 - INFO - [MainThread] - Completed object download: 1237661849852379511
+2024-04-17 13:50:08,427 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:08,928 - INFO - [MainThread] - Attempting to download object: 1237661849854935290 Index: 15
+2024-04-17 13:50:08,928 - INFO - [MainThread] - Starting object download: 1237661849854935290
+2024-04-17 13:50:11,358 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849854935290_spec.fits on attempt 1.
+2024-04-17 13:50:11,360 - INFO - [MainThread] - Completed object download: 1237661849854935290
+2024-04-17 13:50:11,360 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:11,861 - INFO - [MainThread] - Attempting to download object: 1237661849856508207 Index: 16
+2024-04-17 13:50:11,861 - INFO - [MainThread] - Starting object download: 1237661849856508207
+2024-04-17 13:50:14,457 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849856508207_spec.fits on attempt 1.
+2024-04-17 13:50:14,459 - INFO - [MainThread] - Completed object download: 1237661849856508207
+2024-04-17 13:50:14,459 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:14,960 - INFO - [MainThread] - Attempting to download object: 1237661849863717252 Index: 17
+2024-04-17 13:50:14,960 - INFO - [MainThread] - Starting object download: 1237661849863717252
+2024-04-17 13:50:17,506 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849863717252_spec.fits on attempt 1.
+2024-04-17 13:50:17,507 - INFO - [MainThread] - Completed object download: 1237661849863717252
+2024-04-17 13:50:17,507 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:18,008 - INFO - [MainThread] - Attempting to download object: 1237661849866731797 Index: 18
+2024-04-17 13:50:18,008 - INFO - [MainThread] - Starting object download: 1237661849866731797
+2024-04-17 13:50:20,545 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849866731797_spec.fits on attempt 1.
+2024-04-17 13:50:20,546 - INFO - [MainThread] - Completed object download: 1237661849866731797
+2024-04-17 13:50:20,546 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:21,047 - INFO - [MainThread] - Attempting to download object: 1237661849867190682 Index: 19
+2024-04-17 13:50:21,047 - INFO - [MainThread] - Starting object download: 1237661849867190682
+2024-04-17 13:50:23,515 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849867190682_spec.fits on attempt 1.
+2024-04-17 13:50:23,516 - INFO - [MainThread] - Completed object download: 1237661849867190682
+2024-04-17 13:50:23,516 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:24,017 - INFO - [MainThread] - Attempting to download object: 1237661849867452871 Index: 20
+2024-04-17 13:50:24,017 - INFO - [MainThread] - Starting object download: 1237661849867452871
+2024-04-17 13:50:26,592 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661849867452871_spec.fits on attempt 1.
+2024-04-17 13:50:26,594 - INFO - [MainThread] - Completed object download: 1237661849867452871
+2024-04-17 13:50:26,594 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:27,095 - INFO - [MainThread] - Attempting to download object: 1237661850382041244 Index: 21
+2024-04-17 13:50:27,095 - INFO - [MainThread] - Starting object download: 1237661850382041244
+2024-04-17 13:50:29,717 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850382041244_spec.fits on attempt 1.
+2024-04-17 13:50:29,718 - INFO - [MainThread] - Completed object download: 1237661850382041244
+2024-04-17 13:50:29,718 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:30,219 - INFO - [MainThread] - Attempting to download object: 1237661850383024276 Index: 22
+2024-04-17 13:50:30,219 - INFO - [MainThread] - Starting object download: 1237661850383024276
+2024-04-17 13:50:32,608 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850383024276_spec.fits on attempt 1.
+2024-04-17 13:50:32,609 - INFO - [MainThread] - Completed object download: 1237661850383024276
+2024-04-17 13:50:32,609 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:33,110 - INFO - [MainThread] - Attempting to download object: 1237661850383418079 Index: 23
+2024-04-17 13:50:33,110 - INFO - [MainThread] - Starting object download: 1237661850383418079
+2024-04-17 13:50:35,685 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850383418079_spec.fits on attempt 1.
+2024-04-17 13:50:35,686 - INFO - [MainThread] - Completed object download: 1237661850383418079
+2024-04-17 13:50:35,687 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:36,188 - INFO - [MainThread] - Attempting to download object: 1237661850387546161 Index: 24
+2024-04-17 13:50:36,188 - INFO - [MainThread] - Starting object download: 1237661850387546161
+2024-04-17 13:50:38,660 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850387546161_spec.fits on attempt 1.
+2024-04-17 13:50:38,661 - INFO - [MainThread] - Completed object download: 1237661850387546161
+2024-04-17 13:50:38,662 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:39,163 - INFO - [MainThread] - Attempting to download object: 1237661850388922630 Index: 25
+2024-04-17 13:50:39,163 - INFO - [MainThread] - Starting object download: 1237661850388922630
+2024-04-17 13:50:41,743 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850388922630_spec.fits on attempt 1.
+2024-04-17 13:50:41,744 - INFO - [MainThread] - Completed object download: 1237661850388922630
+2024-04-17 13:50:41,744 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:42,245 - INFO - [MainThread] - Attempting to download object: 1237661850391872019 Index: 26
+2024-04-17 13:50:42,245 - INFO - [MainThread] - Starting object download: 1237661850391872019
+2024-04-17 13:50:44,911 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850391872019_spec.fits on attempt 1.
+2024-04-17 13:50:44,912 - INFO - [MainThread] - Completed object download: 1237661850391872019
+2024-04-17 13:50:44,912 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:45,413 - INFO - [MainThread] - Attempting to download object: 1237661850392854774 Index: 27
+2024-04-17 13:50:45,413 - INFO - [MainThread] - Starting object download: 1237661850392854774
+2024-04-17 13:50:48,333 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850392854774_spec.fits on attempt 1.
+2024-04-17 13:50:48,334 - INFO - [MainThread] - Completed object download: 1237661850392854774
+2024-04-17 13:50:48,335 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:48,836 - INFO - [MainThread] - Attempting to download object: 1237661850394099965 Index: 28
+2024-04-17 13:50:48,837 - INFO - [MainThread] - Starting object download: 1237661850394099965
+2024-04-17 13:50:51,313 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850394099965_spec.fits on attempt 1.
+2024-04-17 13:50:51,315 - INFO - [MainThread] - Completed object download: 1237661850394099965
+2024-04-17 13:50:51,315 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:51,817 - INFO - [MainThread] - Attempting to download object: 1237661850397966580 Index: 29
+2024-04-17 13:50:51,817 - INFO - [MainThread] - Starting object download: 1237661850397966580
+2024-04-17 13:50:54,382 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850397966580_spec.fits on attempt 1.
+2024-04-17 13:50:54,383 - INFO - [MainThread] - Completed object download: 1237661850397966580
+2024-04-17 13:50:54,383 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:54,885 - INFO - [MainThread] - Attempting to download object: 1237661850400784906 Index: 30
+2024-04-17 13:50:54,885 - INFO - [MainThread] - Starting object download: 1237661850400784906
+2024-04-17 13:50:57,331 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661850400784906_spec.fits on attempt 1.
+2024-04-17 13:50:57,333 - INFO - [MainThread] - Completed object download: 1237661850400784906
+2024-04-17 13:50:57,333 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:50:57,835 - INFO - [MainThread] - Attempting to download object: 1237661850402226381 Index: 31
+2024-04-17 13:50:57,835 - INFO - [MainThread] - Starting object download: 1237661850402226381

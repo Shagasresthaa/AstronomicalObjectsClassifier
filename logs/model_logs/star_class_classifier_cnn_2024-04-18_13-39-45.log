@@ -1,0 +1,4 @@
+2024-04-18 13:39:45,711 - INFO - [MainThread] - Using device: cuda
+2024-04-18 13:39:46,165 - INFO - [MainThread] - Starting fold 1
+2024-04-18 13:39:46,269 - INFO - [MainThread] - Train class counts for fold 1: {'B': 2442, 'G': 2408, 'F': 2403, 'M': 2390, 'K': 2388, 'A': 2388, 'O': 2297}
+2024-04-18 13:39:46,269 - INFO - [MainThread] - Validation class counts for fold 1: {'K': 612, 'A': 612, 'M': 610, 'O': 599, 'F': 597, 'G': 592, 'B': 558}

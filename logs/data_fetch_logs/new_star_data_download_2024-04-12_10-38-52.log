@@ -1,0 +1,1258 @@
+2024-04-12 10:38:53,882 - INFO - [MainThread] - Master Data File Class Infographic:
+2024-04-12 10:38:53,882 - INFO - [MainThread] - StarClass
+F    5000
+G    5000
+K    5000
+A    2787
+M      43
+B      42
+Name: count, dtype: int64
+2024-04-12 10:38:53,882 - INFO - [MainThread] - Additonal Raw Data File Class Infographic:
+2024-04-12 10:38:53,882 - INFO - [MainThread] - spectral_class
+M    2475
+A    2213
+B     894
+Name: count, dtype: int64
+2024-04-12 10:38:54,012 - INFO - [MainThread] - Downloading for Object 1237649920044696123 at index 0
+2024-04-12 10:38:54,245 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:54,256 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920044696123_spectra.csv
+2024-04-12 10:38:54,256 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920044696123_spectra_denoised.csv
+2024-04-12 10:38:54,271 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920044696123_spectra_denoised.csv
+2024-04-12 10:38:54,280 - INFO - [MainThread] - Written Processed File 1237649920044696123_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920044696123_spectra_main.csv
+2024-04-12 10:38:54,280 - INFO - [MainThread] - Downloading for Object 1237649920044826922 at index 1
+2024-04-12 10:38:54,443 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:54,453 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920044826922_spectra.csv
+2024-04-12 10:38:54,453 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920044826922_spectra_denoised.csv
+2024-04-12 10:38:54,460 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920044826922_spectra_denoised.csv
+2024-04-12 10:38:54,468 - INFO - [MainThread] - Written Processed File 1237649920044826922_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920044826922_spectra_main.csv
+2024-04-12 10:38:54,468 - INFO - [MainThread] - Downloading for Object 1237649920045154724 at index 2
+2024-04-12 10:38:54,626 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:54,637 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045154724_spectra.csv
+2024-04-12 10:38:54,637 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045154724_spectra_denoised.csv
+2024-04-12 10:38:54,646 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045154724_spectra_denoised.csv
+2024-04-12 10:38:54,654 - INFO - [MainThread] - Written Processed File 1237649920045154724_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045154724_spectra_main.csv
+2024-04-12 10:38:54,654 - INFO - [MainThread] - Downloading for Object 1237649920045547591 at index 3
+2024-04-12 10:38:54,815 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:54,824 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045547591_spectra.csv
+2024-04-12 10:38:54,825 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045547591_spectra_denoised.csv
+2024-04-12 10:38:54,832 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045547591_spectra_denoised.csv
+2024-04-12 10:38:54,839 - INFO - [MainThread] - Written Processed File 1237649920045547591_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045547591_spectra_main.csv
+2024-04-12 10:38:54,839 - INFO - [MainThread] - Downloading for Object 1237649920045613077 at index 4
+2024-04-12 10:38:54,999 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:55,009 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045613077_spectra.csv
+2024-04-12 10:38:55,009 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045613077_spectra_denoised.csv
+2024-04-12 10:38:55,019 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045613077_spectra_denoised.csv
+2024-04-12 10:38:55,029 - INFO - [MainThread] - Written Processed File 1237649920045613077_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045613077_spectra_main.csv
+2024-04-12 10:38:55,029 - INFO - [MainThread] - Downloading for Object 1237649920046530753 at index 5
+2024-04-12 10:38:55,187 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:55,197 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920046530753_spectra.csv
+2024-04-12 10:38:55,197 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920046530753_spectra_denoised.csv
+2024-04-12 10:38:55,205 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920046530753_spectra_denoised.csv
+2024-04-12 10:38:55,213 - INFO - [MainThread] - Written Processed File 1237649920046530753_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920046530753_spectra_main.csv
+2024-04-12 10:38:55,213 - INFO - [MainThread] - Downloading for Object 1237649920573505779 at index 6
+2024-04-12 10:38:55,442 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:55,451 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573505779_spectra.csv
+2024-04-12 10:38:55,451 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573505779_spectra_denoised.csv
+2024-04-12 10:38:55,458 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573505779_spectra_denoised.csv
+2024-04-12 10:38:55,466 - INFO - [MainThread] - Written Processed File 1237649920573505779_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573505779_spectra_main.csv
+2024-04-12 10:38:55,466 - INFO - [MainThread] - Downloading for Object 1237649920573571262 at index 7
+2024-04-12 10:38:55,627 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:55,635 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573571262_spectra.csv
+2024-04-12 10:38:55,635 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573571262_spectra_denoised.csv
+2024-04-12 10:38:55,643 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573571262_spectra_denoised.csv
+2024-04-12 10:38:55,651 - INFO - [MainThread] - Written Processed File 1237649920573571262_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573571262_spectra_main.csv
+2024-04-12 10:38:55,651 - INFO - [MainThread] - Downloading for Object 1237649920573636748 at index 8
+2024-04-12 10:38:55,811 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:55,820 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573636748_spectra.csv
+2024-04-12 10:38:55,820 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573636748_spectra_denoised.csv
+2024-04-12 10:38:55,828 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573636748_spectra_denoised.csv
+2024-04-12 10:38:55,835 - INFO - [MainThread] - Written Processed File 1237649920573636748_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573636748_spectra_main.csv
+2024-04-12 10:38:55,835 - INFO - [MainThread] - Downloading for Object 1237649920573767729 at index 9
+2024-04-12 10:38:55,995 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,005 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573767729_spectra.csv
+2024-04-12 10:38:56,005 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573767729_spectra_denoised.csv
+2024-04-12 10:38:56,012 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573767729_spectra_denoised.csv
+2024-04-12 10:38:56,019 - INFO - [MainThread] - Written Processed File 1237649920573767729_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573767729_spectra_main.csv
+2024-04-12 10:38:56,019 - INFO - [MainThread] - Downloading for Object 1237649920573898992 at index 10
+2024-04-12 10:38:56,178 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,187 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573898992_spectra.csv
+2024-04-12 10:38:56,187 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573898992_spectra_denoised.csv
+2024-04-12 10:38:56,194 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573898992_spectra_denoised.csv
+2024-04-12 10:38:56,202 - INFO - [MainThread] - Written Processed File 1237649920573898992_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573898992_spectra_main.csv
+2024-04-12 10:38:56,202 - INFO - [MainThread] - Downloading for Object 1237649920573964364 at index 11
+2024-04-12 10:38:56,363 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,373 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920573964364_spectra.csv
+2024-04-12 10:38:56,373 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920573964364_spectra_denoised.csv
+2024-04-12 10:38:56,381 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920573964364_spectra_denoised.csv
+2024-04-12 10:38:56,389 - INFO - [MainThread] - Written Processed File 1237649920573964364_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920573964364_spectra_main.csv
+2024-04-12 10:38:56,390 - INFO - [MainThread] - Downloading for Object 1237649920574816604 at index 12
+2024-04-12 10:38:56,548 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,557 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920574816604_spectra.csv
+2024-04-12 10:38:56,557 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920574816604_spectra_denoised.csv
+2024-04-12 10:38:56,564 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920574816604_spectra_denoised.csv
+2024-04-12 10:38:56,572 - INFO - [MainThread] - Written Processed File 1237649920574816604_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920574816604_spectra_main.csv
+2024-04-12 10:38:56,572 - INFO - [MainThread] - Downloading for Object 1237649920575144002 at index 13
+2024-04-12 10:38:56,730 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,740 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920575144002_spectra.csv
+2024-04-12 10:38:56,740 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920575144002_spectra_denoised.csv
+2024-04-12 10:38:56,747 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920575144002_spectra_denoised.csv
+2024-04-12 10:38:56,754 - INFO - [MainThread] - Written Processed File 1237649920575144002_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920575144002_spectra_main.csv
+2024-04-12 10:38:56,754 - INFO - [MainThread] - Downloading for Object 1237649920575602889 at index 14
+2024-04-12 10:38:56,913 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:56,923 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920575602889_spectra.csv
+2024-04-12 10:38:56,923 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920575602889_spectra_denoised.csv
+2024-04-12 10:38:56,933 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920575602889_spectra_denoised.csv
+2024-04-12 10:38:56,943 - INFO - [MainThread] - Written Processed File 1237649920575602889_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920575602889_spectra_main.csv
+2024-04-12 10:38:56,943 - INFO - [MainThread] - Downloading for Object 1237649920578289725 at index 15
+2024-04-12 10:38:57,103 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:57,114 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920578289725_spectra.csv
+2024-04-12 10:38:57,114 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920578289725_spectra_denoised.csv
+2024-04-12 10:38:57,122 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920578289725_spectra_denoised.csv
+2024-04-12 10:38:57,130 - INFO - [MainThread] - Written Processed File 1237649920578289725_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920578289725_spectra_main.csv
+2024-04-12 10:38:57,130 - INFO - [MainThread] - Downloading for Object 1237649920578551847 at index 16
+2024-04-12 10:38:57,289 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:57,299 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920578551847_spectra.csv
+2024-04-12 10:38:57,299 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920578551847_spectra_denoised.csv
+2024-04-12 10:38:57,306 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920578551847_spectra_denoised.csv
+2024-04-12 10:38:57,313 - INFO - [MainThread] - Written Processed File 1237649920578551847_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920578551847_spectra_main.csv
+2024-04-12 10:38:57,313 - INFO - [MainThread] - Downloading for Object 1237649920579600472 at index 17
+2024-04-12 10:38:57,473 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:57,483 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920579600472_spectra.csv
+2024-04-12 10:38:57,483 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920579600472_spectra_denoised.csv
+2024-04-12 10:38:57,491 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920579600472_spectra_denoised.csv
+2024-04-12 10:38:57,500 - INFO - [MainThread] - Written Processed File 1237649920579600472_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920579600472_spectra_main.csv
+2024-04-12 10:38:57,500 - INFO - [MainThread] - Downloading for Object 1237649920579797162 at index 18
+2024-04-12 10:38:57,660 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:57,670 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920579797162_spectra.csv
+2024-04-12 10:38:57,670 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920579797162_spectra_denoised.csv
+2024-04-12 10:38:57,677 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920579797162_spectra_denoised.csv
+2024-04-12 10:38:57,684 - INFO - [MainThread] - Written Processed File 1237649920579797162_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920579797162_spectra_main.csv
+2024-04-12 10:38:57,684 - INFO - [MainThread] - Downloading for Object 1237649920579862623 at index 19
+2024-04-12 10:38:57,839 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:57,849 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920579862623_spectra.csv
+2024-04-12 10:38:57,849 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920579862623_spectra_denoised.csv
+2024-04-12 10:38:57,856 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920579862623_spectra_denoised.csv
+2024-04-12 10:38:57,863 - INFO - [MainThread] - Written Processed File 1237649920579862623_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920579862623_spectra_main.csv
+2024-04-12 10:38:57,863 - INFO - [MainThread] - Downloading for Object 1237649920579928257 at index 20
+2024-04-12 10:38:58,022 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,032 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920579928257_spectra.csv
+2024-04-12 10:38:58,032 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920579928257_spectra_denoised.csv
+2024-04-12 10:38:58,041 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920579928257_spectra_denoised.csv
+2024-04-12 10:38:58,049 - INFO - [MainThread] - Written Processed File 1237649920579928257_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920579928257_spectra_main.csv
+2024-04-12 10:38:58,049 - INFO - [MainThread] - Downloading for Object 1237649920579993944 at index 21
+2024-04-12 10:38:58,209 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,218 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920579993944_spectra.csv
+2024-04-12 10:38:58,218 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920579993944_spectra_denoised.csv
+2024-04-12 10:38:58,225 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920579993944_spectra_denoised.csv
+2024-04-12 10:38:58,232 - INFO - [MainThread] - Written Processed File 1237649920579993944_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920579993944_spectra_main.csv
+2024-04-12 10:38:58,233 - INFO - [MainThread] - Downloading for Object 1237649920580059260 at index 22
+2024-04-12 10:38:58,393 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,402 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920580059260_spectra.csv
+2024-04-12 10:38:58,402 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920580059260_spectra_denoised.csv
+2024-04-12 10:38:58,409 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920580059260_spectra_denoised.csv
+2024-04-12 10:38:58,416 - INFO - [MainThread] - Written Processed File 1237649920580059260_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920580059260_spectra_main.csv
+2024-04-12 10:38:58,416 - INFO - [MainThread] - Downloading for Object 1237649920580845836 at index 23
+2024-04-12 10:38:58,575 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,585 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920580845836_spectra.csv
+2024-04-12 10:38:58,585 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920580845836_spectra_denoised.csv
+2024-04-12 10:38:58,593 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920580845836_spectra_denoised.csv
+2024-04-12 10:38:58,601 - INFO - [MainThread] - Written Processed File 1237649920580845836_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920580845836_spectra_main.csv
+2024-04-12 10:38:58,601 - INFO - [MainThread] - Downloading for Object 1237649920580911282 at index 24
+2024-04-12 10:38:58,760 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,771 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920580911282_spectra.csv
+2024-04-12 10:38:58,771 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920580911282_spectra_denoised.csv
+2024-04-12 10:38:58,779 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920580911282_spectra_denoised.csv
+2024-04-12 10:38:58,788 - INFO - [MainThread] - Written Processed File 1237649920580911282_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920580911282_spectra_main.csv
+2024-04-12 10:38:58,788 - INFO - [MainThread] - Downloading for Object 1237649920580977122 at index 25
+2024-04-12 10:38:58,946 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:58,956 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920580977122_spectra.csv
+2024-04-12 10:38:58,956 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920580977122_spectra_denoised.csv
+2024-04-12 10:38:58,964 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920580977122_spectra_denoised.csv
+2024-04-12 10:38:58,973 - INFO - [MainThread] - Written Processed File 1237649920580977122_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920580977122_spectra_main.csv
+2024-04-12 10:38:58,973 - INFO - [MainThread] - Downloading for Object 1237649920581042249 at index 26
+2024-04-12 10:38:59,132 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:59,143 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920581042249_spectra.csv
+2024-04-12 10:38:59,143 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920581042249_spectra_denoised.csv
+2024-04-12 10:38:59,151 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920581042249_spectra_denoised.csv
+2024-04-12 10:38:59,159 - INFO - [MainThread] - Written Processed File 1237649920581042249_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920581042249_spectra_main.csv
+2024-04-12 10:38:59,159 - INFO - [MainThread] - Downloading for Object 1237649920581042294 at index 27
+2024-04-12 10:38:59,318 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:59,328 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920581042294_spectra.csv
+2024-04-12 10:38:59,328 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920581042294_spectra_denoised.csv
+2024-04-12 10:38:59,337 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920581042294_spectra_denoised.csv
+2024-04-12 10:38:59,348 - INFO - [MainThread] - Written Processed File 1237649920581042294_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920581042294_spectra_main.csv
+2024-04-12 10:38:59,348 - INFO - [MainThread] - Downloading for Object 1237649920581239368 at index 28
+2024-04-12 10:38:59,505 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:59,517 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920581239368_spectra.csv
+2024-04-12 10:38:59,517 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920581239368_spectra_denoised.csv
+2024-04-12 10:38:59,529 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920581239368_spectra_denoised.csv
+2024-04-12 10:38:59,541 - INFO - [MainThread] - Written Processed File 1237649920581239368_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920581239368_spectra_main.csv
+2024-04-12 10:38:59,541 - INFO - [MainThread] - Downloading for Object 1237649920581501152 at index 29
+2024-04-12 10:38:59,698 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:59,708 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920581501152_spectra.csv
+2024-04-12 10:38:59,708 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920581501152_spectra_denoised.csv
+2024-04-12 10:38:59,716 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920581501152_spectra_denoised.csv
+2024-04-12 10:38:59,723 - INFO - [MainThread] - Written Processed File 1237649920581501152_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920581501152_spectra_main.csv
+2024-04-12 10:38:59,724 - INFO - [MainThread] - Downloading for Object 1237649920581697940 at index 30
+2024-04-12 10:38:59,884 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:38:59,894 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920581697940_spectra.csv
+2024-04-12 10:38:59,894 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920581697940_spectra_denoised.csv
+2024-04-12 10:38:59,903 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920581697940_spectra_denoised.csv
+2024-04-12 10:38:59,911 - INFO - [MainThread] - Written Processed File 1237649920581697940_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920581697940_spectra_main.csv
+2024-04-12 10:38:59,911 - INFO - [MainThread] - Downloading for Object 1237649920582025573 at index 31
+2024-04-12 10:39:00,069 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:00,080 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920582025573_spectra.csv
+2024-04-12 10:39:00,080 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920582025573_spectra_denoised.csv
+2024-04-12 10:39:00,090 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920582025573_spectra_denoised.csv
+2024-04-12 10:39:00,100 - INFO - [MainThread] - Written Processed File 1237649920582025573_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920582025573_spectra_main.csv
+2024-04-12 10:39:00,100 - INFO - [MainThread] - Downloading for Object 1237649920582156540 at index 32
+2024-04-12 10:39:00,257 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:00,268 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920582156540_spectra.csv
+2024-04-12 10:39:00,268 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920582156540_spectra_denoised.csv
+2024-04-12 10:39:00,276 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920582156540_spectra_denoised.csv
+2024-04-12 10:39:00,284 - INFO - [MainThread] - Written Processed File 1237649920582156540_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920582156540_spectra_main.csv
+2024-04-12 10:39:00,285 - INFO - [MainThread] - Downloading for Object 1237649920582942953 at index 33
+2024-04-12 10:39:00,444 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:00,454 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920582942953_spectra.csv
+2024-04-12 10:39:00,454 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920582942953_spectra_denoised.csv
+2024-04-12 10:39:00,463 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920582942953_spectra_denoised.csv
+2024-04-12 10:39:00,471 - INFO - [MainThread] - Written Processed File 1237649920582942953_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920582942953_spectra_main.csv
+2024-04-12 10:39:00,472 - INFO - [MainThread] - Downloading for Object 1237649921110442131 at index 34
+2024-04-12 10:39:00,629 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:00,639 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921110442131_spectra.csv
+2024-04-12 10:39:00,639 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921110442131_spectra_denoised.csv
+2024-04-12 10:39:00,647 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921110442131_spectra_denoised.csv
+2024-04-12 10:39:00,656 - INFO - [MainThread] - Written Processed File 1237649921110442131_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921110442131_spectra_main.csv
+2024-04-12 10:39:00,656 - INFO - [MainThread] - Downloading for Object 1237649921110638629 at index 35
+2024-04-12 10:39:00,813 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:00,825 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921110638629_spectra.csv
+2024-04-12 10:39:00,825 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921110638629_spectra_denoised.csv
+2024-04-12 10:39:00,834 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921110638629_spectra_denoised.csv
+2024-04-12 10:39:00,842 - INFO - [MainThread] - Written Processed File 1237649921110638629_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921110638629_spectra_main.csv
+2024-04-12 10:39:00,842 - INFO - [MainThread] - Downloading for Object 1237649921111753020 at index 36
+2024-04-12 10:39:00,997 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,007 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921111753020_spectra.csv
+2024-04-12 10:39:01,007 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921111753020_spectra_denoised.csv
+2024-04-12 10:39:01,014 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921111753020_spectra_denoised.csv
+2024-04-12 10:39:01,022 - INFO - [MainThread] - Written Processed File 1237649921111753020_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921111753020_spectra_main.csv
+2024-04-12 10:39:01,022 - INFO - [MainThread] - Downloading for Object 1237649921113784383 at index 37
+2024-04-12 10:39:01,178 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,187 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921113784383_spectra.csv
+2024-04-12 10:39:01,187 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921113784383_spectra_denoised.csv
+2024-04-12 10:39:01,195 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921113784383_spectra_denoised.csv
+2024-04-12 10:39:01,202 - INFO - [MainThread] - Written Processed File 1237649921113784383_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921113784383_spectra_main.csv
+2024-04-12 10:39:01,202 - INFO - [MainThread] - Downloading for Object 1237649921115095135 at index 38
+2024-04-12 10:39:01,360 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,371 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921115095135_spectra.csv
+2024-04-12 10:39:01,371 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921115095135_spectra_denoised.csv
+2024-04-12 10:39:01,381 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921115095135_spectra_denoised.csv
+2024-04-12 10:39:01,390 - INFO - [MainThread] - Written Processed File 1237649921115095135_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921115095135_spectra_main.csv
+2024-04-12 10:39:01,390 - INFO - [MainThread] - Downloading for Object 1237649921116405762 at index 39
+2024-04-12 10:39:01,549 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,558 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921116405762_spectra.csv
+2024-04-12 10:39:01,558 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921116405762_spectra_denoised.csv
+2024-04-12 10:39:01,565 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921116405762_spectra_denoised.csv
+2024-04-12 10:39:01,572 - INFO - [MainThread] - Written Processed File 1237649921116405762_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921116405762_spectra_main.csv
+2024-04-12 10:39:01,572 - INFO - [MainThread] - Downloading for Object 1237649921116406121 at index 40
+2024-04-12 10:39:01,733 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,743 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921116406121_spectra.csv
+2024-04-12 10:39:01,743 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921116406121_spectra_denoised.csv
+2024-04-12 10:39:01,751 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921116406121_spectra_denoised.csv
+2024-04-12 10:39:01,759 - INFO - [MainThread] - Written Processed File 1237649921116406121_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921116406121_spectra_main.csv
+2024-04-12 10:39:01,760 - INFO - [MainThread] - Downloading for Object 1237649921117061218 at index 41
+2024-04-12 10:39:01,919 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:01,929 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921117061218_spectra.csv
+2024-04-12 10:39:01,929 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921117061218_spectra_denoised.csv
+2024-04-12 10:39:01,937 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921117061218_spectra_denoised.csv
+2024-04-12 10:39:01,946 - INFO - [MainThread] - Written Processed File 1237649921117061218_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921117061218_spectra_main.csv
+2024-04-12 10:39:01,946 - INFO - [MainThread] - Downloading for Object 1237649921117388983 at index 42
+2024-04-12 10:39:02,104 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:02,114 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921117388983_spectra.csv
+2024-04-12 10:39:02,114 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921117388983_spectra_denoised.csv
+2024-04-12 10:39:02,121 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921117388983_spectra_denoised.csv
+2024-04-12 10:39:02,128 - INFO - [MainThread] - Written Processed File 1237649921117388983_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921117388983_spectra_main.csv
+2024-04-12 10:39:02,128 - INFO - [MainThread] - Downloading for Object 1237649921117651214 at index 43
+2024-04-12 10:39:02,353 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:02,363 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921117651214_spectra.csv
+2024-04-12 10:39:02,363 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921117651214_spectra_denoised.csv
+2024-04-12 10:39:02,371 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921117651214_spectra_denoised.csv
+2024-04-12 10:39:02,380 - INFO - [MainThread] - Written Processed File 1237649921117651214_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921117651214_spectra_main.csv
+2024-04-12 10:39:02,380 - INFO - [MainThread] - Downloading for Object 1237649921118109827 at index 44
+2024-04-12 10:39:02,538 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:02,549 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921118109827_spectra.csv
+2024-04-12 10:39:02,549 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921118109827_spectra_denoised.csv
+2024-04-12 10:39:02,560 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921118109827_spectra_denoised.csv
+2024-04-12 10:39:02,571 - INFO - [MainThread] - Written Processed File 1237649921118109827_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921118109827_spectra_main.csv
+2024-04-12 10:39:02,571 - INFO - [MainThread] - Downloading for Object 1237649921118634109 at index 45
+2024-04-12 10:39:02,728 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:02,738 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921118634109_spectra.csv
+2024-04-12 10:39:02,738 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921118634109_spectra_denoised.csv
+2024-04-12 10:39:02,745 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921118634109_spectra_denoised.csv
+2024-04-12 10:39:02,755 - INFO - [MainThread] - Written Processed File 1237649921118634109_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921118634109_spectra_main.csv
+2024-04-12 10:39:02,755 - INFO - [MainThread] - Downloading for Object 1237649921118634553 at index 46
+2024-04-12 10:39:02,912 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:02,923 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921118634553_spectra.csv
+2024-04-12 10:39:02,923 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921118634553_spectra_denoised.csv
+2024-04-12 10:39:02,934 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921118634553_spectra_denoised.csv
+2024-04-12 10:39:02,943 - INFO - [MainThread] - Written Processed File 1237649921118634553_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921118634553_spectra_main.csv
+2024-04-12 10:39:02,944 - INFO - [MainThread] - Downloading for Object 1237649921119486153 at index 47
+2024-04-12 10:39:03,103 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:03,112 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649921119486153_spectra.csv
+2024-04-12 10:39:03,112 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649921119486153_spectra_denoised.csv
+2024-04-12 10:39:03,121 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649921119486153_spectra_denoised.csv
+2024-04-12 10:39:03,129 - INFO - [MainThread] - Written Processed File 1237649921119486153_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649921119486153_spectra_main.csv
+2024-04-12 10:39:03,129 - INFO - [MainThread] - Downloading for Object 1237649954403713223 at index 48
+2024-04-12 10:39:03,288 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:03,298 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954403713223_spectra.csv
+2024-04-12 10:39:03,298 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954403713223_spectra_denoised.csv
+2024-04-12 10:39:03,307 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954403713223_spectra_denoised.csv
+2024-04-12 10:39:03,315 - INFO - [MainThread] - Written Processed File 1237649954403713223_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954403713223_spectra_main.csv
+2024-04-12 10:39:03,316 - INFO - [MainThread] - Downloading for Object 1237649954404302997 at index 49
+2024-04-12 10:39:03,473 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:03,483 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404302997_spectra.csv
+2024-04-12 10:39:03,483 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404302997_spectra_denoised.csv
+2024-04-12 10:39:03,492 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404302997_spectra_denoised.csv
+2024-04-12 10:39:03,500 - INFO - [MainThread] - Written Processed File 1237649954404302997_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404302997_spectra_main.csv
+2024-04-12 10:39:03,500 - INFO - [MainThread] - Downloading for Object 1237649954404565192 at index 50
+2024-04-12 10:39:03,660 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:03,671 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404565192_spectra.csv
+2024-04-12 10:39:03,671 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404565192_spectra_denoised.csv
+2024-04-12 10:39:03,680 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404565192_spectra_denoised.csv
+2024-04-12 10:39:03,689 - INFO - [MainThread] - Written Processed File 1237649954404565192_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404565192_spectra_main.csv
+2024-04-12 10:39:03,689 - INFO - [MainThread] - Downloading for Object 1237649954404630915 at index 51
+2024-04-12 10:39:03,935 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:03,946 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404630915_spectra.csv
+2024-04-12 10:39:03,946 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404630915_spectra_denoised.csv
+2024-04-12 10:39:03,955 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404630915_spectra_denoised.csv
+2024-04-12 10:39:03,963 - INFO - [MainThread] - Written Processed File 1237649954404630915_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404630915_spectra_main.csv
+2024-04-12 10:39:03,963 - INFO - [MainThread] - Downloading for Object 1237649954404892841 at index 52
+2024-04-12 10:39:04,122 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:04,132 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404892841_spectra.csv
+2024-04-12 10:39:04,132 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404892841_spectra_denoised.csv
+2024-04-12 10:39:04,140 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404892841_spectra_denoised.csv
+2024-04-12 10:39:04,148 - INFO - [MainThread] - Written Processed File 1237649954404892841_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404892841_spectra_main.csv
+2024-04-12 10:39:04,148 - INFO - [MainThread] - Downloading for Object 1237649954404958218 at index 53
+2024-04-12 10:39:04,304 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:04,314 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404958218_spectra.csv
+2024-04-12 10:39:04,314 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404958218_spectra_denoised.csv
+2024-04-12 10:39:04,323 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404958218_spectra_denoised.csv
+2024-04-12 10:39:04,331 - INFO - [MainThread] - Written Processed File 1237649954404958218_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404958218_spectra_main.csv
+2024-04-12 10:39:04,331 - INFO - [MainThread] - Downloading for Object 1237649954404958295 at index 54
+2024-04-12 10:39:04,492 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:04,501 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954404958295_spectra.csv
+2024-04-12 10:39:04,501 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954404958295_spectra_denoised.csv
+2024-04-12 10:39:04,508 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954404958295_spectra_denoised.csv
+2024-04-12 10:39:04,515 - INFO - [MainThread] - Written Processed File 1237649954404958295_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954404958295_spectra_main.csv
+2024-04-12 10:39:04,515 - INFO - [MainThread] - Downloading for Object 1237649954405089563 at index 55
+2024-04-12 10:39:04,674 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:04,685 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954405089563_spectra.csv
+2024-04-12 10:39:04,685 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954405089563_spectra_denoised.csv
+2024-04-12 10:39:04,693 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954405089563_spectra_denoised.csv
+2024-04-12 10:39:04,702 - INFO - [MainThread] - Written Processed File 1237649954405089563_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954405089563_spectra_main.csv
+2024-04-12 10:39:04,702 - INFO - [MainThread] - Downloading for Object 1237649954405548273 at index 56
+2024-04-12 10:39:04,860 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:04,870 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954405548273_spectra.csv
+2024-04-12 10:39:04,870 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954405548273_spectra_denoised.csv
+2024-04-12 10:39:04,879 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954405548273_spectra_denoised.csv
+2024-04-12 10:39:04,888 - INFO - [MainThread] - Written Processed File 1237649954405548273_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954405548273_spectra_main.csv
+2024-04-12 10:39:04,888 - INFO - [MainThread] - Downloading for Object 1237649954406334550 at index 57
+2024-04-12 10:39:05,051 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,061 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954406334550_spectra.csv
+2024-04-12 10:39:05,061 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954406334550_spectra_denoised.csv
+2024-04-12 10:39:05,068 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954406334550_spectra_denoised.csv
+2024-04-12 10:39:05,075 - INFO - [MainThread] - Written Processed File 1237649954406334550_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954406334550_spectra_main.csv
+2024-04-12 10:39:05,075 - INFO - [MainThread] - Downloading for Object 1237649954406465884 at index 58
+2024-04-12 10:39:05,235 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,245 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954406465884_spectra.csv
+2024-04-12 10:39:05,245 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954406465884_spectra_denoised.csv
+2024-04-12 10:39:05,253 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954406465884_spectra_denoised.csv
+2024-04-12 10:39:05,261 - INFO - [MainThread] - Written Processed File 1237649954406465884_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954406465884_spectra_main.csv
+2024-04-12 10:39:05,261 - INFO - [MainThread] - Downloading for Object 1237649954406793353 at index 59
+2024-04-12 10:39:05,419 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,429 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954406793353_spectra.csv
+2024-04-12 10:39:05,429 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954406793353_spectra_denoised.csv
+2024-04-12 10:39:05,438 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954406793353_spectra_denoised.csv
+2024-04-12 10:39:05,447 - INFO - [MainThread] - Written Processed File 1237649954406793353_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954406793353_spectra_main.csv
+2024-04-12 10:39:05,447 - INFO - [MainThread] - Downloading for Object 1237649954406859170 at index 60
+2024-04-12 10:39:05,606 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,616 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954406859170_spectra.csv
+2024-04-12 10:39:05,616 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954406859170_spectra_denoised.csv
+2024-04-12 10:39:05,624 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954406859170_spectra_denoised.csv
+2024-04-12 10:39:05,632 - INFO - [MainThread] - Written Processed File 1237649954406859170_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954406859170_spectra_main.csv
+2024-04-12 10:39:05,632 - INFO - [MainThread] - Downloading for Object 1237649954407252041 at index 61
+2024-04-12 10:39:05,793 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,803 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954407252041_spectra.csv
+2024-04-12 10:39:05,803 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954407252041_spectra_denoised.csv
+2024-04-12 10:39:05,813 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954407252041_spectra_denoised.csv
+2024-04-12 10:39:05,822 - INFO - [MainThread] - Written Processed File 1237649954407252041_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954407252041_spectra_main.csv
+2024-04-12 10:39:05,822 - INFO - [MainThread] - Downloading for Object 1237649954407514185 at index 62
+2024-04-12 10:39:05,980 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:05,992 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954407514185_spectra.csv
+2024-04-12 10:39:05,992 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954407514185_spectra_denoised.csv
+2024-04-12 10:39:06,001 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954407514185_spectra_denoised.csv
+2024-04-12 10:39:06,011 - INFO - [MainThread] - Written Processed File 1237649954407514185_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954407514185_spectra_main.csv
+2024-04-12 10:39:06,011 - INFO - [MainThread] - Downloading for Object 1237649954407514222 at index 63
+2024-04-12 10:39:06,168 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:06,178 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954407514222_spectra.csv
+2024-04-12 10:39:06,178 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954407514222_spectra_denoised.csv
+2024-04-12 10:39:06,185 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954407514222_spectra_denoised.csv
+2024-04-12 10:39:06,195 - INFO - [MainThread] - Written Processed File 1237649954407514222_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954407514222_spectra_main.csv
+2024-04-12 10:39:06,195 - INFO - [MainThread] - Downloading for Object 1237649954408038670 at index 64
+2024-04-12 10:39:06,353 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:06,362 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954408038670_spectra.csv
+2024-04-12 10:39:06,362 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954408038670_spectra_denoised.csv
+2024-04-12 10:39:06,369 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954408038670_spectra_denoised.csv
+2024-04-12 10:39:06,376 - INFO - [MainThread] - Written Processed File 1237649954408038670_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954408038670_spectra_main.csv
+2024-04-12 10:39:06,376 - INFO - [MainThread] - Downloading for Object 1237649954408759453 at index 65
+2024-04-12 10:39:06,535 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:06,546 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954408759453_spectra.csv
+2024-04-12 10:39:06,546 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954408759453_spectra_denoised.csv
+2024-04-12 10:39:06,555 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954408759453_spectra_denoised.csv
+2024-04-12 10:39:06,565 - INFO - [MainThread] - Written Processed File 1237649954408759453_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954408759453_spectra_main.csv
+2024-04-12 10:39:06,565 - INFO - [MainThread] - Downloading for Object 1237649954409087092 at index 66
+2024-04-12 10:39:06,722 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:06,736 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954409087092_spectra.csv
+2024-04-12 10:39:06,736 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954409087092_spectra_denoised.csv
+2024-04-12 10:39:06,743 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954409087092_spectra_denoised.csv
+2024-04-12 10:39:06,751 - INFO - [MainThread] - Written Processed File 1237649954409087092_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954409087092_spectra_main.csv
+2024-04-12 10:39:06,751 - INFO - [MainThread] - Downloading for Object 1237649954409152534 at index 67
+2024-04-12 10:39:06,912 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:06,922 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954409152534_spectra.csv
+2024-04-12 10:39:06,922 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954409152534_spectra_denoised.csv
+2024-04-12 10:39:06,929 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954409152534_spectra_denoised.csv
+2024-04-12 10:39:06,937 - INFO - [MainThread] - Written Processed File 1237649954409152534_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954409152534_spectra_main.csv
+2024-04-12 10:39:06,937 - INFO - [MainThread] - Downloading for Object 1237649954409545864 at index 68
+2024-04-12 10:39:07,095 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:07,106 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649954409545864_spectra.csv
+2024-04-12 10:39:07,106 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649954409545864_spectra_denoised.csv
+2024-04-12 10:39:07,116 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649954409545864_spectra_denoised.csv
+2024-04-12 10:39:07,126 - INFO - [MainThread] - Written Processed File 1237649954409545864_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649954409545864_spectra_main.csv
+2024-04-12 10:39:07,126 - INFO - [MainThread] - Downloading for Object 1237649961379233832 at index 69
+2024-04-12 10:39:07,285 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:07,297 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961379233832_spectra.csv
+2024-04-12 10:39:07,297 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961379233832_spectra_denoised.csv
+2024-04-12 10:39:07,308 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961379233832_spectra_denoised.csv
+2024-04-12 10:39:07,317 - INFO - [MainThread] - Written Processed File 1237649961379233832_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961379233832_spectra_main.csv
+2024-04-12 10:39:07,317 - INFO - [MainThread] - Downloading for Object 1237649961380610116 at index 70
+2024-04-12 10:39:07,475 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:07,485 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961380610116_spectra.csv
+2024-04-12 10:39:07,485 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961380610116_spectra_denoised.csv
+2024-04-12 10:39:07,494 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961380610116_spectra_denoised.csv
+2024-04-12 10:39:07,503 - INFO - [MainThread] - Written Processed File 1237649961380610116_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961380610116_spectra_main.csv
+2024-04-12 10:39:07,503 - INFO - [MainThread] - Downloading for Object 1237649961380675624 at index 71
+2024-04-12 10:39:07,661 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:07,671 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961380675624_spectra.csv
+2024-04-12 10:39:07,671 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961380675624_spectra_denoised.csv
+2024-04-12 10:39:07,680 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961380675624_spectra_denoised.csv
+2024-04-12 10:39:07,688 - INFO - [MainThread] - Written Processed File 1237649961380675624_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961380675624_spectra_main.csv
+2024-04-12 10:39:07,689 - INFO - [MainThread] - Downloading for Object 1237649961380937848 at index 72
+2024-04-12 10:39:07,846 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:07,856 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961380937848_spectra.csv
+2024-04-12 10:39:07,856 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961380937848_spectra_denoised.csv
+2024-04-12 10:39:07,865 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961380937848_spectra_denoised.csv
+2024-04-12 10:39:07,873 - INFO - [MainThread] - Written Processed File 1237649961380937848_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961380937848_spectra_main.csv
+2024-04-12 10:39:07,873 - INFO - [MainThread] - Downloading for Object 1237649961380937862 at index 73
+2024-04-12 10:39:08,030 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,040 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961380937862_spectra.csv
+2024-04-12 10:39:08,040 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961380937862_spectra_denoised.csv
+2024-04-12 10:39:08,047 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961380937862_spectra_denoised.csv
+2024-04-12 10:39:08,054 - INFO - [MainThread] - Written Processed File 1237649961380937862_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961380937862_spectra_main.csv
+2024-04-12 10:39:08,054 - INFO - [MainThread] - Downloading for Object 1237649961381265670 at index 74
+2024-04-12 10:39:08,212 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,222 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961381265670_spectra.csv
+2024-04-12 10:39:08,222 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961381265670_spectra_denoised.csv
+2024-04-12 10:39:08,232 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961381265670_spectra_denoised.csv
+2024-04-12 10:39:08,240 - INFO - [MainThread] - Written Processed File 1237649961381265670_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961381265670_spectra_main.csv
+2024-04-12 10:39:08,241 - INFO - [MainThread] - Downloading for Object 1237649961381658705 at index 75
+2024-04-12 10:39:08,400 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,409 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961381658705_spectra.csv
+2024-04-12 10:39:08,409 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961381658705_spectra_denoised.csv
+2024-04-12 10:39:08,416 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961381658705_spectra_denoised.csv
+2024-04-12 10:39:08,424 - INFO - [MainThread] - Written Processed File 1237649961381658705_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961381658705_spectra_main.csv
+2024-04-12 10:39:08,424 - INFO - [MainThread] - Downloading for Object 1237649961381724270 at index 76
+2024-04-12 10:39:08,582 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,592 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961381724270_spectra.csv
+2024-04-12 10:39:08,592 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961381724270_spectra_denoised.csv
+2024-04-12 10:39:08,599 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961381724270_spectra_denoised.csv
+2024-04-12 10:39:08,606 - INFO - [MainThread] - Written Processed File 1237649961381724270_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961381724270_spectra_main.csv
+2024-04-12 10:39:08,606 - INFO - [MainThread] - Downloading for Object 1237649961381986544 at index 77
+2024-04-12 10:39:08,763 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,773 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961381986544_spectra.csv
+2024-04-12 10:39:08,774 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961381986544_spectra_denoised.csv
+2024-04-12 10:39:08,782 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961381986544_spectra_denoised.csv
+2024-04-12 10:39:08,791 - INFO - [MainThread] - Written Processed File 1237649961381986544_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961381986544_spectra_main.csv
+2024-04-12 10:39:08,791 - INFO - [MainThread] - Downloading for Object 1237649961383034991 at index 78
+2024-04-12 10:39:08,950 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:08,960 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383034991_spectra.csv
+2024-04-12 10:39:08,960 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383034991_spectra_denoised.csv
+2024-04-12 10:39:08,967 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383034991_spectra_denoised.csv
+2024-04-12 10:39:08,974 - INFO - [MainThread] - Written Processed File 1237649961383034991_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383034991_spectra_main.csv
+2024-04-12 10:39:08,974 - INFO - [MainThread] - Downloading for Object 1237649961383362788 at index 79
+2024-04-12 10:39:09,132 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:09,143 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383362788_spectra.csv
+2024-04-12 10:39:09,143 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383362788_spectra_denoised.csv
+2024-04-12 10:39:09,150 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383362788_spectra_denoised.csv
+2024-04-12 10:39:09,157 - INFO - [MainThread] - Written Processed File 1237649961383362788_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383362788_spectra_main.csv
+2024-04-12 10:39:09,157 - INFO - [MainThread] - Downloading for Object 1237649961383559374 at index 80
+2024-04-12 10:39:09,314 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:09,325 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383559374_spectra.csv
+2024-04-12 10:39:09,326 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383559374_spectra_denoised.csv
+2024-04-12 10:39:09,334 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383559374_spectra_denoised.csv
+2024-04-12 10:39:09,343 - INFO - [MainThread] - Written Processed File 1237649961383559374_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383559374_spectra_main.csv
+2024-04-12 10:39:09,344 - INFO - [MainThread] - Downloading for Object 1237649961383690488 at index 81
+2024-04-12 10:39:09,499 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:09,509 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383690488_spectra.csv
+2024-04-12 10:39:09,509 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383690488_spectra_denoised.csv
+2024-04-12 10:39:09,516 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383690488_spectra_denoised.csv
+2024-04-12 10:39:09,523 - INFO - [MainThread] - Written Processed File 1237649961383690488_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383690488_spectra_main.csv
+2024-04-12 10:39:09,523 - INFO - [MainThread] - Downloading for Object 1237649961383952502 at index 82
+2024-04-12 10:39:09,680 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:09,690 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383952502_spectra.csv
+2024-04-12 10:39:09,690 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383952502_spectra_denoised.csv
+2024-04-12 10:39:09,698 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383952502_spectra_denoised.csv
+2024-04-12 10:39:09,706 - INFO - [MainThread] - Written Processed File 1237649961383952502_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383952502_spectra_main.csv
+2024-04-12 10:39:09,706 - INFO - [MainThread] - Downloading for Object 1237649961383952625 at index 83
+2024-04-12 10:39:09,864 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:09,874 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961383952625_spectra.csv
+2024-04-12 10:39:09,874 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961383952625_spectra_denoised.csv
+2024-04-12 10:39:09,883 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961383952625_spectra_denoised.csv
+2024-04-12 10:39:09,892 - INFO - [MainThread] - Written Processed File 1237649961383952625_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961383952625_spectra_main.csv
+2024-04-12 10:39:09,892 - INFO - [MainThread] - Downloading for Object 1237649961385066699 at index 84
+2024-04-12 10:39:10,050 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,060 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385066699_spectra.csv
+2024-04-12 10:39:10,061 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385066699_spectra_denoised.csv
+2024-04-12 10:39:10,069 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385066699_spectra_denoised.csv
+2024-04-12 10:39:10,077 - INFO - [MainThread] - Written Processed File 1237649961385066699_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385066699_spectra_main.csv
+2024-04-12 10:39:10,077 - INFO - [MainThread] - Downloading for Object 1237649961385132238 at index 85
+2024-04-12 10:39:10,236 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,247 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385132238_spectra.csv
+2024-04-12 10:39:10,247 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385132238_spectra_denoised.csv
+2024-04-12 10:39:10,255 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385132238_spectra_denoised.csv
+2024-04-12 10:39:10,264 - INFO - [MainThread] - Written Processed File 1237649961385132238_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385132238_spectra_main.csv
+2024-04-12 10:39:10,264 - INFO - [MainThread] - Downloading for Object 1237649961385263186 at index 86
+2024-04-12 10:39:10,421 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,432 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385263186_spectra.csv
+2024-04-12 10:39:10,432 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385263186_spectra_denoised.csv
+2024-04-12 10:39:10,443 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385263186_spectra_denoised.csv
+2024-04-12 10:39:10,453 - INFO - [MainThread] - Written Processed File 1237649961385263186_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385263186_spectra_main.csv
+2024-04-12 10:39:10,453 - INFO - [MainThread] - Downloading for Object 1237649961385328796 at index 87
+2024-04-12 10:39:10,612 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,620 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385328796_spectra.csv
+2024-04-12 10:39:10,620 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385328796_spectra_denoised.csv
+2024-04-12 10:39:10,629 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385328796_spectra_denoised.csv
+2024-04-12 10:39:10,638 - INFO - [MainThread] - Written Processed File 1237649961385328796_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385328796_spectra_main.csv
+2024-04-12 10:39:10,638 - INFO - [MainThread] - Downloading for Object 1237649961385394279 at index 88
+2024-04-12 10:39:10,796 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,807 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385394279_spectra.csv
+2024-04-12 10:39:10,807 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385394279_spectra_denoised.csv
+2024-04-12 10:39:10,815 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385394279_spectra_denoised.csv
+2024-04-12 10:39:10,824 - INFO - [MainThread] - Written Processed File 1237649961385394279_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385394279_spectra_main.csv
+2024-04-12 10:39:10,824 - INFO - [MainThread] - Downloading for Object 1237649961385394313 at index 89
+2024-04-12 10:39:10,981 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:10,993 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385394313_spectra.csv
+2024-04-12 10:39:10,993 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385394313_spectra_denoised.csv
+2024-04-12 10:39:11,003 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385394313_spectra_denoised.csv
+2024-04-12 10:39:11,014 - INFO - [MainThread] - Written Processed File 1237649961385394313_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385394313_spectra_main.csv
+2024-04-12 10:39:11,014 - INFO - [MainThread] - Downloading for Object 1237649961385459854 at index 90
+2024-04-12 10:39:11,173 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:11,183 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385459854_spectra.csv
+2024-04-12 10:39:11,183 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385459854_spectra_denoised.csv
+2024-04-12 10:39:11,190 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385459854_spectra_denoised.csv
+2024-04-12 10:39:11,197 - INFO - [MainThread] - Written Processed File 1237649961385459854_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385459854_spectra_main.csv
+2024-04-12 10:39:11,197 - INFO - [MainThread] - Downloading for Object 1237649961385525252 at index 91
+2024-04-12 10:39:11,355 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:11,366 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385525252_spectra.csv
+2024-04-12 10:39:11,366 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385525252_spectra_denoised.csv
+2024-04-12 10:39:11,374 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385525252_spectra_denoised.csv
+2024-04-12 10:39:11,383 - INFO - [MainThread] - Written Processed File 1237649961385525252_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385525252_spectra_main.csv
+2024-04-12 10:39:11,383 - INFO - [MainThread] - Downloading for Object 1237649961385656413 at index 92
+2024-04-12 10:39:11,540 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:11,552 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385656413_spectra.csv
+2024-04-12 10:39:11,553 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385656413_spectra_denoised.csv
+2024-04-12 10:39:11,563 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385656413_spectra_denoised.csv
+2024-04-12 10:39:11,574 - INFO - [MainThread] - Written Processed File 1237649961385656413_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385656413_spectra_main.csv
+2024-04-12 10:39:11,574 - INFO - [MainThread] - Downloading for Object 1237649961385656449 at index 93
+2024-04-12 10:39:11,781 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:11,793 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385656449_spectra.csv
+2024-04-12 10:39:11,793 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385656449_spectra_denoised.csv
+2024-04-12 10:39:11,801 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385656449_spectra_denoised.csv
+2024-04-12 10:39:11,809 - INFO - [MainThread] - Written Processed File 1237649961385656449_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385656449_spectra_main.csv
+2024-04-12 10:39:11,809 - INFO - [MainThread] - Downloading for Object 1237649961385853025 at index 94
+2024-04-12 10:39:11,967 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:11,977 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385853025_spectra.csv
+2024-04-12 10:39:11,977 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385853025_spectra_denoised.csv
+2024-04-12 10:39:11,986 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385853025_spectra_denoised.csv
+2024-04-12 10:39:11,995 - INFO - [MainThread] - Written Processed File 1237649961385853025_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385853025_spectra_main.csv
+2024-04-12 10:39:11,996 - INFO - [MainThread] - Downloading for Object 1237649961385853086 at index 95
+2024-04-12 10:39:12,156 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:12,166 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385853086_spectra.csv
+2024-04-12 10:39:12,166 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385853086_spectra_denoised.csv
+2024-04-12 10:39:12,173 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385853086_spectra_denoised.csv
+2024-04-12 10:39:12,180 - INFO - [MainThread] - Written Processed File 1237649961385853086_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385853086_spectra_main.csv
+2024-04-12 10:39:12,180 - INFO - [MainThread] - Downloading for Object 1237649961385984048 at index 96
+2024-04-12 10:39:12,338 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:12,349 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961385984048_spectra.csv
+2024-04-12 10:39:12,349 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961385984048_spectra_denoised.csv
+2024-04-12 10:39:12,361 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961385984048_spectra_denoised.csv
+2024-04-12 10:39:12,371 - INFO - [MainThread] - Written Processed File 1237649961385984048_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961385984048_spectra_main.csv
+2024-04-12 10:39:12,372 - INFO - [MainThread] - Downloading for Object 1237649961387032845 at index 97
+2024-04-12 10:39:12,597 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:12,609 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961387032845_spectra.csv
+2024-04-12 10:39:12,609 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961387032845_spectra_denoised.csv
+2024-04-12 10:39:12,617 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961387032845_spectra_denoised.csv
+2024-04-12 10:39:12,627 - INFO - [MainThread] - Written Processed File 1237649961387032845_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961387032845_spectra_main.csv
+2024-04-12 10:39:12,627 - INFO - [MainThread] - Downloading for Object 1237649961915777123 at index 98
+2024-04-12 10:39:12,784 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:12,794 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961915777123_spectra.csv
+2024-04-12 10:39:12,794 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961915777123_spectra_denoised.csv
+2024-04-12 10:39:12,803 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961915777123_spectra_denoised.csv
+2024-04-12 10:39:12,812 - INFO - [MainThread] - Written Processed File 1237649961915777123_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961915777123_spectra_main.csv
+2024-04-12 10:39:12,812 - INFO - [MainThread] - Downloading for Object 1237649961916432599 at index 99
+2024-04-12 10:39:12,970 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:12,982 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961916432599_spectra.csv
+2024-04-12 10:39:12,982 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961916432599_spectra_denoised.csv
+2024-04-12 10:39:12,992 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961916432599_spectra_denoised.csv
+2024-04-12 10:39:13,000 - INFO - [MainThread] - Written Processed File 1237649961916432599_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961916432599_spectra_main.csv
+2024-04-12 10:39:13,000 - INFO - [MainThread] - Downloading for Object 1237649961916629061 at index 100
+2024-04-12 10:39:13,159 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:13,168 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961916629061_spectra.csv
+2024-04-12 10:39:13,168 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961916629061_spectra_denoised.csv
+2024-04-12 10:39:13,176 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961916629061_spectra_denoised.csv
+2024-04-12 10:39:13,183 - INFO - [MainThread] - Written Processed File 1237649961916629061_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961916629061_spectra_main.csv
+2024-04-12 10:39:13,183 - INFO - [MainThread] - Downloading for Object 1237649961916629178 at index 101
+2024-04-12 10:39:13,339 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:13,350 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961916629178_spectra.csv
+2024-04-12 10:39:13,350 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961916629178_spectra_denoised.csv
+2024-04-12 10:39:13,359 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961916629178_spectra_denoised.csv
+2024-04-12 10:39:13,369 - INFO - [MainThread] - Written Processed File 1237649961916629178_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961916629178_spectra_main.csv
+2024-04-12 10:39:13,369 - INFO - [MainThread] - Downloading for Object 1237649961916694556 at index 102
+2024-04-12 10:39:13,527 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:13,537 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961916694556_spectra.csv
+2024-04-12 10:39:13,537 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961916694556_spectra_denoised.csv
+2024-04-12 10:39:13,546 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961916694556_spectra_denoised.csv
+2024-04-12 10:39:13,556 - INFO - [MainThread] - Written Processed File 1237649961916694556_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961916694556_spectra_main.csv
+2024-04-12 10:39:13,556 - INFO - [MainThread] - Downloading for Object 1237649961916956785 at index 103
+2024-04-12 10:39:13,714 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:13,723 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961916956785_spectra.csv
+2024-04-12 10:39:13,723 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961916956785_spectra_denoised.csv
+2024-04-12 10:39:13,731 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961916956785_spectra_denoised.csv
+2024-04-12 10:39:13,738 - INFO - [MainThread] - Written Processed File 1237649961916956785_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961916956785_spectra_main.csv
+2024-04-12 10:39:13,738 - INFO - [MainThread] - Downloading for Object 1237649961917218877 at index 104
+2024-04-12 10:39:13,894 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:13,904 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961917218877_spectra.csv
+2024-04-12 10:39:13,904 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961917218877_spectra_denoised.csv
+2024-04-12 10:39:13,913 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961917218877_spectra_denoised.csv
+2024-04-12 10:39:13,922 - INFO - [MainThread] - Written Processed File 1237649961917218877_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961917218877_spectra_main.csv
+2024-04-12 10:39:13,922 - INFO - [MainThread] - Downloading for Object 1237649961917677674 at index 105
+2024-04-12 10:39:14,081 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:14,090 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961917677674_spectra.csv
+2024-04-12 10:39:14,090 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961917677674_spectra_denoised.csv
+2024-04-12 10:39:14,097 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961917677674_spectra_denoised.csv
+2024-04-12 10:39:14,106 - INFO - [MainThread] - Written Processed File 1237649961917677674_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961917677674_spectra_main.csv
+2024-04-12 10:39:14,106 - INFO - [MainThread] - Downloading for Object 1237649961918267493 at index 106
+2024-04-12 10:39:14,262 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:14,274 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961918267493_spectra.csv
+2024-04-12 10:39:14,274 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961918267493_spectra_denoised.csv
+2024-04-12 10:39:14,282 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961918267493_spectra_denoised.csv
+2024-04-12 10:39:14,290 - INFO - [MainThread] - Written Processed File 1237649961918267493_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961918267493_spectra_main.csv
+2024-04-12 10:39:14,290 - INFO - [MainThread] - Downloading for Object 1237649961919709309 at index 107
+2024-04-12 10:39:14,451 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:14,462 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961919709309_spectra.csv
+2024-04-12 10:39:14,462 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961919709309_spectra_denoised.csv
+2024-04-12 10:39:14,470 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961919709309_spectra_denoised.csv
+2024-04-12 10:39:14,479 - INFO - [MainThread] - Written Processed File 1237649961919709309_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961919709309_spectra_main.csv
+2024-04-12 10:39:14,479 - INFO - [MainThread] - Downloading for Object 1237649961919840502 at index 108
+2024-04-12 10:39:14,636 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:14,643 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961919840502_spectra.csv
+2024-04-12 10:39:14,643 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961919840502_spectra_denoised.csv
+2024-04-12 10:39:14,650 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961919840502_spectra_denoised.csv
+2024-04-12 10:39:14,657 - INFO - [MainThread] - Written Processed File 1237649961919840502_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961919840502_spectra_main.csv
+2024-04-12 10:39:14,657 - INFO - [MainThread] - Downloading for Object 1237649961920102756 at index 109
+2024-04-12 10:39:14,816 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:14,825 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961920102756_spectra.csv
+2024-04-12 10:39:14,825 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961920102756_spectra_denoised.csv
+2024-04-12 10:39:14,833 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961920102756_spectra_denoised.csv
+2024-04-12 10:39:14,841 - INFO - [MainThread] - Written Processed File 1237649961920102756_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961920102756_spectra_main.csv
+2024-04-12 10:39:14,841 - INFO - [MainThread] - Downloading for Object 1237649961920430130 at index 110
+2024-04-12 10:39:15,000 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,011 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961920430130_spectra.csv
+2024-04-12 10:39:15,011 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961920430130_spectra_denoised.csv
+2024-04-12 10:39:15,020 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961920430130_spectra_denoised.csv
+2024-04-12 10:39:15,028 - INFO - [MainThread] - Written Processed File 1237649961920430130_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961920430130_spectra_main.csv
+2024-04-12 10:39:15,028 - INFO - [MainThread] - Downloading for Object 1237649961920430178 at index 111
+2024-04-12 10:39:15,188 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,198 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961920430178_spectra.csv
+2024-04-12 10:39:15,198 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961920430178_spectra_denoised.csv
+2024-04-12 10:39:15,207 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961920430178_spectra_denoised.csv
+2024-04-12 10:39:15,215 - INFO - [MainThread] - Written Processed File 1237649961920430178_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961920430178_spectra_main.csv
+2024-04-12 10:39:15,215 - INFO - [MainThread] - Downloading for Object 1237649961920757813 at index 112
+2024-04-12 10:39:15,376 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,385 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961920757813_spectra.csv
+2024-04-12 10:39:15,385 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961920757813_spectra_denoised.csv
+2024-04-12 10:39:15,392 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961920757813_spectra_denoised.csv
+2024-04-12 10:39:15,399 - INFO - [MainThread] - Written Processed File 1237649961920757813_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961920757813_spectra_main.csv
+2024-04-12 10:39:15,399 - INFO - [MainThread] - Downloading for Object 1237649961920889243 at index 113
+2024-04-12 10:39:15,557 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,568 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961920889243_spectra.csv
+2024-04-12 10:39:15,568 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961920889243_spectra_denoised.csv
+2024-04-12 10:39:15,576 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961920889243_spectra_denoised.csv
+2024-04-12 10:39:15,585 - INFO - [MainThread] - Written Processed File 1237649961920889243_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961920889243_spectra_main.csv
+2024-04-12 10:39:15,585 - INFO - [MainThread] - Downloading for Object 1237649961921085481 at index 114
+2024-04-12 10:39:15,744 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,754 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921085481_spectra.csv
+2024-04-12 10:39:15,754 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921085481_spectra_denoised.csv
+2024-04-12 10:39:15,761 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921085481_spectra_denoised.csv
+2024-04-12 10:39:15,769 - INFO - [MainThread] - Written Processed File 1237649961921085481_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921085481_spectra_main.csv
+2024-04-12 10:39:15,769 - INFO - [MainThread] - Downloading for Object 1237649961921151163 at index 115
+2024-04-12 10:39:15,926 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:15,936 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921151163_spectra.csv
+2024-04-12 10:39:15,936 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921151163_spectra_denoised.csv
+2024-04-12 10:39:15,943 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921151163_spectra_denoised.csv
+2024-04-12 10:39:15,951 - INFO - [MainThread] - Written Processed File 1237649961921151163_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921151163_spectra_main.csv
+2024-04-12 10:39:15,951 - INFO - [MainThread] - Downloading for Object 1237649961921806519 at index 116
+2024-04-12 10:39:16,107 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:16,118 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921806519_spectra.csv
+2024-04-12 10:39:16,118 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921806519_spectra_denoised.csv
+2024-04-12 10:39:16,128 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921806519_spectra_denoised.csv
+2024-04-12 10:39:16,138 - INFO - [MainThread] - Written Processed File 1237649961921806519_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921806519_spectra_main.csv
+2024-04-12 10:39:16,138 - INFO - [MainThread] - Downloading for Object 1237649961921872049 at index 117
+2024-04-12 10:39:16,297 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:16,304 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921872049_spectra.csv
+2024-04-12 10:39:16,304 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921872049_spectra_denoised.csv
+2024-04-12 10:39:16,313 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921872049_spectra_denoised.csv
+2024-04-12 10:39:16,321 - INFO - [MainThread] - Written Processed File 1237649961921872049_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921872049_spectra_main.csv
+2024-04-12 10:39:16,321 - INFO - [MainThread] - Downloading for Object 1237649961921937494 at index 118
+2024-04-12 10:39:16,480 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:16,489 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921937494_spectra.csv
+2024-04-12 10:39:16,489 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921937494_spectra_denoised.csv
+2024-04-12 10:39:16,498 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921937494_spectra_denoised.csv
+2024-04-12 10:39:16,506 - INFO - [MainThread] - Written Processed File 1237649961921937494_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921937494_spectra_main.csv
+2024-04-12 10:39:16,506 - INFO - [MainThread] - Downloading for Object 1237649961921937606 at index 119
+2024-04-12 10:39:16,665 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:16,677 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961921937606_spectra.csv
+2024-04-12 10:39:16,677 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961921937606_spectra_denoised.csv
+2024-04-12 10:39:16,687 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961921937606_spectra_denoised.csv
+2024-04-12 10:39:16,696 - INFO - [MainThread] - Written Processed File 1237649961921937606_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961921937606_spectra_main.csv
+2024-04-12 10:39:16,697 - INFO - [MainThread] - Downloading for Object 1237649961922002955 at index 120
+2024-04-12 10:39:16,855 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:16,866 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922002955_spectra.csv
+2024-04-12 10:39:16,866 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922002955_spectra_denoised.csv
+2024-04-12 10:39:16,874 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922002955_spectra_denoised.csv
+2024-04-12 10:39:16,882 - INFO - [MainThread] - Written Processed File 1237649961922002955_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922002955_spectra_main.csv
+2024-04-12 10:39:16,882 - INFO - [MainThread] - Downloading for Object 1237649961922003042 at index 121
+2024-04-12 10:39:17,039 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,049 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922003042_spectra.csv
+2024-04-12 10:39:17,049 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922003042_spectra_denoised.csv
+2024-04-12 10:39:17,058 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922003042_spectra_denoised.csv
+2024-04-12 10:39:17,067 - INFO - [MainThread] - Written Processed File 1237649961922003042_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922003042_spectra_main.csv
+2024-04-12 10:39:17,067 - INFO - [MainThread] - Downloading for Object 1237649961922003045 at index 122
+2024-04-12 10:39:17,222 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,233 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922003045_spectra.csv
+2024-04-12 10:39:17,233 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922003045_spectra_denoised.csv
+2024-04-12 10:39:17,243 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922003045_spectra_denoised.csv
+2024-04-12 10:39:17,253 - INFO - [MainThread] - Written Processed File 1237649961922003045_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922003045_spectra_main.csv
+2024-04-12 10:39:17,253 - INFO - [MainThread] - Downloading for Object 1237649961922003175 at index 123
+2024-04-12 10:39:17,410 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,421 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922003175_spectra.csv
+2024-04-12 10:39:17,421 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922003175_spectra_denoised.csv
+2024-04-12 10:39:17,429 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922003175_spectra_denoised.csv
+2024-04-12 10:39:17,438 - INFO - [MainThread] - Written Processed File 1237649961922003175_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922003175_spectra_main.csv
+2024-04-12 10:39:17,439 - INFO - [MainThread] - Downloading for Object 1237649961922068486 at index 124
+2024-04-12 10:39:17,594 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,604 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922068486_spectra.csv
+2024-04-12 10:39:17,604 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922068486_spectra_denoised.csv
+2024-04-12 10:39:17,613 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922068486_spectra_denoised.csv
+2024-04-12 10:39:17,622 - INFO - [MainThread] - Written Processed File 1237649961922068486_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922068486_spectra_main.csv
+2024-04-12 10:39:17,622 - INFO - [MainThread] - Downloading for Object 1237649961922068567 at index 125
+2024-04-12 10:39:17,778 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,793 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922068567_spectra.csv
+2024-04-12 10:39:17,793 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922068567_spectra_denoised.csv
+2024-04-12 10:39:17,804 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922068567_spectra_denoised.csv
+2024-04-12 10:39:17,816 - INFO - [MainThread] - Written Processed File 1237649961922068567_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922068567_spectra_main.csv
+2024-04-12 10:39:17,816 - INFO - [MainThread] - Downloading for Object 1237649961922134040 at index 126
+2024-04-12 10:39:17,972 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:17,983 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922134040_spectra.csv
+2024-04-12 10:39:17,983 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922134040_spectra_denoised.csv
+2024-04-12 10:39:17,993 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922134040_spectra_denoised.csv
+2024-04-12 10:39:18,002 - INFO - [MainThread] - Written Processed File 1237649961922134040_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922134040_spectra_main.csv
+2024-04-12 10:39:18,002 - INFO - [MainThread] - Downloading for Object 1237649961922134044 at index 127
+2024-04-12 10:39:18,159 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:18,169 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922134044_spectra.csv
+2024-04-12 10:39:18,169 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922134044_spectra_denoised.csv
+2024-04-12 10:39:18,179 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922134044_spectra_denoised.csv
+2024-04-12 10:39:18,188 - INFO - [MainThread] - Written Processed File 1237649961922134044_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922134044_spectra_main.csv
+2024-04-12 10:39:18,189 - INFO - [MainThread] - Downloading for Object 1237649961922134062 at index 128
+2024-04-12 10:39:18,346 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:18,359 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922134062_spectra.csv
+2024-04-12 10:39:18,359 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922134062_spectra_denoised.csv
+2024-04-12 10:39:18,370 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922134062_spectra_denoised.csv
+2024-04-12 10:39:18,382 - INFO - [MainThread] - Written Processed File 1237649961922134062_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922134062_spectra_main.csv
+2024-04-12 10:39:18,382 - INFO - [MainThread] - Downloading for Object 1237649961922134086 at index 129
+2024-04-12 10:39:18,539 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:18,552 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922134086_spectra.csv
+2024-04-12 10:39:18,552 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922134086_spectra_denoised.csv
+2024-04-12 10:39:18,563 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922134086_spectra_denoised.csv
+2024-04-12 10:39:18,575 - INFO - [MainThread] - Written Processed File 1237649961922134086_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922134086_spectra_main.csv
+2024-04-12 10:39:18,575 - INFO - [MainThread] - Downloading for Object 1237649961922265115 at index 130
+2024-04-12 10:39:18,732 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:18,743 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922265115_spectra.csv
+2024-04-12 10:39:18,743 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922265115_spectra_denoised.csv
+2024-04-12 10:39:18,753 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922265115_spectra_denoised.csv
+2024-04-12 10:39:18,764 - INFO - [MainThread] - Written Processed File 1237649961922265115_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922265115_spectra_main.csv
+2024-04-12 10:39:18,764 - INFO - [MainThread] - Downloading for Object 1237649961922396178 at index 131
+2024-04-12 10:39:18,921 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:18,932 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922396178_spectra.csv
+2024-04-12 10:39:18,932 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922396178_spectra_denoised.csv
+2024-04-12 10:39:18,941 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922396178_spectra_denoised.csv
+2024-04-12 10:39:18,952 - INFO - [MainThread] - Written Processed File 1237649961922396178_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922396178_spectra_main.csv
+2024-04-12 10:39:18,953 - INFO - [MainThread] - Downloading for Object 1237649961922461793 at index 132
+2024-04-12 10:39:19,112 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:19,122 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922461793_spectra.csv
+2024-04-12 10:39:19,122 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922461793_spectra_denoised.csv
+2024-04-12 10:39:19,130 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922461793_spectra_denoised.csv
+2024-04-12 10:39:19,139 - INFO - [MainThread] - Written Processed File 1237649961922461793_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922461793_spectra_main.csv
+2024-04-12 10:39:19,139 - INFO - [MainThread] - Downloading for Object 1237649961922527262 at index 133
+2024-04-12 10:39:19,299 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:19,310 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922527262_spectra.csv
+2024-04-12 10:39:19,310 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922527262_spectra_denoised.csv
+2024-04-12 10:39:19,318 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922527262_spectra_denoised.csv
+2024-04-12 10:39:19,326 - INFO - [MainThread] - Written Processed File 1237649961922527262_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922527262_spectra_main.csv
+2024-04-12 10:39:19,326 - INFO - [MainThread] - Downloading for Object 1237649961922658445 at index 134
+2024-04-12 10:39:19,485 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:19,497 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922658445_spectra.csv
+2024-04-12 10:39:19,497 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922658445_spectra_denoised.csv
+2024-04-12 10:39:19,506 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922658445_spectra_denoised.csv
+2024-04-12 10:39:19,517 - INFO - [MainThread] - Written Processed File 1237649961922658445_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922658445_spectra_main.csv
+2024-04-12 10:39:19,517 - INFO - [MainThread] - Downloading for Object 1237649961922723867 at index 135
+2024-04-12 10:39:19,676 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:19,686 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922723867_spectra.csv
+2024-04-12 10:39:19,686 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922723867_spectra_denoised.csv
+2024-04-12 10:39:19,695 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922723867_spectra_denoised.csv
+2024-04-12 10:39:19,703 - INFO - [MainThread] - Written Processed File 1237649961922723867_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922723867_spectra_main.csv
+2024-04-12 10:39:19,703 - INFO - [MainThread] - Downloading for Object 1237649961922789531 at index 136
+2024-04-12 10:39:19,863 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:19,873 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922789531_spectra.csv
+2024-04-12 10:39:19,873 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922789531_spectra_denoised.csv
+2024-04-12 10:39:19,881 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922789531_spectra_denoised.csv
+2024-04-12 10:39:19,890 - INFO - [MainThread] - Written Processed File 1237649961922789531_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922789531_spectra_main.csv
+2024-04-12 10:39:19,890 - INFO - [MainThread] - Downloading for Object 1237649961922789590 at index 137
+2024-04-12 10:39:20,049 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:20,061 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922789590_spectra.csv
+2024-04-12 10:39:20,061 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922789590_spectra_denoised.csv
+2024-04-12 10:39:20,071 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922789590_spectra_denoised.csv
+2024-04-12 10:39:20,081 - INFO - [MainThread] - Written Processed File 1237649961922789590_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922789590_spectra_main.csv
+2024-04-12 10:39:20,081 - INFO - [MainThread] - Downloading for Object 1237649961922789592 at index 138
+2024-04-12 10:39:20,240 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:20,251 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922789592_spectra.csv
+2024-04-12 10:39:20,251 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922789592_spectra_denoised.csv
+2024-04-12 10:39:20,259 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922789592_spectra_denoised.csv
+2024-04-12 10:39:20,267 - INFO - [MainThread] - Written Processed File 1237649961922789592_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922789592_spectra_main.csv
+2024-04-12 10:39:20,267 - INFO - [MainThread] - Downloading for Object 1237649961922789601 at index 139
+2024-04-12 10:39:20,426 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:20,437 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922789601_spectra.csv
+2024-04-12 10:39:20,437 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922789601_spectra_denoised.csv
+2024-04-12 10:39:20,445 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922789601_spectra_denoised.csv
+2024-04-12 10:39:20,453 - INFO - [MainThread] - Written Processed File 1237649961922789601_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922789601_spectra_main.csv
+2024-04-12 10:39:20,453 - INFO - [MainThread] - Downloading for Object 1237649961922854966 at index 140
+2024-04-12 10:39:20,612 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:20,623 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922854966_spectra.csv
+2024-04-12 10:39:20,623 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922854966_spectra_denoised.csv
+2024-04-12 10:39:20,633 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922854966_spectra_denoised.csv
+2024-04-12 10:39:20,643 - INFO - [MainThread] - Written Processed File 1237649961922854966_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922854966_spectra_main.csv
+2024-04-12 10:39:20,644 - INFO - [MainThread] - Downloading for Object 1237649961922855075 at index 141
+2024-04-12 10:39:20,861 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:20,872 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961922855075_spectra.csv
+2024-04-12 10:39:20,872 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961922855075_spectra_denoised.csv
+2024-04-12 10:39:20,880 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961922855075_spectra_denoised.csv
+2024-04-12 10:39:20,888 - INFO - [MainThread] - Written Processed File 1237649961922855075_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961922855075_spectra_main.csv
+2024-04-12 10:39:20,888 - INFO - [MainThread] - Downloading for Object 1237649961923444760 at index 142
+2024-04-12 10:39:21,050 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:21,060 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961923444760_spectra.csv
+2024-04-12 10:39:21,060 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961923444760_spectra_denoised.csv
+2024-04-12 10:39:21,067 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961923444760_spectra_denoised.csv
+2024-04-12 10:39:21,074 - INFO - [MainThread] - Written Processed File 1237649961923444760_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961923444760_spectra_main.csv
+2024-04-12 10:39:21,074 - INFO - [MainThread] - Downloading for Object 1237649961923707079 at index 143
+2024-04-12 10:39:21,232 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:21,242 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961923707079_spectra.csv
+2024-04-12 10:39:21,242 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961923707079_spectra_denoised.csv
+2024-04-12 10:39:21,249 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961923707079_spectra_denoised.csv
+2024-04-12 10:39:21,256 - INFO - [MainThread] - Written Processed File 1237649961923707079_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961923707079_spectra_main.csv
+2024-04-12 10:39:21,256 - INFO - [MainThread] - Downloading for Object 1237649961923772661 at index 144
+2024-04-12 10:39:21,453 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:21,463 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961923772661_spectra.csv
+2024-04-12 10:39:21,463 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961923772661_spectra_denoised.csv
+2024-04-12 10:39:21,470 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961923772661_spectra_denoised.csv
+2024-04-12 10:39:21,477 - INFO - [MainThread] - Written Processed File 1237649961923772661_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961923772661_spectra_main.csv
+2024-04-12 10:39:21,477 - INFO - [MainThread] - Downloading for Object 1237649961923838156 at index 145
+2024-04-12 10:39:21,636 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:21,646 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649961923838156_spectra.csv
+2024-04-12 10:39:21,646 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649961923838156_spectra_denoised.csv
+2024-04-12 10:39:21,653 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649961923838156_spectra_denoised.csv
+2024-04-12 10:39:21,660 - INFO - [MainThread] - Written Processed File 1237649961923838156_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649961923838156_spectra_main.csv
+2024-04-12 10:39:21,661 - INFO - [MainThread] - Downloading for Object 1237649962453368927 at index 146
+2024-04-12 10:39:21,818 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:21,828 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453368927_spectra.csv
+2024-04-12 10:39:21,828 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453368927_spectra_denoised.csv
+2024-04-12 10:39:21,836 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453368927_spectra_denoised.csv
+2024-04-12 10:39:21,845 - INFO - [MainThread] - Written Processed File 1237649962453368927_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453368927_spectra_main.csv
+2024-04-12 10:39:21,845 - INFO - [MainThread] - Downloading for Object 1237649962453500140 at index 147
+2024-04-12 10:39:22,004 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,014 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453500140_spectra.csv
+2024-04-12 10:39:22,014 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453500140_spectra_denoised.csv
+2024-04-12 10:39:22,021 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453500140_spectra_denoised.csv
+2024-04-12 10:39:22,028 - INFO - [MainThread] - Written Processed File 1237649962453500140_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453500140_spectra_main.csv
+2024-04-12 10:39:22,028 - INFO - [MainThread] - Downloading for Object 1237649962453631073 at index 148
+2024-04-12 10:39:22,187 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,201 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453631073_spectra.csv
+2024-04-12 10:39:22,201 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453631073_spectra_denoised.csv
+2024-04-12 10:39:22,212 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453631073_spectra_denoised.csv
+2024-04-12 10:39:22,222 - INFO - [MainThread] - Written Processed File 1237649962453631073_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453631073_spectra_main.csv
+2024-04-12 10:39:22,222 - INFO - [MainThread] - Downloading for Object 1237649962453696636 at index 149
+2024-04-12 10:39:22,380 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,390 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453696636_spectra.csv
+2024-04-12 10:39:22,390 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453696636_spectra_denoised.csv
+2024-04-12 10:39:22,399 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453696636_spectra_denoised.csv
+2024-04-12 10:39:22,407 - INFO - [MainThread] - Written Processed File 1237649962453696636_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453696636_spectra_main.csv
+2024-04-12 10:39:22,408 - INFO - [MainThread] - Downloading for Object 1237649962453827592 at index 150
+2024-04-12 10:39:22,567 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,577 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453827592_spectra.csv
+2024-04-12 10:39:22,577 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453827592_spectra_denoised.csv
+2024-04-12 10:39:22,584 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453827592_spectra_denoised.csv
+2024-04-12 10:39:22,591 - INFO - [MainThread] - Written Processed File 1237649962453827592_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453827592_spectra_main.csv
+2024-04-12 10:39:22,591 - INFO - [MainThread] - Downloading for Object 1237649962453893281 at index 151
+2024-04-12 10:39:22,751 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,761 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962453893281_spectra.csv
+2024-04-12 10:39:22,761 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962453893281_spectra_denoised.csv
+2024-04-12 10:39:22,768 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962453893281_spectra_denoised.csv
+2024-04-12 10:39:22,775 - INFO - [MainThread] - Written Processed File 1237649962453893281_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962453893281_spectra_main.csv
+2024-04-12 10:39:22,775 - INFO - [MainThread] - Downloading for Object 1237649962454155479 at index 152
+2024-04-12 10:39:22,935 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:22,945 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962454155479_spectra.csv
+2024-04-12 10:39:22,945 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962454155479_spectra_denoised.csv
+2024-04-12 10:39:22,953 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962454155479_spectra_denoised.csv
+2024-04-12 10:39:22,963 - INFO - [MainThread] - Written Processed File 1237649962454155479_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962454155479_spectra_main.csv
+2024-04-12 10:39:22,963 - INFO - [MainThread] - Downloading for Object 1237649962454351951 at index 153
+2024-04-12 10:39:23,122 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:23,132 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962454351951_spectra.csv
+2024-04-12 10:39:23,132 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962454351951_spectra_denoised.csv
+2024-04-12 10:39:23,139 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962454351951_spectra_denoised.csv
+2024-04-12 10:39:23,146 - INFO - [MainThread] - Written Processed File 1237649962454351951_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962454351951_spectra_main.csv
+2024-04-12 10:39:23,146 - INFO - [MainThread] - Downloading for Object 1237649962454810647 at index 154
+2024-04-12 10:39:23,306 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:23,315 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962454810647_spectra.csv
+2024-04-12 10:39:23,315 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962454810647_spectra_denoised.csv
+2024-04-12 10:39:23,322 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962454810647_spectra_denoised.csv
+2024-04-12 10:39:23,329 - INFO - [MainThread] - Written Processed File 1237649962454810647_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962454810647_spectra_main.csv
+2024-04-12 10:39:23,329 - INFO - [MainThread] - Downloading for Object 1237649962454941831 at index 155
+2024-04-12 10:39:23,487 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:23,498 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962454941831_spectra.csv
+2024-04-12 10:39:23,498 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962454941831_spectra_denoised.csv
+2024-04-12 10:39:23,506 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962454941831_spectra_denoised.csv
+2024-04-12 10:39:23,514 - INFO - [MainThread] - Written Processed File 1237649962454941831_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962454941831_spectra_main.csv
+2024-04-12 10:39:23,515 - INFO - [MainThread] - Downloading for Object 1237649962457038933 at index 156
+2024-04-12 10:39:23,673 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:23,682 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962457038933_spectra.csv
+2024-04-12 10:39:23,682 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962457038933_spectra_denoised.csv
+2024-04-12 10:39:23,689 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962457038933_spectra_denoised.csv
+2024-04-12 10:39:23,696 - INFO - [MainThread] - Written Processed File 1237649962457038933_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962457038933_spectra_main.csv
+2024-04-12 10:39:23,696 - INFO - [MainThread] - Downloading for Object 1237649962457038971 at index 157
+2024-04-12 10:39:23,855 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:23,865 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962457038971_spectra.csv
+2024-04-12 10:39:23,865 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962457038971_spectra_denoised.csv
+2024-04-12 10:39:23,872 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962457038971_spectra_denoised.csv
+2024-04-12 10:39:23,878 - INFO - [MainThread] - Written Processed File 1237649962457038971_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962457038971_spectra_main.csv
+2024-04-12 10:39:23,878 - INFO - [MainThread] - Downloading for Object 1237649962457432198 at index 158
+2024-04-12 10:39:24,036 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,047 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962457432198_spectra.csv
+2024-04-12 10:39:24,047 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962457432198_spectra_denoised.csv
+2024-04-12 10:39:24,056 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962457432198_spectra_denoised.csv
+2024-04-12 10:39:24,064 - INFO - [MainThread] - Written Processed File 1237649962457432198_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962457432198_spectra_main.csv
+2024-04-12 10:39:24,065 - INFO - [MainThread] - Downloading for Object 1237649962458284243 at index 159
+2024-04-12 10:39:24,224 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,234 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458284243_spectra.csv
+2024-04-12 10:39:24,234 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458284243_spectra_denoised.csv
+2024-04-12 10:39:24,241 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458284243_spectra_denoised.csv
+2024-04-12 10:39:24,248 - INFO - [MainThread] - Written Processed File 1237649962458284243_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458284243_spectra_main.csv
+2024-04-12 10:39:24,248 - INFO - [MainThread] - Downloading for Object 1237649962458677316 at index 160
+2024-04-12 10:39:24,408 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,418 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458677316_spectra.csv
+2024-04-12 10:39:24,418 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458677316_spectra_denoised.csv
+2024-04-12 10:39:24,427 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458677316_spectra_denoised.csv
+2024-04-12 10:39:24,435 - INFO - [MainThread] - Written Processed File 1237649962458677316_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458677316_spectra_main.csv
+2024-04-12 10:39:24,435 - INFO - [MainThread] - Downloading for Object 1237649962458677355 at index 161
+2024-04-12 10:39:24,592 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,603 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458677355_spectra.csv
+2024-04-12 10:39:24,603 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458677355_spectra_denoised.csv
+2024-04-12 10:39:24,614 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458677355_spectra_denoised.csv
+2024-04-12 10:39:24,623 - INFO - [MainThread] - Written Processed File 1237649962458677355_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458677355_spectra_main.csv
+2024-04-12 10:39:24,624 - INFO - [MainThread] - Downloading for Object 1237649962458742968 at index 162
+2024-04-12 10:39:24,784 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,794 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458742968_spectra.csv
+2024-04-12 10:39:24,794 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458742968_spectra_denoised.csv
+2024-04-12 10:39:24,802 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458742968_spectra_denoised.csv
+2024-04-12 10:39:24,811 - INFO - [MainThread] - Written Processed File 1237649962458742968_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458742968_spectra_main.csv
+2024-04-12 10:39:24,811 - INFO - [MainThread] - Downloading for Object 1237649962458742995 at index 163
+2024-04-12 10:39:24,969 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:24,980 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458742995_spectra.csv
+2024-04-12 10:39:24,980 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458742995_spectra_denoised.csv
+2024-04-12 10:39:24,988 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458742995_spectra_denoised.csv
+2024-04-12 10:39:24,996 - INFO - [MainThread] - Written Processed File 1237649962458742995_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458742995_spectra_main.csv
+2024-04-12 10:39:24,997 - INFO - [MainThread] - Downloading for Object 1237649962458808376 at index 164
+2024-04-12 10:39:25,155 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:25,166 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458808376_spectra.csv
+2024-04-12 10:39:25,166 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458808376_spectra_denoised.csv
+2024-04-12 10:39:25,177 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458808376_spectra_denoised.csv
+2024-04-12 10:39:25,188 - INFO - [MainThread] - Written Processed File 1237649962458808376_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458808376_spectra_main.csv
+2024-04-12 10:39:25,188 - INFO - [MainThread] - Downloading for Object 1237649962458939398 at index 165
+2024-04-12 10:39:25,347 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:25,358 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458939398_spectra.csv
+2024-04-12 10:39:25,358 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458939398_spectra_denoised.csv
+2024-04-12 10:39:25,366 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458939398_spectra_denoised.csv
+2024-04-12 10:39:25,375 - INFO - [MainThread] - Written Processed File 1237649962458939398_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458939398_spectra_main.csv
+2024-04-12 10:39:25,375 - INFO - [MainThread] - Downloading for Object 1237649962458939403 at index 166
+2024-04-12 10:39:25,534 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:25,543 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962458939403_spectra.csv
+2024-04-12 10:39:25,543 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962458939403_spectra_denoised.csv
+2024-04-12 10:39:25,551 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962458939403_spectra_denoised.csv
+2024-04-12 10:39:25,559 - INFO - [MainThread] - Written Processed File 1237649962458939403_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962458939403_spectra_main.csv
+2024-04-12 10:39:25,559 - INFO - [MainThread] - Downloading for Object 1237649962459070474 at index 167
+2024-04-12 10:39:25,717 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:25,728 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459070474_spectra.csv
+2024-04-12 10:39:25,728 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459070474_spectra_denoised.csv
+2024-04-12 10:39:25,738 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459070474_spectra_denoised.csv
+2024-04-12 10:39:25,749 - INFO - [MainThread] - Written Processed File 1237649962459070474_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459070474_spectra_main.csv
+2024-04-12 10:39:25,749 - INFO - [MainThread] - Downloading for Object 1237649962459201596 at index 168
+2024-04-12 10:39:25,909 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:25,920 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459201596_spectra.csv
+2024-04-12 10:39:25,920 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459201596_spectra_denoised.csv
+2024-04-12 10:39:25,928 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459201596_spectra_denoised.csv
+2024-04-12 10:39:25,936 - INFO - [MainThread] - Written Processed File 1237649962459201596_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459201596_spectra_main.csv
+2024-04-12 10:39:25,936 - INFO - [MainThread] - Downloading for Object 1237649962459267082 at index 169
+2024-04-12 10:39:26,095 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:26,106 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459267082_spectra.csv
+2024-04-12 10:39:26,106 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459267082_spectra_denoised.csv
+2024-04-12 10:39:26,114 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459267082_spectra_denoised.csv
+2024-04-12 10:39:26,122 - INFO - [MainThread] - Written Processed File 1237649962459267082_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459267082_spectra_main.csv
+2024-04-12 10:39:26,122 - INFO - [MainThread] - Downloading for Object 1237649962459267139 at index 170
+2024-04-12 10:39:26,278 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:26,289 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459267139_spectra.csv
+2024-04-12 10:39:26,289 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459267139_spectra_denoised.csv
+2024-04-12 10:39:26,299 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459267139_spectra_denoised.csv
+2024-04-12 10:39:26,309 - INFO - [MainThread] - Written Processed File 1237649962459267139_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459267139_spectra_main.csv
+2024-04-12 10:39:26,309 - INFO - [MainThread] - Downloading for Object 1237649962459267161 at index 171
+2024-04-12 10:39:26,470 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:26,480 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459267161_spectra.csv
+2024-04-12 10:39:26,480 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459267161_spectra_denoised.csv
+2024-04-12 10:39:26,488 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459267161_spectra_denoised.csv
+2024-04-12 10:39:26,496 - INFO - [MainThread] - Written Processed File 1237649962459267161_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459267161_spectra_main.csv
+2024-04-12 10:39:26,497 - INFO - [MainThread] - Downloading for Object 1237649962459332787 at index 172
+2024-04-12 10:39:26,655 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:26,665 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459332787_spectra.csv
+2024-04-12 10:39:26,665 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459332787_spectra_denoised.csv
+2024-04-12 10:39:26,673 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459332787_spectra_denoised.csv
+2024-04-12 10:39:26,682 - INFO - [MainThread] - Written Processed File 1237649962459332787_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459332787_spectra_main.csv
+2024-04-12 10:39:26,682 - INFO - [MainThread] - Downloading for Object 1237649962459332794 at index 173
+2024-04-12 10:39:26,840 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:26,852 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459332794_spectra.csv
+2024-04-12 10:39:26,852 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459332794_spectra_denoised.csv
+2024-04-12 10:39:26,862 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459332794_spectra_denoised.csv
+2024-04-12 10:39:26,873 - INFO - [MainThread] - Written Processed File 1237649962459332794_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459332794_spectra_main.csv
+2024-04-12 10:39:26,873 - INFO - [MainThread] - Downloading for Object 1237649962459398204 at index 174
+2024-04-12 10:39:27,032 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,043 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459398204_spectra.csv
+2024-04-12 10:39:27,043 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459398204_spectra_denoised.csv
+2024-04-12 10:39:27,051 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459398204_spectra_denoised.csv
+2024-04-12 10:39:27,059 - INFO - [MainThread] - Written Processed File 1237649962459398204_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459398204_spectra_main.csv
+2024-04-12 10:39:27,060 - INFO - [MainThread] - Downloading for Object 1237649962459529391 at index 175
+2024-04-12 10:39:27,218 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,228 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459529391_spectra.csv
+2024-04-12 10:39:27,228 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459529391_spectra_denoised.csv
+2024-04-12 10:39:27,235 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459529391_spectra_denoised.csv
+2024-04-12 10:39:27,242 - INFO - [MainThread] - Written Processed File 1237649962459529391_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459529391_spectra_main.csv
+2024-04-12 10:39:27,242 - INFO - [MainThread] - Downloading for Object 1237649962459594927 at index 176
+2024-04-12 10:39:27,400 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,411 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459594927_spectra.csv
+2024-04-12 10:39:27,412 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459594927_spectra_denoised.csv
+2024-04-12 10:39:27,421 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459594927_spectra_denoised.csv
+2024-04-12 10:39:27,432 - INFO - [MainThread] - Written Processed File 1237649962459594927_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459594927_spectra_main.csv
+2024-04-12 10:39:27,432 - INFO - [MainThread] - Downloading for Object 1237649962459660376 at index 177
+2024-04-12 10:39:27,592 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,602 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459660376_spectra.csv
+2024-04-12 10:39:27,602 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459660376_spectra_denoised.csv
+2024-04-12 10:39:27,610 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459660376_spectra_denoised.csv
+2024-04-12 10:39:27,618 - INFO - [MainThread] - Written Processed File 1237649962459660376_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459660376_spectra_main.csv
+2024-04-12 10:39:27,618 - INFO - [MainThread] - Downloading for Object 1237649962459660424 at index 178
+2024-04-12 10:39:27,776 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,787 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459660424_spectra.csv
+2024-04-12 10:39:27,787 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459660424_spectra_denoised.csv
+2024-04-12 10:39:27,795 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459660424_spectra_denoised.csv
+2024-04-12 10:39:27,804 - INFO - [MainThread] - Written Processed File 1237649962459660424_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459660424_spectra_main.csv
+2024-04-12 10:39:27,804 - INFO - [MainThread] - Downloading for Object 1237649962459791455 at index 179
+2024-04-12 10:39:27,962 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:27,973 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459791455_spectra.csv
+2024-04-12 10:39:27,973 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459791455_spectra_denoised.csv
+2024-04-12 10:39:27,983 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459791455_spectra_denoised.csv
+2024-04-12 10:39:27,993 - INFO - [MainThread] - Written Processed File 1237649962459791455_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459791455_spectra_main.csv
+2024-04-12 10:39:27,993 - INFO - [MainThread] - Downloading for Object 1237649962459791496 at index 180
+2024-04-12 10:39:28,153 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:28,163 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459791496_spectra.csv
+2024-04-12 10:39:28,163 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459791496_spectra_denoised.csv
+2024-04-12 10:39:28,170 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459791496_spectra_denoised.csv
+2024-04-12 10:39:28,177 - INFO - [MainThread] - Written Processed File 1237649962459791496_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459791496_spectra_main.csv
+2024-04-12 10:39:28,177 - INFO - [MainThread] - Downloading for Object 1237649962459856904 at index 181
+2024-04-12 10:39:28,335 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:28,346 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459856904_spectra.csv
+2024-04-12 10:39:28,346 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459856904_spectra_denoised.csv
+2024-04-12 10:39:28,354 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459856904_spectra_denoised.csv
+2024-04-12 10:39:28,363 - INFO - [MainThread] - Written Processed File 1237649962459856904_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459856904_spectra_main.csv
+2024-04-12 10:39:28,363 - INFO - [MainThread] - Downloading for Object 1237649962459856975 at index 182
+2024-04-12 10:39:28,520 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:28,532 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459856975_spectra.csv
+2024-04-12 10:39:28,532 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459856975_spectra_denoised.csv
+2024-04-12 10:39:28,543 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459856975_spectra_denoised.csv
+2024-04-12 10:39:28,554 - INFO - [MainThread] - Written Processed File 1237649962459856975_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459856975_spectra_main.csv
+2024-04-12 10:39:28,554 - INFO - [MainThread] - Downloading for Object 1237649962459857047 at index 183
+2024-04-12 10:39:28,713 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:28,723 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459857047_spectra.csv
+2024-04-12 10:39:28,723 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459857047_spectra_denoised.csv
+2024-04-12 10:39:28,731 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459857047_spectra_denoised.csv
+2024-04-12 10:39:28,739 - INFO - [MainThread] - Written Processed File 1237649962459857047_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459857047_spectra_main.csv
+2024-04-12 10:39:28,739 - INFO - [MainThread] - Downloading for Object 1237649962459922444 at index 184
+2024-04-12 10:39:28,898 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:28,909 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459922444_spectra.csv
+2024-04-12 10:39:28,909 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459922444_spectra_denoised.csv
+2024-04-12 10:39:28,917 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459922444_spectra_denoised.csv
+2024-04-12 10:39:28,925 - INFO - [MainThread] - Written Processed File 1237649962459922444_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459922444_spectra_main.csv
+2024-04-12 10:39:28,925 - INFO - [MainThread] - Downloading for Object 1237649962459922446 at index 185
+2024-04-12 10:39:29,084 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:29,095 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459922446_spectra.csv
+2024-04-12 10:39:29,095 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459922446_spectra_denoised.csv
+2024-04-12 10:39:29,105 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459922446_spectra_denoised.csv
+2024-04-12 10:39:29,115 - INFO - [MainThread] - Written Processed File 1237649962459922446_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459922446_spectra_main.csv
+2024-04-12 10:39:29,115 - INFO - [MainThread] - Downloading for Object 1237649962459988033 at index 186
+2024-04-12 10:39:29,275 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:29,284 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962459988033_spectra.csv
+2024-04-12 10:39:29,284 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962459988033_spectra_denoised.csv
+2024-04-12 10:39:29,291 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962459988033_spectra_denoised.csv
+2024-04-12 10:39:29,298 - INFO - [MainThread] - Written Processed File 1237649962459988033_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962459988033_spectra_main.csv
+2024-04-12 10:39:29,298 - INFO - [MainThread] - Downloading for Object 1237649962460774574 at index 187
+2024-04-12 10:39:29,549 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:29,559 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962460774574_spectra.csv
+2024-04-12 10:39:29,559 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962460774574_spectra_denoised.csv
+2024-04-12 10:39:29,567 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962460774574_spectra_denoised.csv
+2024-04-12 10:39:29,575 - INFO - [MainThread] - Written Processed File 1237649962460774574_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962460774574_spectra_main.csv
+2024-04-12 10:39:29,575 - INFO - [MainThread] - Downloading for Object 1237649962989387793 at index 188
+2024-04-12 10:39:29,733 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:29,740 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962989387793_spectra.csv
+2024-04-12 10:39:29,740 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962989387793_spectra_denoised.csv
+2024-04-12 10:39:29,747 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962989387793_spectra_denoised.csv
+2024-04-12 10:39:29,754 - INFO - [MainThread] - Written Processed File 1237649962989387793_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962989387793_spectra_main.csv
+2024-04-12 10:39:29,754 - INFO - [MainThread] - Downloading for Object 1237649962989453320 at index 189
+2024-04-12 10:39:29,913 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:29,923 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962989453320_spectra.csv
+2024-04-12 10:39:29,923 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962989453320_spectra_denoised.csv
+2024-04-12 10:39:29,930 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962989453320_spectra_denoised.csv
+2024-04-12 10:39:29,937 - INFO - [MainThread] - Written Processed File 1237649962989453320_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962989453320_spectra_main.csv
+2024-04-12 10:39:29,937 - INFO - [MainThread] - Downloading for Object 1237649962989584390 at index 190
+2024-04-12 10:39:30,096 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:30,106 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962989584390_spectra.csv
+2024-04-12 10:39:30,106 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962989584390_spectra_denoised.csv
+2024-04-12 10:39:30,113 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962989584390_spectra_denoised.csv
+2024-04-12 10:39:30,120 - INFO - [MainThread] - Written Processed File 1237649962989584390_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962989584390_spectra_main.csv
+2024-04-12 10:39:30,120 - INFO - [MainThread] - Downloading for Object 1237649962989650135 at index 191
+2024-04-12 10:39:30,277 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:30,289 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962989650135_spectra.csv
+2024-04-12 10:39:30,289 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962989650135_spectra_denoised.csv
+2024-04-12 10:39:30,298 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962989650135_spectra_denoised.csv
+2024-04-12 10:39:30,309 - INFO - [MainThread] - Written Processed File 1237649962989650135_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962989650135_spectra_main.csv
+2024-04-12 10:39:30,309 - INFO - [MainThread] - Downloading for Object 1237649962990239831 at index 192
+2024-04-12 10:39:30,468 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:30,478 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962990239831_spectra.csv
+2024-04-12 10:39:30,478 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962990239831_spectra_denoised.csv
+2024-04-12 10:39:30,485 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962990239831_spectra_denoised.csv
+2024-04-12 10:39:30,491 - INFO - [MainThread] - Written Processed File 1237649962990239831_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962990239831_spectra_main.csv
+2024-04-12 10:39:30,492 - INFO - [MainThread] - Downloading for Object 1237649962991288347 at index 193
+2024-04-12 10:39:30,650 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:30,660 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962991288347_spectra.csv
+2024-04-12 10:39:30,660 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962991288347_spectra_denoised.csv
+2024-04-12 10:39:30,667 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962991288347_spectra_denoised.csv
+2024-04-12 10:39:30,674 - INFO - [MainThread] - Written Processed File 1237649962991288347_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962991288347_spectra_main.csv
+2024-04-12 10:39:30,674 - INFO - [MainThread] - Downloading for Object 1237649962991485014 at index 194
+2024-04-12 10:39:30,832 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:30,844 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962991485014_spectra.csv
+2024-04-12 10:39:30,844 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962991485014_spectra_denoised.csv
+2024-04-12 10:39:30,855 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962991485014_spectra_denoised.csv
+2024-04-12 10:39:30,867 - INFO - [MainThread] - Written Processed File 1237649962991485014_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962991485014_spectra_main.csv
+2024-04-12 10:39:30,868 - INFO - [MainThread] - Downloading for Object 1237649962991550560 at index 195
+2024-04-12 10:39:31,024 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,034 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962991550560_spectra.csv
+2024-04-12 10:39:31,034 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962991550560_spectra_denoised.csv
+2024-04-12 10:39:31,041 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962991550560_spectra_denoised.csv
+2024-04-12 10:39:31,047 - INFO - [MainThread] - Written Processed File 1237649962991550560_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962991550560_spectra_main.csv
+2024-04-12 10:39:31,048 - INFO - [MainThread] - Downloading for Object 1237649962992402514 at index 196
+2024-04-12 10:39:31,207 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,216 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962992402514_spectra.csv
+2024-04-12 10:39:31,216 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962992402514_spectra_denoised.csv
+2024-04-12 10:39:31,223 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962992402514_spectra_denoised.csv
+2024-04-12 10:39:31,230 - INFO - [MainThread] - Written Processed File 1237649962992402514_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962992402514_spectra_main.csv
+2024-04-12 10:39:31,230 - INFO - [MainThread] - Downloading for Object 1237649962992795731 at index 197
+2024-04-12 10:39:31,389 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,399 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962992795731_spectra.csv
+2024-04-12 10:39:31,399 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962992795731_spectra_denoised.csv
+2024-04-12 10:39:31,408 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962992795731_spectra_denoised.csv
+2024-04-12 10:39:31,416 - INFO - [MainThread] - Written Processed File 1237649962992795731_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962992795731_spectra_main.csv
+2024-04-12 10:39:31,416 - INFO - [MainThread] - Downloading for Object 1237649962993582323 at index 198
+2024-04-12 10:39:31,575 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,585 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962993582323_spectra.csv
+2024-04-12 10:39:31,585 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962993582323_spectra_denoised.csv
+2024-04-12 10:39:31,592 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962993582323_spectra_denoised.csv
+2024-04-12 10:39:31,599 - INFO - [MainThread] - Written Processed File 1237649962993582323_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962993582323_spectra_main.csv
+2024-04-12 10:39:31,599 - INFO - [MainThread] - Downloading for Object 1237649962993909869 at index 199
+2024-04-12 10:39:31,758 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,768 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962993909869_spectra.csv
+2024-04-12 10:39:31,768 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962993909869_spectra_denoised.csv
+2024-04-12 10:39:31,775 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962993909869_spectra_denoised.csv
+2024-04-12 10:39:31,782 - INFO - [MainThread] - Written Processed File 1237649962993909869_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962993909869_spectra_main.csv
+2024-04-12 10:39:31,783 - INFO - [MainThread] - Downloading for Object 1237649962994040910 at index 200
+2024-04-12 10:39:31,939 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:31,949 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994040910_spectra.csv
+2024-04-12 10:39:31,949 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994040910_spectra_denoised.csv
+2024-04-12 10:39:31,958 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994040910_spectra_denoised.csv
+2024-04-12 10:39:31,966 - INFO - [MainThread] - Written Processed File 1237649962994040910_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994040910_spectra_main.csv
+2024-04-12 10:39:31,967 - INFO - [MainThread] - Downloading for Object 1237649962994303192 at index 201
+2024-04-12 10:39:32,126 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:32,136 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994303192_spectra.csv
+2024-04-12 10:39:32,136 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994303192_spectra_denoised.csv
+2024-04-12 10:39:32,143 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994303192_spectra_denoised.csv
+2024-04-12 10:39:32,150 - INFO - [MainThread] - Written Processed File 1237649962994303192_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994303192_spectra_main.csv
+2024-04-12 10:39:32,150 - INFO - [MainThread] - Downloading for Object 1237649962994303260 at index 202
+2024-04-12 10:39:32,308 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:32,317 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994303260_spectra.csv
+2024-04-12 10:39:32,318 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994303260_spectra_denoised.csv
+2024-04-12 10:39:32,324 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994303260_spectra_denoised.csv
+2024-04-12 10:39:32,331 - INFO - [MainThread] - Written Processed File 1237649962994303260_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994303260_spectra_main.csv
+2024-04-12 10:39:32,332 - INFO - [MainThread] - Downloading for Object 1237649962994434171 at index 203
+2024-04-12 10:39:32,490 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:32,500 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994434171_spectra.csv
+2024-04-12 10:39:32,500 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994434171_spectra_denoised.csv
+2024-04-12 10:39:32,508 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994434171_spectra_denoised.csv
+2024-04-12 10:39:32,517 - INFO - [MainThread] - Written Processed File 1237649962994434171_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994434171_spectra_main.csv
+2024-04-12 10:39:32,517 - INFO - [MainThread] - Downloading for Object 1237649962994565198 at index 204
+2024-04-12 10:39:32,675 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:32,685 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994565198_spectra.csv
+2024-04-12 10:39:32,685 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994565198_spectra_denoised.csv
+2024-04-12 10:39:32,692 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994565198_spectra_denoised.csv
+2024-04-12 10:39:32,699 - INFO - [MainThread] - Written Processed File 1237649962994565198_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994565198_spectra_main.csv
+2024-04-12 10:39:32,699 - INFO - [MainThread] - Downloading for Object 1237649962994565230 at index 205
+2024-04-12 10:39:32,858 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:32,868 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962994565230_spectra.csv
+2024-04-12 10:39:32,868 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962994565230_spectra_denoised.csv
+2024-04-12 10:39:32,874 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962994565230_spectra_denoised.csv
+2024-04-12 10:39:32,881 - INFO - [MainThread] - Written Processed File 1237649962994565230_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962994565230_spectra_main.csv
+2024-04-12 10:39:32,882 - INFO - [MainThread] - Downloading for Object 1237649962995548219 at index 206
+2024-04-12 10:39:33,037 - INFO - [MainThread] - File Already Exists skipping download
+2024-04-12 10:39:33,047 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649962995548219_spectra.csv
+2024-04-12 10:39:33,047 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649962995548219_spectra_denoised.csv
+2024-04-12 10:39:33,057 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649962995548219_spectra_denoised.csv
+2024-04-12 10:39:33,067 - INFO - [MainThread] - Written Processed File 1237649962995548219_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649962995548219_spectra_main.csv
+2024-04-12 10:39:33,067 - INFO - [MainThread] - Downloading for Object 1237649962995548228 at index 207

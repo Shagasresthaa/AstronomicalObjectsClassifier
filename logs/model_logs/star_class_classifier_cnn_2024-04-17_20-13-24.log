@@ -1,0 +1,13 @@
+2024-04-17 20:13:25,121 - INFO - [MainThread] - Using device: cuda
+2024-04-17 20:13:25,272 - INFO - [MainThread] - starClass
+G    5000
+F    5000
+B    5000
+A    5000
+M    4000
+K    4000
+O    2896
+Name: count, dtype: int64
+2024-04-17 20:13:25,282 - INFO - [MainThread] - Starting fold 1
+2024-04-17 20:13:25,289 - INFO - [MainThread] - Train class counts for fold 1: {'B': 4027, 'G': 4022, 'A': 4001, 'F': 3983, 'M': 3197, 'K': 3169, 'O': 2317}
+2024-04-17 20:13:25,289 - INFO - [MainThread] - Validation class counts for fold 1: {'F': 1017, 'A': 999, 'G': 978, 'B': 973, 'K': 831, 'M': 803, 'O': 579}

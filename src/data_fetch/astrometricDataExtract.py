@@ -142,11 +142,10 @@ def automateFetching(classes, options):
 
     for i, astroClass in enumerate(classes):
         try:
-            threadName = f"Thread-{astroClass}"  # Name the thread after the astroClass for clarity
+            threadName = f"Thread-{astroClass}"  
             logging.info(f"Initializing fetching for: {astroClass}")
             photoEnable = True
             sasFetchEnable = False
-            # Create a Thread for each class, giving it a meaningful name
             thread = threading.Thread(target=specMetaFetch, args=(astroClass, masterCsvFile, options, photoEnable, sasFetchEnable), name=threadName)
             threads.append(thread)
             thread.start()

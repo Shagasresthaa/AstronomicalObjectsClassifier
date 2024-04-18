@@ -1,0 +1,23 @@
+2024-04-17 17:58:55,285 - INFO - [MainThread] - Initiating Missing Data Download
+2024-04-17 17:58:55,290 - INFO - [MainThread] - Need to download additonal for the amount required for class O
+2024-04-17 17:58:55,290 - INFO - [MainThread] - Downloading 1 objects for class O
+2024-04-17 17:58:55,290 - INFO - [MainThread] - Downloading 1 objects for class O completed
+2024-04-17 17:58:55,297 - INFO - [MainThread] - Missing Data Download Completed for class O
+2024-04-17 17:58:55,305 - INFO - [MainThread] - Data is already available for the amount required for class B
+2024-04-17 17:58:55,315 - INFO - [MainThread] - Missing Data Download Completed for class B
+2024-04-17 17:58:55,344 - INFO - [MainThread] - Need to download additonal for the amount required for class A
+2024-04-17 17:58:55,344 - INFO - [MainThread] - Downloading 1 objects for class A
+2024-04-17 17:58:55,344 - INFO - [MainThread] - Attempting to download object: 1237651191363010838 Index: 0
+2024-04-17 17:58:55,344 - INFO - [MainThread] - Starting object download: 1237651191363010838
+2024-04-17 17:58:55,345 - INFO - [MainThread] - File does not exist or is empty at path data/raw/fits_files/spectral_fits/star/1237651191363010838_spec.fits
+2024-04-17 17:58:55,345 - INFO - [MainThread] - Object already downloaded and ready
+2024-04-17 17:58:55,345 - INFO - [MainThread] - Downloading 1 objects for class A completed
+2024-04-17 17:58:55,356 - INFO - [MainThread] - Missing Data Download Completed for class A
+2024-04-17 17:58:55,445 - INFO - [MainThread] - Data is already available for the amount required for class F
+2024-04-17 17:58:55,456 - INFO - [MainThread] - Missing Data Download Completed for class F
+2024-04-17 17:58:55,479 - INFO - [MainThread] - Data is already available for the amount required for class G
+2024-04-17 17:58:55,490 - INFO - [MainThread] - Missing Data Download Completed for class G
+2024-04-17 17:58:55,529 - INFO - [MainThread] - Data is already available for the amount required for class K
+2024-04-17 17:58:55,537 - INFO - [MainThread] - Missing Data Download Completed for class K
+2024-04-17 17:58:55,578 - INFO - [MainThread] - Data is already available for the amount required for class M
+2024-04-17 17:58:55,588 - INFO - [MainThread] - Missing Data Download Completed for class M

@@ -1,0 +1,27 @@
+2024-04-11 20:11:45,664 - INFO - [MainThread] - Need to add 1820 rows for class A
+2024-04-11 20:11:45,704 - INFO - [MainThread] - Need to add 2084 rows for class G
+2024-04-11 20:11:45,746 - INFO - [MainThread] - Need to add 222 rows for class K
+2024-04-11 20:11:45,798 - INFO - [MainThread] - Master Data File Class Infographic:
+2024-04-11 20:11:45,798 - INFO - [MainThread] - StarClass
+F    5000
+M    5000
+K    4778
+A    3180
+G    2916
+Name: count, dtype: int64
+2024-04-11 20:11:45,798 - INFO - [MainThread] - Additonal Raw Data File Class Infographic:
+2024-04-11 20:11:45,798 - INFO - [MainThread] - spectral_class
+G    2084
+A    1820
+K     222
+Name: count, dtype: int64
+2024-04-11 20:11:46,493 - INFO - [MainThread] - 1237649920044696123:
+2024-04-11 20:11:46,493 - INFO - [MainThread] - PlateID: 11052, MJD: 58438, FiberID: 39
+2024-04-11 20:11:46,493 - INFO - [MainThread] -  
+2024-04-11 20:11:49,176 - INFO - [MainThread] - Attempt 1: Writing data/raw/fits_files/spectral_fits/star/1237649920044696123_spec.fits ...
+2024-04-11 20:11:49,176 - ERROR - [MainThread] - Attempt 1 failed with error: Failed to parse: <Response [200]>
+2024-04-11 20:11:49,176 - INFO - [MainThread] - Attempt 2: Writing data/raw/fits_files/spectral_fits/star/1237649920044696123_spec.fits ...
+2024-04-11 20:11:49,176 - ERROR - [MainThread] - Attempt 2 failed with error: Failed to parse: <Response [200]>
+2024-04-11 20:11:49,176 - INFO - [MainThread] - Attempt 3: Writing data/raw/fits_files/spectral_fits/star/1237649920044696123_spec.fits ...
+2024-04-11 20:11:49,177 - ERROR - [MainThread] - Attempt 3 failed with error: Failed to parse: <Response [200]>
+2024-04-11 20:11:49,177 - ERROR - [MainThread] - All 3 attempts failed. Could not download the file.

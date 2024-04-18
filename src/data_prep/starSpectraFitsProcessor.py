@@ -46,10 +46,8 @@ def fitsExtractor(filepath, objid, index):
     logging.info(starData.head())
     logging.info(" ")
 
-    # Replace 'output_file.csv' with your desired output CSV file name
     csv_file_path = f'data/raw/fits_files/spectral_data_extract/star/{objid}_spectra.csv'
     logging.info(f"Writing processed data from file #{index + 1} with Object ID - {objid} to path: {csv_file_path}")
-    # Save the DataFrame to a CSV file
     starData.to_csv(csv_file_path, index=False)
     logging.info(f"Written processed data from file #{index + 1} with Object ID - {objid} to path: {csv_file_path}")
 

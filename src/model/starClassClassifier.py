@@ -2,7 +2,6 @@ from datetime import datetime
 import logging
 import os
 import pandas as pd
-from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -56,7 +55,7 @@ class InceptionModule(nn.Module):
         self.branch_pool = nn.Conv1d(in_channels, out_channels, kernel_size=1)
         self.relu = nn.ReLU()
         self.batch_norm = nn.BatchNorm1d(out_channels * 4)
-        self.dropout = nn.Dropout(p=0.2)  # Adjust dropout rate
+        self.dropout = nn.Dropout(p=0.2)  
 
     def forward(self, x):
         branch1x1 = self.dropout(self.branch1x1(x))
@@ -76,7 +75,7 @@ class StarCNN(nn.Module):
         reduced_sequence_length = sequence_length // 8
         
         self.dropout1 = nn.Dropout(p=0.5)
-        self.dropout2 = nn.Dropout(p=0.3)  # Adjust dropout rate
+        self.dropout2 = nn.Dropout(p=0.3)  
         
         flattened_size = reduced_sequence_length * 128 * 4
         self.fc1 = nn.Linear(flattened_size, 128)
@@ -108,7 +107,7 @@ def evaluate_model(model, dataloader, criterion, device, phase="Testing"):
     total = 0
     all_preds = []
     all_targets = []
-    misclassified_examples = []  # To store information about misclassified examples
+    #misclassified_examples = []  # To store information about misclassified examples
 
     with torch.no_grad():
         for features, targets in dataloader:
@@ -122,15 +121,16 @@ def evaluate_model(model, dataloader, criterion, device, phase="Testing"):
             all_preds.extend(predicted.cpu().numpy())
             all_targets.extend(targets.cpu().numpy())
 
-            # Check for misclassified examples
-            mismatches = predicted != targets
-            misclassified_indices = torch.nonzero(mismatches, as_tuple=False).squeeze(1).cpu().numpy()
-            if misclassified_indices.ndim == 0:  # Single element
-                misclassified_indices = [misclassified_indices.item()]
-            misclassified_examples.extend([
-                (index, pred.item(), true.item()) 
-                for index, pred, true in zip(misclassified_indices, predicted[mismatches], targets[mismatches])
-            ])
+            ## Check for misclassified examples
+            # No longer being used
+            #mismatches = predicted != targets
+            #misclassified_indices = torch.nonzero(mismatches, as_tuple=False).squeeze(1).cpu().numpy()
+            #if misclassified_indices.ndim == 0:  # Single element
+            #    misclassified_indices = [misclassified_indices.item()]
+            #misclassified_examples.extend([
+            #    (index, pred.item(), true.item()) 
+            #    for index, pred, true in zip(misclassified_indices, predicted[mismatches], targets[mismatches])
+            #])
 
     accuracy = 100 * correct / total
     logging.info(f'{phase} Loss: {total_loss / len(dataloader):.4f}, {phase} Accuracy: {accuracy:.2f}%')
@@ -298,7 +298,7 @@ def trainModel():
     # Once that is done run script starClassDataPreprocessAndAugment under data_prep which will check for corrupt fits files redownload, extract, augment, normalize and pad the data
     # Once this is completed verify the master files under data>augmentation>modelTrainingData>masterFileData
     # Once this is done you can proceed with running the model as all data is prepped and ready
-    sampleSizes = {'O': 2896, 'B': 4500, 'A': 4500, 'F': 4000, 'G': 4500, 'K': 4000, 'M': 4000}
+    sampleSizes = {'O': 2896, 'B': 3000, 'A': 3000, 'F': 3000, 'G': 3000, 'K': 3000, 'M': 3000}
     generateCombinedMasterFile(sampleSizes)
     master_file_path = 'data/augmentation/modelTrainingData/combined_master_star_classes_shuffled.csv'
     master_data = pd.read_csv(master_file_path)
@@ -314,6 +314,17 @@ def trainModel():
         train_subset = master_data.iloc[train_idx]
         val_subset = master_data.iloc[val_idx]
 
+        # Calculate class weights for the current fold based on training data
+        class_counts = train_subset['starClass'].value_counts()
+        total_samples = len(train_subset)
+        class_weights = {class_id: total_samples / count for class_id, count in class_counts.items()}
+        # Manually adjust weights for specific classes
+        class_weights['B'] *= 1.5  
+        class_weights['F'] *= 1.5  
+        class_weights['G'] *= 1.5  
+        class_weights['M'] *= 0.8  
+        weights = torch.tensor([class_weights.get(class_id, 1.0) for class_id in sorted(class_weights)], dtype=torch.float32).to(device)
+        
         # Log class distribution in the subsets
         train_class_counts = train_subset['starClass'].value_counts().to_dict()
         val_class_counts = val_subset['starClass'].value_counts().to_dict()
@@ -322,12 +333,12 @@ def trainModel():
 
         train_dataset = StarDataset(train_subset)
         val_dataset = StarDataset(val_subset)
-        train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
-        val_dataloader = DataLoader(val_dataset, batch_size=16)
+        train_dataloader = DataLoader(train_dataset, batch_size=6, shuffle=True)
+        val_dataloader = DataLoader(val_dataset, batch_size=6)
 
         # Initialize model, criterion, optimizer, and scheduler
         model = StarCNN(sequence_length=seqLen).to(device)  # Ensure sequence length matches your data
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.CrossEntropyLoss(weight=weights)
         optimizer = optim.AdamW(model.parameters(), lr=0.001, weight_decay=0.01)
         scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=3, verbose=True)
 

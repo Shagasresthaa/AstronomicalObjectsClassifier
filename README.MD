@@ -7,8 +7,11 @@ This project aims to classify astronomical objects using data from the Sloan Dig
 ## Features
 
 - Utilizes SDSS DR18 data.
-- Implements a CNN model for classification.
-- Provides a pipeline for data preprocessing, training, and evaluation.
+- Implements a multi-model approach to classify astronomical objects
+- Uses a binary classification CNN for classifying if an object is a star or not
+- Uses a Random Forest model to classify if an object is a Galaxy or a QSO
+- Uses a 1-D Time Series Analysis CNN Classifier to classify any given star into its major class type based on the Morgan–Keenan System
+- Provides a pipeline for data preprocessing, training, and evaluation
 
 ## Project Prerequisites
 
@@ -24,30 +27,33 @@ Clone the Project:
 - git clone git@github.com:Shagasresthaa/AstronomicalObjectsClassifier.git
 - cd AstronomicalObjectsClassifier
 
-(As per new Github security policies, you will need to either setup an SSH key and setup in your account or setup an access key [SSH setup is rather simple and wouldnt have any need to regenerate periodically like access key] in order to do any code movement.
+(As per new Github security policies, you will need to either setup an SSH key and do Github SSH setup or setup a rotating temporary access key [SSH setup is rather simple and wouldn't have any need to regenerate periodically like access key] to do any code movement.
 
-Heres a quick link to the tutorial to do so: https://www.youtube.com/watch?v=X40b9x9BFGo
+Here's a quick link to the tutorial to do so: https://www.youtube.com/watch?v=X40b9x9BFGo
 
 Set Up a Virtual Environment (Optional but recommended):
 
-(localEnv is the name i used, feel free to use any name but please make sure to add it in .gitignore as you dont want them in repo)
+(localEnv is the name used for this repo but make sure to name the local environment appropriately if you are using and add to .gitignore)
 
 - python -m venv localEnv
 - source localEnv/bin/activate # On Windows use `localEnv\Scripts\activate`
 
 ## Install Required Libraries:
 
-Navigate to the root of the project and install the required packages using pip with following command:
+Navigate to the root of the project and install the required packages using pip with the following command:
 
 pip install -r requirements.txt
 
-# Dataset Fetch Scripts Guide
+# Scripts Guide
 
-## CSV Data fetch
+Navigate to the root of the project and run the commands as per specifications and your requirements
 
-Navigate to the root of the project and run the following command which will fetch the latest data from SDSS API
+python3 -m path.to.directory
 
-python3 -m src.data_fetch.fetchCsvSearchTargetData
+E.g.: To run star classifier Model at path src/model/starClassClassifier.py
+    "python3 -m src.model.starClassClassifier" or "python -m src.model.starClassClassifier"
+
+# Script Directory paths might need to be altered based on the operating system in use (currently all paths used work well in a Linux environment)
 
 ## Additional Tools
 

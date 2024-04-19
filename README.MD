@@ -53,7 +53,10 @@ python3 -m path.to.directory
 E.g.: To run star classifier Model at path src/model/starClassClassifier.py
     "python3 -m src.model.starClassClassifier" or "python -m src.model.starClassClassifier"
 
-# Script Directory paths might need to be altered based on the operating system in use (currently all paths used work well in a Linux environment)
+## Script Directory paths might need to be altered based on the operating system in use (currently all paths used work well in a Linux environment)
+
+## Datasets used for the project (Fair Warning the datasets are massive in size): http://astronomical-objects-classifier-ml-cs-5821-sp-2024-team-nasa.s3-website-us-east-1.amazonaws.com/#
+
 
 ## Additional Tools
 

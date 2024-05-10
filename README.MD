@@ -63,3 +63,10 @@ E.g.: To run star classifier Model at path src/model/starClassClassifier.py
 - Jupyter Notebook: For exploratory data analysis and model prototyping.
 - Git: For version control.
 - SDSS Data Access: Familiarize yourself with any API requirements if you intend to download data programmatically.
+
+# Links
+## Final Report
+https://docs.google.com/document/d/1ZDG7YZVYs-TmtAimgGl4OibZnr7c_fC4FXyD6RzGKCQ/edit?usp=sharing 
+
+## Final Presentation
+https://docs.google.com/presentation/d/1Z-0BezzBDLCYE0P_Ll5b5kaQxfcwy_4iyZT_5lS9gHY/edit?usp=sharing

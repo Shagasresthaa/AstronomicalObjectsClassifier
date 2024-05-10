@@ -14,28 +14,28 @@ def write_test_eval(test_loader, model, device, log_file):
     #for true positives
     true_stars = 0
     true_galaxies = 0
-    true_qso = 0
+    # true_qso = 0
 
     #for false positives
     false_stars = 0
     false_galaxies = 0
-    false_qso = 0
+    # false_qso = 0
 
     #for missed classifications
     missed_stars = 0
     missed_galaxies = 0
-    missed_qso = 0
+    # missed_qso = 0
 
     false_star_galaxy = 0
-    false_star_qso = 0
+    # false_star_qso = 0
     false_galaxy_star = 0
-    false_galaxy_qso = 0
-    false_qso_star = 0
-    false_qso_galaxy = 0
+    # false_galaxy_qso = 0
+    # false_qso_star = 0
+    # false_qso_galaxy = 0
 
     total_stars = 0
     total_galaxies = 0
-    total_qso = 0
+    # total_qso = 0
 
     #test model
     correct = 0
@@ -47,36 +47,34 @@ def write_test_eval(test_loader, model, device, log_file):
             probabilities = nn.functional.softmax(outputs, dim=1)
             _, predicted = torch.max(outputs.data, 1)
             
-            print(probabilities)
-
             avg_galaxy_confidence = torch.mean(probabilities[:, 0]).item()
-            avg_qso_confidence = torch.mean(probabilities[:, 1]).item()
-            avg_star_confidence = torch.mean(probabilities[:, 2]).item()
+            # avg_qso_confidence = torch.mean(probabilities[:, 1]).item()
+            avg_star_confidence = torch.mean(probabilities[:, 1]).item()
 
             total += labels.size(0)
             total_stars += labels[labels == 0].size(0)
             total_galaxies += labels[labels == 1].size(0)
-            total_qso += labels[labels == 2].size(0)
+            # total_qso += labels[labels == 2].size(0)
             correct += (predicted == labels).sum().item()
 
             true_stars += ((predicted == 0) & (labels == 0)).sum().item()
             true_galaxies += ((predicted == 1) & (labels == 1)).sum().item()
-            true_qso += ((predicted == 2) & (labels == 2)).sum().item()
+            # true_qso += ((predicted == 2) & (labels == 2)).sum().item()
 
             false_stars += ((predicted == 0) & (labels != 0)).sum().item()
             false_galaxies += ((predicted == 1) & (labels != 1)).sum().item()
-            false_qso += ((predicted == 2) & (labels != 2)).sum().item()
+            # false_qso += ((predicted == 2) & (labels != 2)).sum().item()
 
             missed_stars += ((predicted != 0) & (labels == 0)).sum().item()
             missed_galaxies += ((predicted != 1) & (labels == 1)).sum().item()
-            missed_qso += ((predicted != 2) & (labels == 2)).sum().item()
+            # missed_qso += ((predicted != 2) & (labels == 2)).sum().item()
 
             false_star_galaxy += ((predicted == 0) & (labels == 1)).sum().item()
-            false_star_qso += ((predicted == 0) & (labels == 2)).sum().item()
+            # false_star_qso += ((predicted == 0) & (labels == 2)).sum().item()
             false_galaxy_star += ((predicted == 1) & (labels == 0)).sum().item()
-            false_galaxy_qso += ((predicted == 1) & (labels == 2)).sum().item()
-            false_qso_star += ((predicted == 2) & (labels == 0)).sum().item()
-            false_qso_galaxy += ((predicted == 2) & (labels == 1)).sum().item()
+            # false_galaxy_qso += ((predicted == 1) & (labels == 2)).sum().item()
+            # false_qso_star += ((predicted == 2) & (labels == 0)).sum().item()
+            # false_qso_galaxy += ((predicted == 2) & (labels == 1)).sum().item()
 
 
 
@@ -95,17 +93,17 @@ def write_test_eval(test_loader, model, device, log_file):
     false_galaxies = false_galaxies / total_galaxies
     missed_galaxies = missed_galaxies / total_galaxies
 
-    true_qso = true_qso / total_qso
-    false_qso = false_qso / total_qso
-    missed_qso = missed_qso / total_qso
+    # # # true_qso = true_qso / total_qso
+    # # # false_qso = false_qso / total_qso
+    # # # missed_qso = missed_qso / total_qso
 
     #confusion matrix percentages
     false_star_galaxy = false_star_galaxy / total_galaxies
-    false_star_qso = false_star_qso / total_qso
+    # # # false_star_qso = false_star_qso / total_qso
     false_galaxy_star = false_galaxy_star / total_stars
-    false_galaxy_qso = false_galaxy_qso / total_qso
-    false_qso_star = false_qso_star / total_stars
-    false_qso_galaxy = false_qso_galaxy / total_galaxies
+    # # # false_galaxy_qso = false_galaxy_qso / total_qso
+    # # false_qso_star = false_qso_star / total_stars
+    # # false_qso_galaxy = false_qso_galaxy / total_galaxies
 
     star_precision = true_stars / (true_stars + false_stars)
     star_recall = true_stars / (true_stars + missed_stars)
@@ -115,9 +113,9 @@ def write_test_eval(test_loader, model, device, log_file):
     galaxy_recall = true_galaxies / (true_galaxies + missed_galaxies)
     galaxy_f1 = 2 * (galaxy_precision * galaxy_recall) / (galaxy_precision + galaxy_recall)
 
-    qso_precision = true_qso / (true_qso + false_qso)
-    qso_recall = true_qso / (true_qso + missed_qso)
-    qso_f1 = 2 * (qso_precision * qso_recall) / (qso_precision + qso_recall)
+    # # # # qso_precision = true_qso / (true_qso + false_qso)
+    # # # # qso_recall = true_qso / (true_qso + missed_qso)
+    # # # # # qso_f1 = 2 * (qso_precision * qso_recall) / (qso_precision + qso_recall)
 
 
     # log_file.write(f'True stars: {true_stars * 100:.2f}%\n')
@@ -138,14 +136,13 @@ def write_test_eval(test_loader, model, device, log_file):
     log_file.write(f'Galaxy recall: {galaxy_recall * 100:.2f}%\n')
     log_file.write(f'Galaxy F1 score: {galaxy_f1 * 100:.2f}%\n\n')
 
-    log_file.write(f'QSO precision: {qso_precision * 100:.2f}%\n')
-    log_file.write(f'QSO recall: {qso_recall * 100:.2f}%\n')
-    log_file.write(f'QSO F1 score: {qso_f1 * 100:.2f}%\n\n')
+    # # log_file.write(f'QSO precision: {qso_precision * 100:.2f}%\n')
+    # # log_file.write(f'QSO recall: {qso_recall * 100:.2f}%\n')
+    # # log_file.write(f'QSO F1 score: {qso_f1 * 100:.2f}%\n\n')
 
     #create confusion matrix
-    matrix = np.array([[true_stars, false_galaxies, false_qso],
-                        [false_star_galaxy, true_galaxies, false_qso_galaxy],
-                        [false_star_qso, false_galaxy_qso, true_qso]])
+    matrix = np.array([[true_stars, false_galaxies],
+                        [false_star_galaxy, true_galaxies]])
     log_file.write(f'Confusion matrix:\n{matrix}\n\n')
     # log_file.write(f'Stars classified as galaxies: {false_galaxy_star * 100:.2f}%\n')
     # log_file.write(f'Stars classified as QSO: {false_qso_star * 100:.2f}%\n')
@@ -159,7 +156,7 @@ def write_test_eval(test_loader, model, device, log_file):
 
     log_file.write(f'Average star confidence: {avg_star_confidence * 100:.2f}%\n')
     log_file.write(f'Average galaxy confidence: {avg_galaxy_confidence * 100:.2f}%\n')
-    log_file.write(f'Average qso confidence: {avg_qso_confidence * 100:.2f}%\n\n')
+    # # log_file.write(f'Average qso confidence: {avg_qso_confidence * 100:.2f}%\n\n')
 
     log_file.close()
     return 1

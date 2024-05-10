@@ -9,6 +9,9 @@ from PIL import Image
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import time
+import sys
+sys.path.append("D:\AstronomicalObjectsClassifier")\
+
 from src.data_prep.preprocess import convert_to_numpy, data_split, clear_split, split_data, get_loaders
 from src.evaluation.eval import write_test_eval
 import tensorboard
@@ -25,16 +28,15 @@ zoomFilter = "zoomFilter"
 invertedFilter = "invFilter"
 masks = "OBFQFilter"
 
-data_dir = "data"
+data_dir = "data/"
 processed = "/processed"
-raw = "/raw/image_extracts"
 
-current_dataset = zoomFilter
+current_dataset = astroImages
 
 processed_dir = data_dir + processed + current_dataset
-raw_dir = data_dir + raw + current_dataset
+raw_dir = data_dir + current_dataset
 
-model_name = "Zoom_1epoch"
+model_name = "2class"
 class_names = ['galaxy', 'star']
 
 

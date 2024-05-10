@@ -1,0 +1,44 @@
+2024-04-11 20:28:06,439 - INFO - [MainThread] - Master Data File Class Infographic:
+2024-04-11 20:28:06,439 - INFO - [MainThread] - StarClass
+F    5000
+M    5000
+K    4778
+A    3180
+G    2916
+Name: count, dtype: int64
+2024-04-11 20:28:06,440 - INFO - [MainThread] - Additonal Raw Data File Class Infographic:
+2024-04-11 20:28:06,440 - INFO - [MainThread] - spectral_class
+G    2084
+A    1820
+K     222
+Name: count, dtype: int64
+2024-04-11 20:28:10,612 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920044696123_spec.fits on attempt 1.
+2024-04-11 20:28:10,620 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920044696123_spectra.csv
+2024-04-11 20:28:10,620 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920044696123_spectra_denoised.csv
+2024-04-11 20:28:10,629 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920044696123_spectra_denoised.csv
+2024-04-11 20:28:10,637 - INFO - [MainThread] - Written Processed File 1237649920044696123_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920044696123_spectra_main.csv
+2024-04-11 20:28:13,715 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920044826922_spec.fits on attempt 1.
+2024-04-11 20:28:13,722 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920044826922_spectra.csv
+2024-04-11 20:28:13,722 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920044826922_spectra_denoised.csv
+2024-04-11 20:28:13,729 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920044826922_spectra_denoised.csv
+2024-04-11 20:28:13,736 - INFO - [MainThread] - Written Processed File 1237649920044826922_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920044826922_spectra_main.csv
+2024-04-11 20:28:16,808 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920045154724_spec.fits on attempt 1.
+2024-04-11 20:28:16,816 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045154724_spectra.csv
+2024-04-11 20:28:16,816 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045154724_spectra_denoised.csv
+2024-04-11 20:28:16,825 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045154724_spectra_denoised.csv
+2024-04-11 20:28:16,833 - INFO - [MainThread] - Written Processed File 1237649920045154724_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045154724_spectra_main.csv
+2024-04-11 20:28:20,000 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920045547591_spec.fits on attempt 1.
+2024-04-11 20:28:20,008 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045547591_spectra.csv
+2024-04-11 20:28:20,008 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045547591_spectra_denoised.csv
+2024-04-11 20:28:20,015 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045547591_spectra_denoised.csv
+2024-04-11 20:28:20,022 - INFO - [MainThread] - Written Processed File 1237649920045547591_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045547591_spectra_main.csv
+2024-04-11 20:28:23,314 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920045613077_spec.fits on attempt 1.
+2024-04-11 20:28:23,323 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920045613077_spectra.csv
+2024-04-11 20:28:23,323 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920045613077_spectra_denoised.csv
+2024-04-11 20:28:23,331 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920045613077_spectra_denoised.csv
+2024-04-11 20:28:23,340 - INFO - [MainThread] - Written Processed File 1237649920045613077_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920045613077_spectra_main.csv
+2024-04-11 20:28:26,506 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237649920046530753_spec.fits on attempt 1.
+2024-04-11 20:28:26,513 - INFO - [MainThread] - Input CSV Path: data/raw/fits_files/spectral_data_extract/star/1237649920046530753_spectra.csv
+2024-04-11 20:28:26,513 - INFO - [MainThread] - Output CSV Path: data/processed/starSpectralNoiseReducedData/1237649920046530753_spectra_denoised.csv
+2024-04-11 20:28:26,520 - INFO - [MainThread] - Smoothed data saved to data/processed/starSpectralNoiseReducedData/1237649920046530753_spectra_denoised.csv
+2024-04-11 20:28:26,527 - INFO - [MainThread] - Written Processed File 1237649920046530753_spectra_main.csv to path: data/augmentation/finalProcessedSpectrumData/star/A/1237649920046530753_spectra_main.csv

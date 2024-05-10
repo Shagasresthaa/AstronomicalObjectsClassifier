@@ -1,0 +1,183 @@
+2024-04-17 23:25:45,362 - INFO - [MainThread] - Using device: cuda
+2024-04-17 23:25:45,478 - INFO - [MainThread] - starClass
+B    4000
+G    4000
+M    4000
+F    4000
+A    4000
+K    4000
+O    2896
+Name: count, dtype: int64
+2024-04-17 23:25:45,487 - INFO - [MainThread] - Starting fold 1
+2024-04-17 23:25:45,493 - INFO - [MainThread] - Train class counts for fold 1: {'A': 3249, 'G': 3200, 'F': 3196, 'K': 3191, 'M': 3189, 'B': 3150, 'O': 2341}
+2024-04-17 23:25:45,493 - INFO - [MainThread] - Validation class counts for fold 1: {'B': 850, 'M': 811, 'K': 809, 'F': 804, 'G': 800, 'A': 751, 'O': 555}
+2024-04-17 23:28:18,580 - INFO - [MainThread] - Epoch 1, Training Loss: 1.0184, Training Accuracy: 63.56%
+2024-04-17 23:28:38,854 - INFO - [MainThread] - Testing Loss: 0.7448, Testing Accuracy: 70.78%
+2024-04-17 23:28:38,865 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.70      0.75      0.73       555
+           B       0.71      0.59      0.64       850
+           A       0.61      0.76      0.68       751
+           F       0.60      0.70      0.65       804
+           G       0.74      0.42      0.53       800
+           K       0.71      0.87      0.78       809
+           M       0.94      0.89      0.91       811
+
+    accuracy                           0.71      5380
+   macro avg       0.72      0.71      0.70      5380
+weighted avg       0.72      0.71      0.70      5380
+
+2024-04-17 23:28:39,106 - INFO - [MainThread] - Epoch 1, Current Learning Rate: 0.001
+2024-04-17 23:28:39,297 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_1.pt for this fold
+2024-04-17 23:31:18,385 - INFO - [MainThread] - Epoch 2, Training Loss: 0.8709, Training Accuracy: 68.90%
+2024-04-17 23:31:35,274 - INFO - [MainThread] - Testing Loss: 0.6445, Testing Accuracy: 75.72%
+2024-04-17 23:31:35,284 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.75      0.76      0.75       555
+           B       0.62      0.80      0.70       850
+           A       0.74      0.72      0.73       751
+           F       0.69      0.62      0.65       804
+           G       0.77      0.59      0.67       800
+           K       0.87      0.84      0.86       809
+           M       0.90      0.96      0.93       811
+
+    accuracy                           0.76      5380
+   macro avg       0.76      0.76      0.76      5380
+weighted avg       0.76      0.76      0.76      5380
+
+2024-04-17 23:31:35,525 - INFO - [MainThread] - Epoch 2, Current Learning Rate: 0.001
+2024-04-17 23:31:35,704 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_2.pt for this fold
+2024-04-17 23:34:10,602 - INFO - [MainThread] - Epoch 3, Training Loss: 0.8040, Training Accuracy: 71.31%
+2024-04-17 23:34:31,491 - INFO - [MainThread] - Testing Loss: 0.6238, Testing Accuracy: 76.71%
+2024-04-17 23:34:31,502 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.90      0.72      0.80       555
+           B       0.65      0.86      0.74       850
+           A       0.73      0.73      0.73       751
+           F       0.70      0.65      0.67       804
+           G       0.76      0.61      0.67       800
+           K       0.85      0.81      0.83       809
+           M       0.87      0.97      0.92       811
+
+    accuracy                           0.77      5380
+   macro avg       0.78      0.76      0.77      5380
+weighted avg       0.77      0.77      0.77      5380
+
+2024-04-17 23:34:31,647 - INFO - [MainThread] - Epoch 3, Current Learning Rate: 0.001
+2024-04-17 23:34:31,826 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_3.pt for this fold
+2024-04-17 23:37:03,880 - INFO - [MainThread] - Epoch 4, Training Loss: 0.7655, Training Accuracy: 73.11%
+2024-04-17 23:37:19,744 - INFO - [MainThread] - Testing Loss: 0.5928, Testing Accuracy: 77.90%
+2024-04-17 23:37:19,754 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.89      0.74      0.81       555
+           B       0.67      0.83      0.74       850
+           A       0.81      0.71      0.76       751
+           F       0.73      0.56      0.64       804
+           G       0.65      0.80      0.72       800
+           K       0.87      0.82      0.84       809
+           M       0.93      0.97      0.95       811
+
+    accuracy                           0.78      5380
+   macro avg       0.79      0.78      0.78      5380
+weighted avg       0.79      0.78      0.78      5380
+
+2024-04-17 23:37:19,895 - INFO - [MainThread] - Epoch 4, Current Learning Rate: 0.001
+2024-04-17 23:37:20,062 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_4.pt for this fold
+2024-04-17 23:40:00,587 - INFO - [MainThread] - Epoch 5, Training Loss: 0.7290, Training Accuracy: 74.33%
+2024-04-17 23:40:18,066 - INFO - [MainThread] - Testing Loss: 0.5773, Testing Accuracy: 78.59%
+2024-04-17 23:40:18,075 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.82      0.78      0.80       555
+           B       0.67      0.84      0.74       850
+           A       0.86      0.66      0.75       751
+           F       0.76      0.61      0.67       804
+           G       0.74      0.75      0.74       800
+           K       0.87      0.86      0.86       809
+           M       0.85      0.98      0.91       811
+
+    accuracy                           0.79      5380
+   macro avg       0.79      0.78      0.78      5380
+weighted avg       0.79      0.79      0.78      5380
+
+2024-04-17 23:40:18,215 - INFO - [MainThread] - Epoch 5, Current Learning Rate: 0.001
+2024-04-17 23:40:18,399 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_5.pt for this fold
+2024-04-17 23:42:59,834 - INFO - [MainThread] - Epoch 6, Training Loss: 0.6987, Training Accuracy: 75.14%
+2024-04-17 23:43:16,252 - INFO - [MainThread] - Testing Loss: 0.5714, Testing Accuracy: 79.14%
+2024-04-17 23:43:16,262 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.83      0.76      0.79       555
+           B       0.65      0.88      0.75       850
+           A       0.83      0.71      0.77       751
+           F       0.81      0.57      0.67       804
+           G       0.70      0.82      0.75       800
+           K       0.91      0.81      0.86       809
+           M       0.92      0.96      0.94       811
+
+    accuracy                           0.79      5380
+   macro avg       0.81      0.79      0.79      5380
+weighted avg       0.81      0.79      0.79      5380
+
+2024-04-17 23:43:16,402 - INFO - [MainThread] - Epoch 6, Current Learning Rate: 0.001
+2024-04-17 23:43:16,548 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_6.pt for this fold
+2024-04-17 23:45:56,501 - INFO - [MainThread] - Epoch 7, Training Loss: 0.6893, Training Accuracy: 75.29%
+2024-04-17 23:46:13,561 - INFO - [MainThread] - Testing Loss: 0.5513, Testing Accuracy: 78.92%
+2024-04-17 23:46:13,571 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.88      0.77      0.82       555
+           B       0.68      0.88      0.77       850
+           A       0.88      0.67      0.76       751
+           F       0.83      0.47      0.60       804
+           G       0.64      0.86      0.73       800
+           K       0.85      0.88      0.86       809
+           M       0.92      0.97      0.95       811
+
+    accuracy                           0.79      5380
+   macro avg       0.81      0.79      0.79      5380
+weighted avg       0.81      0.79      0.78      5380
+
+2024-04-17 23:46:13,728 - INFO - [MainThread] - Epoch 7, Current Learning Rate: 0.001
+2024-04-17 23:46:13,874 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_7.pt for this fold
+2024-04-17 23:48:57,000 - INFO - [MainThread] - Epoch 8, Training Loss: 0.6537, Training Accuracy: 76.77%
+2024-04-17 23:49:13,864 - INFO - [MainThread] - Testing Loss: 0.5572, Testing Accuracy: 78.61%
+2024-04-17 23:49:13,874 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.77      0.80      0.78       555
+           B       0.68      0.80      0.74       850
+           A       0.79      0.72      0.75       751
+           F       0.79      0.60      0.68       804
+           G       0.74      0.76      0.75       800
+           K       0.86      0.84      0.85       809
+           M       0.88      0.98      0.92       811
+
+    accuracy                           0.79      5380
+   macro avg       0.79      0.79      0.78      5380
+weighted avg       0.79      0.79      0.78      5380
+
+2024-04-17 23:49:14,013 - INFO - [MainThread] - Epoch 8, Current Learning Rate: 0.001
+2024-04-17 23:51:58,899 - INFO - [MainThread] - Epoch 9, Training Loss: 0.6450, Training Accuracy: 76.60%
+2024-04-17 23:52:15,312 - INFO - [MainThread] - Testing Loss: 0.5216, Testing Accuracy: 80.43%
+2024-04-17 23:52:15,323 - INFO - [MainThread] - Testing Classification Report:
+              precision    recall  f1-score   support
+
+           O       0.88      0.73      0.80       555
+           B       0.64      0.91      0.75       850
+           A       0.92      0.65      0.76       751
+           F       0.75      0.71      0.73       804
+           G       0.73      0.78      0.76       800
+           K       0.92      0.84      0.88       809
+           M       0.96      0.96      0.96       811
+
+    accuracy                           0.80      5380
+   macro avg       0.83      0.80      0.81      5380
+weighted avg       0.82      0.80      0.81      5380
+
+2024-04-17 23:52:15,465 - INFO - [MainThread] - Epoch 9, Current Learning Rate: 0.001
+2024-04-17 23:52:15,614 - INFO - [MainThread] - Best model saved at models/star_model_2024-04-17_23-25-45/best_fold_model_epoch_9.pt for this fold

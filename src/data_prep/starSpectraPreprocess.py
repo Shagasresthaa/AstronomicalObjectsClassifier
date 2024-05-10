@@ -39,9 +39,7 @@ def autoDenoiseStarSpectralData():
 
     try:        
         for index, row in starData.iterrows():
-            # Path to your original data CSV file
             csv_input_path = f"data/raw/fits_files/spectral_data_extract/star/{row['objid']}_spectra.csv"
-            # Path to save the smoothed data CSV file  
             csv_output_path = f"data/processed/starSpectralNoiseReducedData/{row['objid']}_spectra_denoised.csv"
             smooth_flux(csv_input_path, csv_output_path)
     except Exception as e:

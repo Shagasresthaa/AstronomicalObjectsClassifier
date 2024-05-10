@@ -1,0 +1,19 @@
+2024-04-17 13:51:49,350 - INFO - [MainThread] - Initiating Missing Data Download
+2024-04-17 13:51:49,359 - INFO - [MainThread] - Downloading 1000 objects for class B
+2024-04-17 13:51:49,359 - INFO - [MainThread] - Attempting to download object: 1237661817097486790 Index: 0
+2024-04-17 13:51:49,359 - INFO - [MainThread] - Starting object download: 1237661817097486790
+2024-04-17 13:51:52,142 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817097486790_spec.fits on attempt 1.
+2024-04-17 13:51:52,143 - INFO - [MainThread] - Completed object download: 1237661817097486790
+2024-04-17 13:51:52,143 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:51:52,644 - INFO - [MainThread] - Attempting to download object: 1237661817099846360 Index: 1
+2024-04-17 13:51:52,644 - INFO - [MainThread] - Starting object download: 1237661817099846360
+2024-04-17 13:51:56,534 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817099846360_spec.fits on attempt 1.
+2024-04-17 13:51:56,535 - INFO - [MainThread] - Completed object download: 1237661817099846360
+2024-04-17 13:51:56,535 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:51:57,036 - INFO - [MainThread] - Attempting to download object: 1237661817634357547 Index: 2
+2024-04-17 13:51:57,036 - INFO - [MainThread] - Starting object download: 1237661817634357547
+2024-04-17 13:51:59,568 - INFO - [MainThread] - Successfully written data/raw/fits_files/spectral_fits/star/1237661817634357547_spec.fits on attempt 1.
+2024-04-17 13:51:59,569 - INFO - [MainThread] - Completed object download: 1237661817634357547
+2024-04-17 13:51:59,569 - INFO - [MainThread] - Initiating Sleep for 0.5 secs to preserve api rate limits
+2024-04-17 13:52:00,070 - INFO - [MainThread] - Attempting to download object: 1237661817636519980 Index: 3
+2024-04-17 13:52:00,070 - INFO - [MainThread] - Starting object download: 1237661817636519980

@@ -75,7 +75,7 @@ def trainSVMClassifier(df):
         'best_cv_score': grid_search.best_score_,
         'train_accuracy': train_accuracy,
         'test_accuracy': test_accuracy,
-        'confusion_matrix': conf_matrix.tolist(), # Convert numpy array to list for logging
+        'confusion_matrix': conf_matrix.tolist(), 
         'classification_report': classification_rep
     }
 
@@ -89,7 +89,7 @@ def automateTraining(classes):
     for astroClass in classes:
         procFile = os.path.join(procPhotoDataPath, f"combined_photometric_data_{astroClass}.csv")
         df = pd.read_csv(procFile, comment='#')
-        combinationDataframe.append(df.iloc[:25000])  # Adjust based on your dataset
+        combinationDataframe.append(df.iloc[:25000]) 
 
     combined_df = pd.concat(combinationDataframe, ignore_index=True)
     combined_df['u-g'] = combined_df['u'] - combined_df['g']

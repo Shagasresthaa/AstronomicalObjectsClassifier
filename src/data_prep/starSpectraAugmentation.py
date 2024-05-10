@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 import logging
 from datetime import datetime
+import requests as rqObj
 import os
+
+from configs.sdssApiEndpoints import SDSS_OBJ_SQL_SEARCH_BASE
 
 # Logging setup with timestamped filenames
 log_directory = "logs/data_processing_logs"
@@ -33,6 +36,20 @@ def classifStarByTemperature(temp):
     else:
         return 'Unknown'
 
+def getTemperatureFromSDSS(objid):
+    url = f"{SDSS_OBJ_SQL_SEARCH_BASE}cmd=SELECT elodieTEff FROM specObj WHERE bestobjid = '{objid}'&format=json"
+    try:
+        resp = rqObj.get(url)
+        resp.raise_for_status()  # Raise an HTTPError on bad requests
+        data = resp.json()
+        actualTemp = data[0]['Rows'][0]['elodieTEff']
+        return actualTemp
+    except rqObj.exceptions.HTTPError as e:
+        logging.error(f"HTTPError for objid {objid}: {str(e)}")
+    except Exception as e:
+        logging.error(f"Error for objid {objid}: {str(e)}")
+    return None  # Return None if any error occurs
+
 def augmentSpectraDataWithStarClass(csvInPath, objId):
     spectrumDf = pd.read_csv(csvInPath)
     spectrumDf.sort_values('wavelength', inplace=True)
@@ -46,7 +63,11 @@ def augmentSpectraDataWithStarClass(csvInPath, objId):
     lambdaMax = spectrumDf.loc[spectrumDf['smoothed_flux'].idxmax(), 'wavelength']
     b = 2.897e-3  # Weins Displacement Constant
     lambdaMaxMeters = lambdaMax * 1e-10  # Convert Angstroms to meters
-    temperature = b / lambdaMaxMeters   # Calculate Temperature using Weins Displacement Law
+
+    # No longer used as SDSS already has the most accurate measurements in SpecObj Table
+    #temperature = b / lambdaMaxMeters   # Calculate Temperature using Weins Displacement Law
+
+    temperature = getTemperatureFromSDSS(objId)
     starClassExpected = classifStarByTemperature(temperature)
     
     logging.info(f"Estimated Temperature and Class for object {objId}:")
@@ -68,22 +89,18 @@ def autoAugmentData():
     starData = pd.read_csv("data/raw/csv_extract/star/astro_data_batch_1.csv", comment='#', usecols=['objid'])
     starData = starData.iloc[:25000]
 
-    # Metadata for star class and temp data objid wise
-
     classifyResults = []
 
     try:        
         for index, row in starData.iterrows():
-            # Path to your original data CSV file
             logging.info(f"Index Counter: {index}")
             csvInPath = f"data/processed/starSpectralNoiseReducedData/{row['objid']}_spectra_denoised.csv"
-            # Path to save the smoothed data CSV file  
             result = augmentSpectraDataWithStarClass(csvInPath, row['objid'])
             classifyResults.append((row['objid'],) + result)
         
-            columns=['ObjID', 'OutputFilePath', 'TemperatureKelvin', 'MaxWavelengthAngstroms', 'MaxWaveLengthMeters', 'StarClass', 'WavelengthMin', 'WavelengthMax', 'SmoothedFluxMin', 'SmoothedFluxMax']
-            df_results = pd.DataFrame(classifyResults, columns=columns)
-            df_results.to_csv('data/augmentation/finalProcessedSpectrumData/star/starClassMetaDataIndex.csv', index=False)
+        columns=['ObjID', 'OutputFilePath', 'TemperatureKelvin', 'MaxWavelengthAngstroms', 'MaxWaveLengthMeters', 'StarClass', 'WavelengthMin', 'WavelengthMax', 'SmoothedFluxMin', 'SmoothedFluxMax']
+        df_results = pd.DataFrame(classifyResults, columns=columns)
+        df_results.to_csv('data/augmentation/finalProcessedSpectrumData/star/starClassMetaDataIndex.csv', index=False)
             
     except Exception as e:
         logging.exception(f"Failed to Augment Spectra data.....")

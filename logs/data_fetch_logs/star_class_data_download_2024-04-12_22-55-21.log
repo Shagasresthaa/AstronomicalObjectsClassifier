@@ -1,0 +1,16 @@
+2024-04-12 22:55:21,224 - INFO - [MainThread] - Starting to fetch Star Class Data
+2024-04-12 22:55:21,224 - INFO - [MainThread] - Fetching data for: O
+2024-04-12 22:55:22,035 - INFO - [MainThread] - Size: 2896
+2024-04-12 22:55:23,138 - INFO - [MainThread] - Fetching data for: B
+2024-04-12 22:55:23,821 - INFO - [MainThread] - Size: 10981
+2024-04-12 22:55:25,262 - INFO - [MainThread] - Fetching data for: A
+2024-04-12 22:55:25,971 - INFO - [MainThread] - Size: 95625
+2024-04-12 22:55:28,526 - INFO - [MainThread] - Fetching data for: F
+2024-04-12 22:55:29,173 - INFO - [MainThread] - Size: 366106
+2024-04-12 22:55:38,024 - INFO - [MainThread] - Fetching data for: G
+2024-04-12 22:55:39,079 - INFO - [MainThread] - Size: 83229
+2024-04-12 22:55:41,760 - INFO - [MainThread] - Fetching data for: K
+2024-04-12 22:55:42,458 - INFO - [MainThread] - Size: 164061
+2024-04-12 22:55:46,569 - INFO - [MainThread] - Fetching data for: M
+2024-04-12 22:55:47,132 - INFO - [MainThread] - Size: 179990
+2024-04-12 22:55:51,539 - INFO - [MainThread] - Completed fetching Star Class Data

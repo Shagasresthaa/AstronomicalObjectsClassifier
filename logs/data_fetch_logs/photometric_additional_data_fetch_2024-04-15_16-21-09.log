@@ -1,0 +1,1013 @@
+2024-04-15 16:21:09,220 - INFO - Starting Master File Additions for class K
+2024-04-15 16:21:09,466 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645941286568042, 'u': 24.63467, 'g': 21.49866, 'r': 21.45066, 'i': 19.92876, 'z': 21.05994}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645941286568042'"}]}]
+2024-04-15 16:21:09,466 - INFO - Received data from SDSS for object 1237645941286568042 for K now extracting data at index 0
+2024-04-15 16:21:09,469 - INFO - Successfully Added data from SDSS for object 1237645941286568042 for K at index 0
+2024-04-15 16:21:09,469 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:10,379 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645941824356481, 'u': 19.23401, 'g': 17.5333, 'r': 16.8743, 'i': 16.63157, 'z': 16.49762}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645941824356481'"}]}]
+2024-04-15 16:21:10,379 - INFO - Received data from SDSS for object 1237645941824356481 for K now extracting data at index 1
+2024-04-15 16:21:10,381 - INFO - Successfully Added data from SDSS for object 1237645941824356481 for K at index 1
+2024-04-15 16:21:10,381 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:11,307 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942898229350, 'u': 18.64558, 'g': 16.44336, 'r': 15.52452, 'i': 15.18185, 'z': 14.98858}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942898229350'"}]}]
+2024-04-15 16:21:11,307 - INFO - Received data from SDSS for object 1237645942898229350 for K now extracting data at index 2
+2024-04-15 16:21:11,309 - INFO - Successfully Added data from SDSS for object 1237645942898229350 for K at index 2
+2024-04-15 16:21:11,309 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:12,231 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942898229471, 'u': 21.17529, 'g': 18.88593, 'r': 17.84707, 'i': 17.4657, 'z': 17.22915}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942898229471'"}]}]
+2024-04-15 16:21:12,231 - INFO - Received data from SDSS for object 1237645942898229471 for K now extracting data at index 3
+2024-04-15 16:21:12,233 - INFO - Successfully Added data from SDSS for object 1237645942898229471 for K at index 3
+2024-04-15 16:21:12,233 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:13,154 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942905700448, 'u': 18.21801, 'g': 15.95427, 'r': 14.95673, 'i': 14.59481, 'z': 14.36269}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942905700448'"}]}]
+2024-04-15 16:21:13,154 - INFO - Received data from SDSS for object 1237645942905700448 for K now extracting data at index 4
+2024-04-15 16:21:13,157 - INFO - Successfully Added data from SDSS for object 1237645942905700448 for K at index 4
+2024-04-15 16:21:13,157 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:14,068 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942906028124, 'u': 21.96671, 'g': 19.09438, 'r': 17.6361, 'i': 16.9917, 'z': 16.56875}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942906028124'"}]}]
+2024-04-15 16:21:14,068 - INFO - Received data from SDSS for object 1237645942906028124 for K now extracting data at index 5
+2024-04-15 16:21:14,070 - INFO - Successfully Added data from SDSS for object 1237645942906028124 for K at index 5
+2024-04-15 16:21:14,070 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:14,996 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942906028214, 'u': 23.17228, 'g': 20.57825, 'r': 19.14963, 'i': 18.55397, 'z': 18.15417}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942906028214'"}]}]
+2024-04-15 16:21:14,996 - INFO - Received data from SDSS for object 1237645942906028214 for K now extracting data at index 6
+2024-04-15 16:21:14,998 - INFO - Successfully Added data from SDSS for object 1237645942906028214 for K at index 6
+2024-04-15 16:21:14,998 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:15,922 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645942906028231, 'u': 23.84005, 'g': 21.06144, 'r': 19.41521, 'i': 18.68657, 'z': 18.18893}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645942906028231'"}]}]
+2024-04-15 16:21:15,922 - INFO - Received data from SDSS for object 1237645942906028231 for K now extracting data at index 7
+2024-04-15 16:21:15,924 - INFO - Successfully Added data from SDSS for object 1237645942906028231 for K at index 7
+2024-04-15 16:21:15,924 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:16,847 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943434969245, 'u': 19.70997, 'g': 17.79713, 'r': 17.0113, 'i': 16.7352, 'z': 16.59122}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943434969245'"}]}]
+2024-04-15 16:21:16,847 - INFO - Received data from SDSS for object 1237645943434969245 for K now extracting data at index 8
+2024-04-15 16:21:16,849 - INFO - Successfully Added data from SDSS for object 1237645943434969245 for K at index 8
+2024-04-15 16:21:16,849 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:17,768 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943434969249, 'u': 20.87716, 'g': 18.34473, 'r': 17.20554, 'i': 16.76624, 'z': 16.51452}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943434969249'"}]}]
+2024-04-15 16:21:17,768 - INFO - Received data from SDSS for object 1237645943434969249 for K now extracting data at index 9
+2024-04-15 16:21:17,770 - INFO - Successfully Added data from SDSS for object 1237645943434969249 for K at index 9
+2024-04-15 16:21:17,770 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:18,679 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943434969267, 'u': 19.72747, 'g': 17.1829, 'r': 16.09258, 'i': 15.68735, 'z': 15.47521}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943434969267'"}]}]
+2024-04-15 16:21:18,680 - INFO - Received data from SDSS for object 1237645943434969267 for K now extracting data at index 10
+2024-04-15 16:21:18,682 - INFO - Successfully Added data from SDSS for object 1237645943434969267 for K at index 10
+2024-04-15 16:21:18,682 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:19,593 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943435034760, 'u': 20.08746, 'g': 18.24578, 'r': 17.40633, 'i': 17.00751, 'z': 16.77422}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943435034760'"}]}]
+2024-04-15 16:21:19,593 - INFO - Received data from SDSS for object 1237645943435034760 for K now extracting data at index 11
+2024-04-15 16:21:19,595 - INFO - Successfully Added data from SDSS for object 1237645943435034760 for K at index 11
+2024-04-15 16:21:19,595 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:20,506 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943435034831, 'u': 23.05161, 'g': 20.76102, 'r': 19.60165, 'i': 19.15798, 'z': 18.93674}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943435034831'"}]}]
+2024-04-15 16:21:20,506 - INFO - Received data from SDSS for object 1237645943435034831 for K now extracting data at index 12
+2024-04-15 16:21:20,509 - INFO - Successfully Added data from SDSS for object 1237645943435034831 for K at index 12
+2024-04-15 16:21:20,509 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:21,419 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943435035168, 'u': 24.78403, 'g': 23.01854, 'r': 22.37157, 'i': 22.2806, 'z': 22.4921}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943435035168'"}]}]
+2024-04-15 16:21:21,419 - INFO - Received data from SDSS for object 1237645943435035168 for K now extracting data at index 13
+2024-04-15 16:21:21,422 - INFO - Successfully Added data from SDSS for object 1237645943435035168 for K at index 13
+2024-04-15 16:21:21,422 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:22,344 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943973609591, 'u': 20.32457, 'g': 18.73342, 'r': 17.98873, 'i': 17.65988, 'z': 17.48757}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943973609591'"}]}]
+2024-04-15 16:21:22,344 - INFO - Received data from SDSS for object 1237645943973609591 for K now extracting data at index 14
+2024-04-15 16:21:22,346 - INFO - Successfully Added data from SDSS for object 1237645943973609591 for K at index 14
+2024-04-15 16:21:22,347 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:23,262 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943973609599, 'u': 19.48185, 'g': 17.89582, 'r': 17.25847, 'i': 17.01245, 'z': 16.8871}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943973609599'"}]}]
+2024-04-15 16:21:23,262 - INFO - Received data from SDSS for object 1237645943973609599 for K now extracting data at index 15
+2024-04-15 16:21:23,264 - INFO - Successfully Added data from SDSS for object 1237645943973609599 for K at index 15
+2024-04-15 16:21:23,264 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:24,173 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943973609643, 'u': 21.69848, 'g': 19.59746, 'r': 18.57647, 'i': 18.12275, 'z': 17.87411}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943973609643'"}]}]
+2024-04-15 16:21:24,173 - INFO - Received data from SDSS for object 1237645943973609643 for K now extracting data at index 16
+2024-04-15 16:21:24,176 - INFO - Successfully Added data from SDSS for object 1237645943973609643 for K at index 16
+2024-04-15 16:21:24,176 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:25,088 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943973609663, 'u': 24.58152, 'g': 20.59771, 'r': 19.39954, 'i': 18.89094, 'z': 18.63201}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943973609663'"}]}]
+2024-04-15 16:21:25,088 - INFO - Received data from SDSS for object 1237645943973609663 for K now extracting data at index 17
+2024-04-15 16:21:25,092 - INFO - Successfully Added data from SDSS for object 1237645943973609663 for K at index 17
+2024-04-15 16:21:25,092 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:26,064 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943973675213, 'u': 22.7391, 'g': 20.51887, 'r': 19.56112, 'i': 19.26419, 'z': 18.97214}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943973675213'"}]}]
+2024-04-15 16:21:26,064 - INFO - Received data from SDSS for object 1237645943973675213 for K now extracting data at index 18
+2024-04-15 16:21:26,066 - INFO - Successfully Added data from SDSS for object 1237645943973675213 for K at index 18
+2024-04-15 16:21:26,066 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:26,975 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943976493233, 'u': 22.08768, 'g': 20.0287, 'r': 19.2669, 'i': 18.97199, 'z': 18.77237}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943976493233'"}]}]
+2024-04-15 16:21:26,975 - INFO - Received data from SDSS for object 1237645943976493233 for K now extracting data at index 19
+2024-04-15 16:21:26,977 - INFO - Successfully Added data from SDSS for object 1237645943976493233 for K at index 19
+2024-04-15 16:21:26,977 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:27,907 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943976493254, 'u': 22.35711, 'g': 19.70595, 'r': 18.34925, 'i': 17.75518, 'z': 17.41731}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943976493254'"}]}]
+2024-04-15 16:21:27,907 - INFO - Received data from SDSS for object 1237645943976493254 for K now extracting data at index 20
+2024-04-15 16:21:27,909 - INFO - Successfully Added data from SDSS for object 1237645943976493254 for K at index 20
+2024-04-15 16:21:27,909 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:28,828 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943976493329, 'u': 22.89115, 'g': 21.13601, 'r': 19.93862, 'i': 19.40444, 'z': 19.09804}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943976493329'"}]}]
+2024-04-15 16:21:28,829 - INFO - Received data from SDSS for object 1237645943976493329 for K now extracting data at index 21
+2024-04-15 16:21:28,830 - INFO - Successfully Added data from SDSS for object 1237645943976493329 for K at index 21
+2024-04-15 16:21:28,830 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:29,765 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978262549, 'u': 18.18402, 'g': 16.48214, 'r': 15.80072, 'i': 15.61333, 'z': 16.15156}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978262549'"}]}]
+2024-04-15 16:21:29,765 - INFO - Received data from SDSS for object 1237645943978262549 for K now extracting data at index 22
+2024-04-15 16:21:29,767 - INFO - Successfully Added data from SDSS for object 1237645943978262549 for K at index 22
+2024-04-15 16:21:29,767 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:30,684 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978328248, 'u': 20.62678, 'g': 18.50295, 'r': 17.48383, 'i': 17.04765, 'z': 16.81023}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978328248'"}]}]
+2024-04-15 16:21:30,684 - INFO - Received data from SDSS for object 1237645943978328248 for K now extracting data at index 23
+2024-04-15 16:21:30,686 - INFO - Successfully Added data from SDSS for object 1237645943978328248 for K at index 23
+2024-04-15 16:21:30,686 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:31,613 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978328529, 'u': 24.24857, 'g': 21.68495, 'r': 20.45528, 'i': 19.97905, 'z': 19.67118}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978328529'"}]}]
+2024-04-15 16:21:31,613 - INFO - Received data from SDSS for object 1237645943978328529 for K now extracting data at index 24
+2024-04-15 16:21:31,615 - INFO - Successfully Added data from SDSS for object 1237645943978328529 for K at index 24
+2024-04-15 16:21:31,615 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:32,541 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393658, 'u': 18.65015, 'g': 16.75544, 'r': 15.99424, 'i': 15.71494, 'z': 15.58503}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393658'"}]}]
+2024-04-15 16:21:32,541 - INFO - Received data from SDSS for object 1237645943978393658 for K now extracting data at index 25
+2024-04-15 16:21:32,543 - INFO - Successfully Added data from SDSS for object 1237645943978393658 for K at index 25
+2024-04-15 16:21:32,543 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:33,473 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393677, 'u': 19.23016, 'g': 17.46111, 'r': 16.68479, 'i': 16.35664, 'z': 16.1784}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393677'"}]}]
+2024-04-15 16:21:33,473 - INFO - Received data from SDSS for object 1237645943978393677 for K now extracting data at index 26
+2024-04-15 16:21:33,475 - INFO - Successfully Added data from SDSS for object 1237645943978393677 for K at index 26
+2024-04-15 16:21:33,475 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:34,401 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393685, 'u': 21.65468, 'g': 19.21546, 'r': 18.02639, 'i': 17.52922, 'z': 17.25331}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393685'"}]}]
+2024-04-15 16:21:34,401 - INFO - Received data from SDSS for object 1237645943978393685 for K now extracting data at index 27
+2024-04-15 16:21:34,403 - INFO - Successfully Added data from SDSS for object 1237645943978393685 for K at index 27
+2024-04-15 16:21:34,403 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:35,316 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393716, 'u': 20.56224, 'g': 17.99504, 'r': 16.86986, 'i': 16.45277, 'z': 16.20638}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393716'"}]}]
+2024-04-15 16:21:35,316 - INFO - Received data from SDSS for object 1237645943978393716 for K now extracting data at index 28
+2024-04-15 16:21:35,318 - INFO - Successfully Added data from SDSS for object 1237645943978393716 for K at index 28
+2024-04-15 16:21:35,318 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:36,245 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393752, 'u': 20.49535, 'g': 17.88457, 'r': 16.7014, 'i': 16.23406, 'z': 15.98152}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393752'"}]}]
+2024-04-15 16:21:36,245 - INFO - Received data from SDSS for object 1237645943978393752 for K now extracting data at index 29
+2024-04-15 16:21:36,247 - INFO - Successfully Added data from SDSS for object 1237645943978393752 for K at index 29
+2024-04-15 16:21:36,247 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:37,164 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978393757, 'u': 22.12829, 'g': 20.17315, 'r': 19.35799, 'i': 19.04309, 'z': 18.74891}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978393757'"}]}]
+2024-04-15 16:21:37,164 - INFO - Received data from SDSS for object 1237645943978393757 for K now extracting data at index 30
+2024-04-15 16:21:37,166 - INFO - Successfully Added data from SDSS for object 1237645943978393757 for K at index 30
+2024-04-15 16:21:37,166 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:38,082 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978459229, 'u': 18.46397, 'g': 16.68569, 'r': 15.98719, 'i': 15.73248, 'z': 15.61455}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978459229'"}]}]
+2024-04-15 16:21:38,082 - INFO - Received data from SDSS for object 1237645943978459229 for K now extracting data at index 31
+2024-04-15 16:21:38,084 - INFO - Successfully Added data from SDSS for object 1237645943978459229 for K at index 31
+2024-04-15 16:21:38,084 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:38,996 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978459301, 'u': 20.70915, 'g': 18.04522, 'r': 16.78319, 'i': 16.29126, 'z': 16.01707}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978459301'"}]}]
+2024-04-15 16:21:38,996 - INFO - Received data from SDSS for object 1237645943978459301 for K now extracting data at index 32
+2024-04-15 16:21:38,998 - INFO - Successfully Added data from SDSS for object 1237645943978459301 for K at index 32
+2024-04-15 16:21:38,998 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:39,914 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978459322, 'u': 23.396, 'g': 20.05284, 'r': 18.66665, 'i': 18.02476, 'z': 17.65357}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978459322'"}]}]
+2024-04-15 16:21:39,914 - INFO - Received data from SDSS for object 1237645943978459322 for K now extracting data at index 33
+2024-04-15 16:21:39,916 - INFO - Successfully Added data from SDSS for object 1237645943978459322 for K at index 33
+2024-04-15 16:21:39,916 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:40,831 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978459324, 'u': 21.08278, 'g': 18.92605, 'r': 17.92677, 'i': 17.56554, 'z': 17.27912}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978459324'"}]}]
+2024-04-15 16:21:40,831 - INFO - Received data from SDSS for object 1237645943978459324 for K now extracting data at index 34
+2024-04-15 16:21:40,833 - INFO - Successfully Added data from SDSS for object 1237645943978459324 for K at index 34
+2024-04-15 16:21:40,833 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:41,759 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978459347, 'u': 21.30963, 'g': 18.59896, 'r': 17.32983, 'i': 16.84787, 'z': 16.58038}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978459347'"}]}]
+2024-04-15 16:21:41,759 - INFO - Received data from SDSS for object 1237645943978459347 for K now extracting data at index 35
+2024-04-15 16:21:41,761 - INFO - Successfully Added data from SDSS for object 1237645943978459347 for K at index 35
+2024-04-15 16:21:41,761 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:42,675 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978524759, 'u': 19.15007, 'g': 17.08453, 'r': 16.27119, 'i': 15.97778, 'z': 15.82429}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978524759'"}]}]
+2024-04-15 16:21:42,676 - INFO - Received data from SDSS for object 1237645943978524759 for K now extracting data at index 36
+2024-04-15 16:21:42,677 - INFO - Successfully Added data from SDSS for object 1237645943978524759 for K at index 36
+2024-04-15 16:21:42,677 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:43,590 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978524843, 'u': 21.4238, 'g': 19.13588, 'r': 17.8806, 'i': 17.36838, 'z': 17.0703}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978524843'"}]}]
+2024-04-15 16:21:43,590 - INFO - Received data from SDSS for object 1237645943978524843 for K now extracting data at index 37
+2024-04-15 16:21:43,592 - INFO - Successfully Added data from SDSS for object 1237645943978524843 for K at index 37
+2024-04-15 16:21:43,592 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:44,519 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978590383, 'u': 19.9204, 'g': 17.23539, 'r': 15.97411, 'i': 15.5109, 'z': 15.23752}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978590383'"}]}]
+2024-04-15 16:21:44,519 - INFO - Received data from SDSS for object 1237645943978590383 for K now extracting data at index 38
+2024-04-15 16:21:44,521 - INFO - Successfully Added data from SDSS for object 1237645943978590383 for K at index 38
+2024-04-15 16:21:44,521 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:45,436 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978590403, 'u': 23.32992, 'g': 20.30639, 'r': 19.04545, 'i': 18.55317, 'z': 18.29725}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978590403'"}]}]
+2024-04-15 16:21:45,437 - INFO - Received data from SDSS for object 1237645943978590403 for K now extracting data at index 39
+2024-04-15 16:21:45,439 - INFO - Successfully Added data from SDSS for object 1237645943978590403 for K at index 39
+2024-04-15 16:21:45,439 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:46,383 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978655781, 'u': 20.83037, 'g': 18.57212, 'r': 17.50369, 'i': 17.10189, 'z': 16.83505}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978655781'"}]}]
+2024-04-15 16:21:46,383 - INFO - Received data from SDSS for object 1237645943978655781 for K now extracting data at index 40
+2024-04-15 16:21:46,385 - INFO - Successfully Added data from SDSS for object 1237645943978655781 for K at index 40
+2024-04-15 16:21:46,385 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:47,309 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978655832, 'u': 19.10415, 'g': 17.34366, 'r': 16.53993, 'i': 16.2379, 'z': 16.06456}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978655832'"}]}]
+2024-04-15 16:21:47,310 - INFO - Received data from SDSS for object 1237645943978655832 for K now extracting data at index 41
+2024-04-15 16:21:47,311 - INFO - Successfully Added data from SDSS for object 1237645943978655832 for K at index 41
+2024-04-15 16:21:47,312 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:48,239 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978655852, 'u': 23.44068, 'g': 20.98102, 'r': 19.55524, 'i': 19.04727, 'z': 18.76338}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978655852'"}]}]
+2024-04-15 16:21:48,239 - INFO - Received data from SDSS for object 1237645943978655852 for K now extracting data at index 42
+2024-04-15 16:21:48,241 - INFO - Successfully Added data from SDSS for object 1237645943978655852 for K at index 42
+2024-04-15 16:21:48,241 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:49,169 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978655958, 'u': 21.93901, 'g': 19.3522, 'r': 18.08714, 'i': 17.61568, 'z': 17.31833}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978655958'"}]}]
+2024-04-15 16:21:49,169 - INFO - Received data from SDSS for object 1237645943978655958 for K now extracting data at index 43
+2024-04-15 16:21:49,171 - INFO - Successfully Added data from SDSS for object 1237645943978655958 for K at index 43
+2024-04-15 16:21:49,171 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:50,097 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978656031, 'u': 23.83007, 'g': 20.76669, 'r': 19.50969, 'i': 18.98332, 'z': 18.66773}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978656031'"}]}]
+2024-04-15 16:21:50,098 - INFO - Received data from SDSS for object 1237645943978656031 for K now extracting data at index 44
+2024-04-15 16:21:50,099 - INFO - Successfully Added data from SDSS for object 1237645943978656031 for K at index 44
+2024-04-15 16:21:50,099 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:51,015 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978721398, 'u': 20.76043, 'g': 17.9981, 'r': 16.702, 'i': 16.18346, 'z': 15.85072}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978721398'"}]}]
+2024-04-15 16:21:51,015 - INFO - Received data from SDSS for object 1237645943978721398 for K now extracting data at index 45
+2024-04-15 16:21:51,017 - INFO - Successfully Added data from SDSS for object 1237645943978721398 for K at index 45
+2024-04-15 16:21:51,017 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:51,944 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978721500, 'u': 23.46143, 'g': 20.40857, 'r': 18.90869, 'i': 18.26839, 'z': 17.89275}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978721500'"}]}]
+2024-04-15 16:21:51,944 - INFO - Received data from SDSS for object 1237645943978721500 for K now extracting data at index 46
+2024-04-15 16:21:51,946 - INFO - Successfully Added data from SDSS for object 1237645943978721500 for K at index 46
+2024-04-15 16:21:51,946 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:52,873 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978721505, 'u': 23.0044, 'g': 20.71241, 'r': 19.46002, 'i': 18.99217, 'z': 18.64949}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978721505'"}]}]
+2024-04-15 16:21:52,873 - INFO - Received data from SDSS for object 1237645943978721505 for K now extracting data at index 47
+2024-04-15 16:21:52,875 - INFO - Successfully Added data from SDSS for object 1237645943978721505 for K at index 47
+2024-04-15 16:21:52,875 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:53,800 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978786835, 'u': 19.23866, 'g': 16.96023, 'r': 15.93041, 'i': 15.5335, 'z': 15.30588}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978786835'"}]}]
+2024-04-15 16:21:53,800 - INFO - Received data from SDSS for object 1237645943978786835 for K now extracting data at index 48
+2024-04-15 16:21:53,802 - INFO - Successfully Added data from SDSS for object 1237645943978786835 for K at index 48
+2024-04-15 16:21:53,802 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:54,728 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978786985, 'u': 19.71607, 'g': 18.09434, 'r': 17.383, 'i': 17.10073, 'z': 16.96968}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978786985'"}]}]
+2024-04-15 16:21:54,728 - INFO - Received data from SDSS for object 1237645943978786985 for K now extracting data at index 49
+2024-04-15 16:21:54,730 - INFO - Successfully Added data from SDSS for object 1237645943978786985 for K at index 49
+2024-04-15 16:21:54,730 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:55,664 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978787003, 'u': 19.68658, 'g': 18.14682, 'r': 17.44558, 'i': 17.15404, 'z': 16.98137}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978787003'"}]}]
+2024-04-15 16:21:55,665 - INFO - Received data from SDSS for object 1237645943978787003 for K now extracting data at index 50
+2024-04-15 16:21:55,666 - INFO - Successfully Added data from SDSS for object 1237645943978787003 for K at index 50
+2024-04-15 16:21:55,666 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:56,593 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978787062, 'u': 20.10641, 'g': 18.51974, 'r': 17.78331, 'i': 17.49296, 'z': 17.32693}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978787062'"}]}]
+2024-04-15 16:21:56,593 - INFO - Received data from SDSS for object 1237645943978787062 for K now extracting data at index 51
+2024-04-15 16:21:56,595 - INFO - Successfully Added data from SDSS for object 1237645943978787062 for K at index 51
+2024-04-15 16:21:56,595 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:57,509 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978852556, 'u': 21.89331, 'g': 19.09695, 'r': 17.62409, 'i': 16.98284, 'z': 16.60671}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978852556'"}]}]
+2024-04-15 16:21:57,510 - INFO - Received data from SDSS for object 1237645943978852556 for K now extracting data at index 52
+2024-04-15 16:21:57,512 - INFO - Successfully Added data from SDSS for object 1237645943978852556 for K at index 52
+2024-04-15 16:21:57,512 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:58,440 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978852582, 'u': 21.44778, 'g': 18.84953, 'r': 17.72303, 'i': 17.27145, 'z': 17.00578}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978852582'"}]}]
+2024-04-15 16:21:58,440 - INFO - Received data from SDSS for object 1237645943978852582 for K now extracting data at index 53
+2024-04-15 16:21:58,442 - INFO - Successfully Added data from SDSS for object 1237645943978852582 for K at index 53
+2024-04-15 16:21:58,442 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:21:59,376 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978852711, 'u': 23.18928, 'g': 20.90349, 'r': 19.58338, 'i': 18.96074, 'z': 18.63707}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978852711'"}]}]
+2024-04-15 16:21:59,376 - INFO - Received data from SDSS for object 1237645943978852711 for K now extracting data at index 54
+2024-04-15 16:21:59,378 - INFO - Successfully Added data from SDSS for object 1237645943978852711 for K at index 54
+2024-04-15 16:21:59,378 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:00,330 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978917930, 'u': 19.51782, 'g': 17.10884, 'r': 15.99188, 'i': 15.55249, 'z': 15.29628}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978917930'"}]}]
+2024-04-15 16:22:00,330 - INFO - Received data from SDSS for object 1237645943978917930 for K now extracting data at index 55
+2024-04-15 16:22:00,332 - INFO - Successfully Added data from SDSS for object 1237645943978917930 for K at index 55
+2024-04-15 16:22:00,332 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:01,248 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978918065, 'u': 21.25649, 'g': 18.50552, 'r': 17.13887, 'i': 16.5594, 'z': 16.24788}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978918065'"}]}]
+2024-04-15 16:22:01,248 - INFO - Received data from SDSS for object 1237645943978918065 for K now extracting data at index 56
+2024-04-15 16:22:01,250 - INFO - Successfully Added data from SDSS for object 1237645943978918065 for K at index 56
+2024-04-15 16:22:01,250 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:02,178 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978918155, 'u': 21.19376, 'g': 19.20882, 'r': 18.42801, 'i': 18.13704, 'z': 18.01182}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978918155'"}]}]
+2024-04-15 16:22:02,178 - INFO - Received data from SDSS for object 1237645943978918155 for K now extracting data at index 57
+2024-04-15 16:22:02,180 - INFO - Successfully Added data from SDSS for object 1237645943978918155 for K at index 57
+2024-04-15 16:22:02,180 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:03,160 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943978983864, 'u': 22.71255, 'g': 21.49312, 'r': 20.67072, 'i': 20.32816, 'z': 20.17395}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943978983864'"}]}]
+2024-04-15 16:22:03,160 - INFO - Received data from SDSS for object 1237645943978983864 for K now extracting data at index 58
+2024-04-15 16:22:03,162 - INFO - Successfully Added data from SDSS for object 1237645943978983864 for K at index 58
+2024-04-15 16:22:03,162 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:04,090 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943979049021, 'u': 19.09904, 'g': 17.22988, 'r': 16.49899, 'i': 16.22672, 'z': 16.09269}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943979049021'"}]}]
+2024-04-15 16:22:04,090 - INFO - Received data from SDSS for object 1237645943979049021 for K now extracting data at index 59
+2024-04-15 16:22:04,092 - INFO - Successfully Added data from SDSS for object 1237645943979049021 for K at index 59
+2024-04-15 16:22:04,092 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:05,010 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943979180167, 'u': 20.5809, 'g': 18.38217, 'r': 17.39469, 'i': 17.01939, 'z': 16.76477}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943979180167'"}]}]
+2024-04-15 16:22:05,010 - INFO - Received data from SDSS for object 1237645943979180167 for K now extracting data at index 60
+2024-04-15 16:22:05,012 - INFO - Successfully Added data from SDSS for object 1237645943979180167 for K at index 60
+2024-04-15 16:22:05,012 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:05,939 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943979376847, 'u': 19.93516, 'g': 17.72717, 'r': 16.84698, 'i': 16.50837, 'z': 16.28405}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943979376847'"}]}]
+2024-04-15 16:22:05,939 - INFO - Received data from SDSS for object 1237645943979376847 for K now extracting data at index 61
+2024-04-15 16:22:05,941 - INFO - Successfully Added data from SDSS for object 1237645943979376847 for K at index 61
+2024-04-15 16:22:05,941 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:06,867 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237645943979769962, 'u': 24.71189, 'g': 20.14551, 'r': 18.69253, 'i': 17.99096, 'z': 17.57415}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237645943979769962'"}]}]
+2024-04-15 16:22:06,867 - INFO - Received data from SDSS for object 1237645943979769962 for K now extracting data at index 62
+2024-04-15 16:22:06,869 - INFO - Successfully Added data from SDSS for object 1237645943979769962 for K at index 62
+2024-04-15 16:22:06,869 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:07,797 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646379391910083, 'u': 25.28663, 'g': 20.04203, 'r': 18.02105, 'i': 16.8702, 'z': 16.0964}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646379391910083'"}]}]
+2024-04-15 16:22:07,797 - INFO - Received data from SDSS for object 1237646379391910083 for K now extracting data at index 63
+2024-04-15 16:22:07,799 - INFO - Successfully Added data from SDSS for object 1237646379391910083 for K at index 63
+2024-04-15 16:22:07,799 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:08,792 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646379932452508, 'u': 19.7155, 'g': 17.32041, 'r': 16.13031, 'i': 15.56969, 'z': 15.23399}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646379932452508'"}]}]
+2024-04-15 16:22:08,792 - INFO - Received data from SDSS for object 1237646379932452508 for K now extracting data at index 64
+2024-04-15 16:22:08,794 - INFO - Successfully Added data from SDSS for object 1237646379932452508 for K at index 64
+2024-04-15 16:22:08,794 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:09,721 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646379932581905, 'u': 19.49265, 'g': 17.49824, 'r': 16.55465, 'i': 16.184, 'z': 15.93531}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646379932581905'"}]}]
+2024-04-15 16:22:09,721 - INFO - Received data from SDSS for object 1237646379932581905 for K now extracting data at index 65
+2024-04-15 16:22:09,723 - INFO - Successfully Added data from SDSS for object 1237646379932581905 for K at index 65
+2024-04-15 16:22:09,723 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:10,652 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646380468863020, 'u': 20.61911, 'g': 18.22334, 'r': 17.17652, 'i': 16.69899, 'z': 16.58608}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646380468863020'"}]}]
+2024-04-15 16:22:10,652 - INFO - Received data from SDSS for object 1237646380468863020 for K now extracting data at index 66
+2024-04-15 16:22:10,654 - INFO - Successfully Added data from SDSS for object 1237646380468863020 for K at index 66
+2024-04-15 16:22:10,654 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:11,583 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381005603707, 'u': 20.70442, 'g': 18.05799, 'r': 16.88999, 'i': 16.44592, 'z': 16.23137}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381005603707'"}]}]
+2024-04-15 16:22:11,583 - INFO - Received data from SDSS for object 1237646381005603707 for K now extracting data at index 67
+2024-04-15 16:22:11,585 - INFO - Successfully Added data from SDSS for object 1237646381005603707 for K at index 67
+2024-04-15 16:22:11,585 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:12,510 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381005669121, 'u': 20.12556, 'g': 18.11564, 'r': 17.08253, 'i': 16.6986, 'z': 16.42551}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381005669121'"}]}]
+2024-04-15 16:22:12,510 - INFO - Received data from SDSS for object 1237646381005669121 for K now extracting data at index 68
+2024-04-15 16:22:12,512 - INFO - Successfully Added data from SDSS for object 1237646381005669121 for K at index 68
+2024-04-15 16:22:12,512 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:13,437 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381006258642, 'u': 19.47042, 'g': 17.64256, 'r': 16.73699, 'i': 16.28997, 'z': 16.04772}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381006258642'"}]}]
+2024-04-15 16:22:13,437 - INFO - Received data from SDSS for object 1237646381006258642 for K now extracting data at index 69
+2024-04-15 16:22:13,439 - INFO - Successfully Added data from SDSS for object 1237646381006258642 for K at index 69
+2024-04-15 16:22:13,439 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:14,367 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381542671504, 'u': 19.4468, 'g': 17.49869, 'r': 16.64163, 'i': 16.32379, 'z': 16.10441}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381542671504'"}]}]
+2024-04-15 16:22:14,367 - INFO - Received data from SDSS for object 1237646381542671504 for K now extracting data at index 70
+2024-04-15 16:22:14,369 - INFO - Successfully Added data from SDSS for object 1237646381542671504 for K at index 70
+2024-04-15 16:22:14,369 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:15,282 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381542867499, 'u': 20.13819, 'g': 18.09067, 'r': 16.9976, 'i': 16.55582, 'z': 16.33654}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381542867499'"}]}]
+2024-04-15 16:22:15,282 - INFO - Received data from SDSS for object 1237646381542867499 for K now extracting data at index 71
+2024-04-15 16:22:15,284 - INFO - Successfully Added data from SDSS for object 1237646381542867499 for K at index 71
+2024-04-15 16:22:15,284 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:16,210 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646381543326287, 'u': 18.93719, 'g': 16.56962, 'r': 15.48036, 'i': 15.06133, 'z': 14.81821}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646381543326287'"}]}]
+2024-04-15 16:22:16,210 - INFO - Received data from SDSS for object 1237646381543326287 for K now extracting data at index 72
+2024-04-15 16:22:16,212 - INFO - Successfully Added data from SDSS for object 1237646381543326287 for K at index 72
+2024-04-15 16:22:16,212 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:17,210 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646382079804389, 'u': 20.21004, 'g': 18.00071, 'r': 16.92444, 'i': 16.42185, 'z': 16.1272}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646382079804389'"}]}]
+2024-04-15 16:22:17,210 - INFO - Received data from SDSS for object 1237646382079804389 for K now extracting data at index 73
+2024-04-15 16:22:17,212 - INFO - Successfully Added data from SDSS for object 1237646382079804389 for K at index 73
+2024-04-15 16:22:17,212 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:18,139 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646382079935969, 'u': 19.77253, 'g': 17.93699, 'r': 16.8608, 'i': 16.34152, 'z': 15.98592}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646382079935969'"}]}]
+2024-04-15 16:22:18,139 - INFO - Received data from SDSS for object 1237646382079935969 for K now extracting data at index 74
+2024-04-15 16:22:18,141 - INFO - Successfully Added data from SDSS for object 1237646382079935969 for K at index 74
+2024-04-15 16:22:18,141 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:19,066 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646382080131559, 'u': 19.12568, 'g': 17.28396, 'r': 16.37393, 'i': 15.96665, 'z': 15.7325}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646382080131559'"}]}]
+2024-04-15 16:22:19,066 - INFO - Received data from SDSS for object 1237646382080131559 for K now extracting data at index 75
+2024-04-15 16:22:19,068 - INFO - Successfully Added data from SDSS for object 1237646382080131559 for K at index 75
+2024-04-15 16:22:19,068 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:20,005 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646549577760957, 'u': 19.67496, 'g': 17.18632, 'r': 16.07342, 'i': 15.66294, 'z': 15.35305}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646549577760957'"}]}]
+2024-04-15 16:22:20,005 - INFO - Received data from SDSS for object 1237646549577760957 for K now extracting data at index 76
+2024-04-15 16:22:20,007 - INFO - Successfully Added data from SDSS for object 1237646549577760957 for K at index 76
+2024-04-15 16:22:20,007 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:20,936 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646549577891934, 'u': 19.47332, 'g': 17.17348, 'r': 16.22887, 'i': 15.84207, 'z': 15.59702}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646549577891934'"}]}]
+2024-04-15 16:22:20,936 - INFO - Received data from SDSS for object 1237646549577891934 for K now extracting data at index 77
+2024-04-15 16:22:20,938 - INFO - Successfully Added data from SDSS for object 1237646549577891934 for K at index 77
+2024-04-15 16:22:20,938 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:21,866 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563513044, 'u': 22.20528, 'g': 20.11097, 'r': 18.90811, 'i': 18.333, 'z': 17.90707}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563513044'"}]}]
+2024-04-15 16:22:21,866 - INFO - Received data from SDSS for object 1237646585563513044 for K now extracting data at index 78
+2024-04-15 16:22:21,868 - INFO - Successfully Added data from SDSS for object 1237646585563513044 for K at index 78
+2024-04-15 16:22:21,868 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:22,811 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563513548, 'u': 20.12325, 'g': 18.1618, 'r': 17.26788, 'i': 16.8776, 'z': 16.62744}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563513548'"}]}]
+2024-04-15 16:22:22,811 - INFO - Received data from SDSS for object 1237646585563513548 for K now extracting data at index 79
+2024-04-15 16:22:22,813 - INFO - Successfully Added data from SDSS for object 1237646585563513548 for K at index 79
+2024-04-15 16:22:22,813 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:23,736 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563644094, 'u': 18.17068, 'g': 16.04599, 'r': 15.22213, 'i': 14.92224, 'z': 14.7631}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563644094'"}]}]
+2024-04-15 16:22:23,736 - INFO - Received data from SDSS for object 1237646585563644094 for K now extracting data at index 80
+2024-04-15 16:22:23,738 - INFO - Successfully Added data from SDSS for object 1237646585563644094 for K at index 80
+2024-04-15 16:22:23,738 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:24,666 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563644920, 'u': 21.00097, 'g': 18.36967, 'r': 17.1305, 'i': 16.64499, 'z': 16.36462}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563644920'"}]}]
+2024-04-15 16:22:24,666 - INFO - Received data from SDSS for object 1237646585563644920 for K now extracting data at index 81
+2024-04-15 16:22:24,668 - INFO - Successfully Added data from SDSS for object 1237646585563644920 for K at index 81
+2024-04-15 16:22:24,668 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:25,613 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563775639, 'u': 22.04354, 'g': 19.77343, 'r': 18.84295, 'i': 18.46205, 'z': 18.23359}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563775639'"}]}]
+2024-04-15 16:22:25,613 - INFO - Received data from SDSS for object 1237646585563775639 for K now extracting data at index 82
+2024-04-15 16:22:25,615 - INFO - Successfully Added data from SDSS for object 1237646585563775639 for K at index 82
+2024-04-15 16:22:25,615 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:26,533 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585563841438, 'u': 22.6883, 'g': 20.42366, 'r': 19.57742, 'i': 19.20857, 'z': 18.91907}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585563841438'"}]}]
+2024-04-15 16:22:26,533 - INFO - Received data from SDSS for object 1237646585563841438 for K now extracting data at index 83
+2024-04-15 16:22:26,535 - INFO - Successfully Added data from SDSS for object 1237646585563841438 for K at index 83
+2024-04-15 16:22:26,535 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:27,459 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565151371, 'u': 24.98116, 'g': 20.72267, 'r': 18.75707, 'i': 17.67302, 'z': 16.95566}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565151371'"}]}]
+2024-04-15 16:22:27,459 - INFO - Received data from SDSS for object 1237646585565151371 for K now extracting data at index 84
+2024-04-15 16:22:27,461 - INFO - Successfully Added data from SDSS for object 1237646585565151371 for K at index 84
+2024-04-15 16:22:27,461 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:28,390 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565151454, 'u': 23.61678, 'g': 20.8024, 'r': 18.67372, 'i': 17.54345, 'z': 16.72903}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565151454'"}]}]
+2024-04-15 16:22:28,390 - INFO - Received data from SDSS for object 1237646585565151454 for K now extracting data at index 85
+2024-04-15 16:22:28,392 - INFO - Successfully Added data from SDSS for object 1237646585565151454 for K at index 85
+2024-04-15 16:22:28,392 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:29,332 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565151456, 'u': 23.5869, 'g': 20.89254, 'r': 18.82794, 'i': 17.80848, 'z': 17.10696}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565151456'"}]}]
+2024-04-15 16:22:29,332 - INFO - Received data from SDSS for object 1237646585565151456 for K now extracting data at index 86
+2024-04-15 16:22:29,334 - INFO - Successfully Added data from SDSS for object 1237646585565151456 for K at index 86
+2024-04-15 16:22:29,334 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:30,263 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565151553, 'u': 23.92282, 'g': 22.15647, 'r': 19.79254, 'i': 18.72581, 'z': 17.92124}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565151553'"}]}]
+2024-04-15 16:22:30,263 - INFO - Received data from SDSS for object 1237646585565151553 for K now extracting data at index 87
+2024-04-15 16:22:30,265 - INFO - Successfully Added data from SDSS for object 1237646585565151553 for K at index 87
+2024-04-15 16:22:30,265 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:31,193 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565216994, 'u': 24.72439, 'g': 21.09176, 'r': 18.3669, 'i': 16.74293, 'z': 15.60142}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565216994'"}]}]
+2024-04-15 16:22:31,193 - INFO - Received data from SDSS for object 1237646585565216994 for K now extracting data at index 88
+2024-04-15 16:22:31,195 - INFO - Successfully Added data from SDSS for object 1237646585565216994 for K at index 88
+2024-04-15 16:22:31,195 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:32,120 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565282442, 'u': 22.8937, 'g': 20.09534, 'r': 18.00087, 'i': 16.81354, 'z': 15.96136}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565282442'"}]}]
+2024-04-15 16:22:32,120 - INFO - Received data from SDSS for object 1237646585565282442 for K now extracting data at index 89
+2024-04-15 16:22:32,122 - INFO - Successfully Added data from SDSS for object 1237646585565282442 for K at index 89
+2024-04-15 16:22:32,122 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:33,035 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565282528, 'u': 24.3681, 'g': 22.6276, 'r': 20.1387, 'i': 18.7998, 'z': 17.8858}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565282528'"}]}]
+2024-04-15 16:22:33,035 - INFO - Received data from SDSS for object 1237646585565282528 for K now extracting data at index 90
+2024-04-15 16:22:33,037 - INFO - Successfully Added data from SDSS for object 1237646585565282528 for K at index 90
+2024-04-15 16:22:33,037 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:33,963 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565413605, 'u': 23.52784, 'g': 21.03493, 'r': 19.02009, 'i': 17.9252, 'z': 17.15213}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565413605'"}]}]
+2024-04-15 16:22:33,963 - INFO - Received data from SDSS for object 1237646585565413605 for K now extracting data at index 91
+2024-04-15 16:22:33,965 - INFO - Successfully Added data from SDSS for object 1237646585565413605 for K at index 91
+2024-04-15 16:22:33,965 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:34,892 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565610542, 'u': 23.41311, 'g': 21.10529, 'r': 19.16096, 'i': 18.14446, 'z': 17.44398}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565610542'"}]}]
+2024-04-15 16:22:34,893 - INFO - Received data from SDSS for object 1237646585565610542 for K now extracting data at index 92
+2024-04-15 16:22:34,894 - INFO - Successfully Added data from SDSS for object 1237646585565610542 for K at index 92
+2024-04-15 16:22:34,894 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:35,821 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565611074, 'u': 23.68406, 'g': 22.29867, 'r': 20.16418, 'i': 19.17287, 'z': 18.44939}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565611074'"}]}]
+2024-04-15 16:22:35,821 - INFO - Received data from SDSS for object 1237646585565611074 for K now extracting data at index 93
+2024-04-15 16:22:35,823 - INFO - Successfully Added data from SDSS for object 1237646585565611074 for K at index 93
+2024-04-15 16:22:35,823 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:36,751 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585565676348, 'u': 23.1153, 'g': 20.77243, 'r': 19.39846, 'i': 18.75064, 'z': 18.2548}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585565676348'"}]}]
+2024-04-15 16:22:36,751 - INFO - Received data from SDSS for object 1237646585565676348 for K now extracting data at index 94
+2024-04-15 16:22:36,753 - INFO - Successfully Added data from SDSS for object 1237646585565676348 for K at index 94
+2024-04-15 16:22:36,753 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:37,684 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646585567052777, 'u': 20.91537, 'g': 19.41456, 'r': 18.5407, 'i': 18.10183, 'z': 17.80564}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646585567052777'"}]}]
+2024-04-15 16:22:37,684 - INFO - Received data from SDSS for object 1237646585567052777 for K now extracting data at index 95
+2024-04-15 16:22:37,686 - INFO - Successfully Added data from SDSS for object 1237646585567052777 for K at index 95
+2024-04-15 16:22:37,686 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:38,611 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586099991275, 'u': 22.12185, 'g': 19.99199, 'r': 19.19739, 'i': 18.89071, 'z': 18.78404}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586099991275'"}]}]
+2024-04-15 16:22:38,611 - INFO - Received data from SDSS for object 1237646586099991275 for K now extracting data at index 96
+2024-04-15 16:22:38,613 - INFO - Successfully Added data from SDSS for object 1237646586099991275 for K at index 96
+2024-04-15 16:22:38,613 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:39,539 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586099992161, 'u': 23.28166, 'g': 21.00793, 'r': 20.35147, 'i': 20.08298, 'z': 19.89887}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586099992161'"}]}]
+2024-04-15 16:22:39,539 - INFO - Received data from SDSS for object 1237646586099992161 for K now extracting data at index 97
+2024-04-15 16:22:39,541 - INFO - Successfully Added data from SDSS for object 1237646586099992161 for K at index 97
+2024-04-15 16:22:39,541 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:40,457 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100122021, 'u': 20.61739, 'g': 19.10951, 'r': 18.45185, 'i': 18.16187, 'z': 17.97698}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100122021'"}]}]
+2024-04-15 16:22:40,458 - INFO - Received data from SDSS for object 1237646586100122021 for K now extracting data at index 98
+2024-04-15 16:22:40,459 - INFO - Successfully Added data from SDSS for object 1237646586100122021 for K at index 98
+2024-04-15 16:22:40,459 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:41,387 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100122262, 'u': 21.3771, 'g': 19.55882, 'r': 18.67252, 'i': 18.30892, 'z': 18.0666}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100122262'"}]}]
+2024-04-15 16:22:41,387 - INFO - Received data from SDSS for object 1237646586100122262 for K now extracting data at index 99
+2024-04-15 16:22:41,389 - INFO - Successfully Added data from SDSS for object 1237646586100122262 for K at index 99
+2024-04-15 16:22:41,389 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:42,319 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100122880, 'u': 22.25224, 'g': 20.53127, 'r': 19.73153, 'i': 19.42289, 'z': 19.22322}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100122880'"}]}]
+2024-04-15 16:22:42,319 - INFO - Received data from SDSS for object 1237646586100122880 for K now extracting data at index 100
+2024-04-15 16:22:42,321 - INFO - Successfully Added data from SDSS for object 1237646586100122880 for K at index 100
+2024-04-15 16:22:42,321 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:43,236 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100318560, 'u': 18.85306, 'g': 16.75453, 'r': 15.80199, 'i': 15.38145, 'z': 15.18048}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100318560'"}]}]
+2024-04-15 16:22:43,236 - INFO - Received data from SDSS for object 1237646586100318560 for K now extracting data at index 101
+2024-04-15 16:22:43,238 - INFO - Successfully Added data from SDSS for object 1237646586100318560 for K at index 101
+2024-04-15 16:22:43,238 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:44,154 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100318874, 'u': 21.28835, 'g': 19.39021, 'r': 18.41551, 'i': 18.00687, 'z': 17.73359}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100318874'"}]}]
+2024-04-15 16:22:44,154 - INFO - Received data from SDSS for object 1237646586100318874 for K now extracting data at index 102
+2024-04-15 16:22:44,156 - INFO - Successfully Added data from SDSS for object 1237646586100318874 for K at index 102
+2024-04-15 16:22:44,156 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:45,068 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100319052, 'u': 23.27192, 'g': 20.30992, 'r': 19.26506, 'i': 18.84688, 'z': 18.54066}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100319052'"}]}]
+2024-04-15 16:22:45,068 - INFO - Received data from SDSS for object 1237646586100319052 for K now extracting data at index 103
+2024-04-15 16:22:45,070 - INFO - Successfully Added data from SDSS for object 1237646586100319052 for K at index 103
+2024-04-15 16:22:45,070 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:45,996 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100383875, 'u': 21.41868, 'g': 19.73373, 'r': 18.91441, 'i': 18.55497, 'z': 18.34439}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100383875'"}]}]
+2024-04-15 16:22:45,996 - INFO - Received data from SDSS for object 1237646586100383875 for K now extracting data at index 104
+2024-04-15 16:22:45,998 - INFO - Successfully Added data from SDSS for object 1237646586100383875 for K at index 104
+2024-04-15 16:22:45,998 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:46,925 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100384056, 'u': 21.42342, 'g': 19.36047, 'r': 18.34809, 'i': 17.94282, 'z': 17.68983}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100384056'"}]}]
+2024-04-15 16:22:46,925 - INFO - Received data from SDSS for object 1237646586100384056 for K now extracting data at index 105
+2024-04-15 16:22:46,927 - INFO - Successfully Added data from SDSS for object 1237646586100384056 for K at index 105
+2024-04-15 16:22:46,927 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:47,854 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100384233, 'u': 20.76196, 'g': 18.82492, 'r': 17.85026, 'i': 17.38871, 'z': 17.28113}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100384233'"}]}]
+2024-04-15 16:22:47,854 - INFO - Received data from SDSS for object 1237646586100384233 for K now extracting data at index 106
+2024-04-15 16:22:47,856 - INFO - Successfully Added data from SDSS for object 1237646586100384233 for K at index 106
+2024-04-15 16:22:47,856 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:48,783 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100384276, 'u': 20.78303, 'g': 19.09554, 'r': 18.12374, 'i': 17.63939, 'z': 17.30547}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100384276'"}]}]
+2024-04-15 16:22:48,783 - INFO - Received data from SDSS for object 1237646586100384276 for K now extracting data at index 107
+2024-04-15 16:22:48,785 - INFO - Successfully Added data from SDSS for object 1237646586100384276 for K at index 107
+2024-04-15 16:22:48,785 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:49,711 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586100384604, 'u': 22.21225, 'g': 20.35781, 'r': 19.52033, 'i': 19.07445, 'z': 18.77081}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586100384604'"}]}]
+2024-04-15 16:22:49,711 - INFO - Received data from SDSS for object 1237646586100384604 for K now extracting data at index 108
+2024-04-15 16:22:49,713 - INFO - Successfully Added data from SDSS for object 1237646586100384604 for K at index 108
+2024-04-15 16:22:49,713 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:50,640 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102218815, 'u': 23.044, 'g': 20.43132, 'r': 18.98929, 'i': 18.26513, 'z': 17.77641}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102218815'"}]}]
+2024-04-15 16:22:50,640 - INFO - Received data from SDSS for object 1237646586102218815 for K now extracting data at index 109
+2024-04-15 16:22:50,642 - INFO - Successfully Added data from SDSS for object 1237646586102218815 for K at index 109
+2024-04-15 16:22:50,642 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:51,593 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102219239, 'u': 22.95284, 'g': 20.19353, 'r': 18.51332, 'i': 17.70987, 'z': 17.12627}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102219239'"}]}]
+2024-04-15 16:22:51,593 - INFO - Received data from SDSS for object 1237646586102219239 for K now extracting data at index 110
+2024-04-15 16:22:51,595 - INFO - Successfully Added data from SDSS for object 1237646586102219239 for K at index 110
+2024-04-15 16:22:51,595 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:52,521 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102219242, 'u': 24.03156, 'g': 21.49816, 'r': 19.05035, 'i': 17.59654, 'z': 16.49996}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102219242'"}]}]
+2024-04-15 16:22:52,521 - INFO - Received data from SDSS for object 1237646586102219242 for K now extracting data at index 111
+2024-04-15 16:22:52,523 - INFO - Successfully Added data from SDSS for object 1237646586102219242 for K at index 111
+2024-04-15 16:22:52,523 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:53,453 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102219244, 'u': 23.57952, 'g': 21.30605, 'r': 19.0871, 'i': 18.03543, 'z': 17.28392}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102219244'"}]}]
+2024-04-15 16:22:53,453 - INFO - Received data from SDSS for object 1237646586102219244 for K now extracting data at index 112
+2024-04-15 16:22:53,455 - INFO - Successfully Added data from SDSS for object 1237646586102219244 for K at index 112
+2024-04-15 16:22:53,455 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:54,381 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102219601, 'u': 23.10874, 'g': 21.18851, 'r': 19.74143, 'i': 19.01744, 'z': 18.4615}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102219601'"}]}]
+2024-04-15 16:22:54,381 - INFO - Received data from SDSS for object 1237646586102219601 for K now extracting data at index 113
+2024-04-15 16:22:54,383 - INFO - Successfully Added data from SDSS for object 1237646586102219601 for K at index 113
+2024-04-15 16:22:54,383 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:55,312 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102284510, 'u': 21.6582, 'g': 18.89216, 'r': 17.50286, 'i': 16.82125, 'z': 16.3472}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102284510'"}]}]
+2024-04-15 16:22:55,312 - INFO - Received data from SDSS for object 1237646586102284510 for K now extracting data at index 114
+2024-04-15 16:22:55,314 - INFO - Successfully Added data from SDSS for object 1237646586102284510 for K at index 114
+2024-04-15 16:22:55,314 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:56,242 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102284733, 'u': 24.83137, 'g': 20.53441, 'r': 18.74776, 'i': 17.75624, 'z': 17.07253}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102284733'"}]}]
+2024-04-15 16:22:56,242 - INFO - Received data from SDSS for object 1237646586102284733 for K now extracting data at index 115
+2024-04-15 16:22:56,244 - INFO - Successfully Added data from SDSS for object 1237646586102284733 for K at index 115
+2024-04-15 16:22:56,244 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:57,166 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102284745, 'u': 24.18021, 'g': 20.82574, 'r': 19.39, 'i': 18.64279, 'z': 18.11626}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102284745'"}]}]
+2024-04-15 16:22:57,166 - INFO - Received data from SDSS for object 1237646586102284745 for K now extracting data at index 116
+2024-04-15 16:22:57,168 - INFO - Successfully Added data from SDSS for object 1237646586102284745 for K at index 116
+2024-04-15 16:22:57,168 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:58,096 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102285076, 'u': 23.68822, 'g': 21.26046, 'r': 19.58951, 'i': 18.71097, 'z': 18.10023}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102285076'"}]}]
+2024-04-15 16:22:58,097 - INFO - Received data from SDSS for object 1237646586102285076 for K now extracting data at index 117
+2024-04-15 16:22:58,098 - INFO - Successfully Added data from SDSS for object 1237646586102285076 for K at index 117
+2024-04-15 16:22:58,098 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:59,026 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102285121, 'u': 24.11911, 'g': 21.91897, 'r': 20.6545, 'i': 20.01153, 'z': 19.50279}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102285121'"}]}]
+2024-04-15 16:22:59,026 - INFO - Received data from SDSS for object 1237646586102285121 for K now extracting data at index 118
+2024-04-15 16:22:59,028 - INFO - Successfully Added data from SDSS for object 1237646586102285121 for K at index 118
+2024-04-15 16:22:59,028 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:22:59,983 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102285133, 'u': 22.79113, 'g': 21.13827, 'r': 19.74307, 'i': 18.96704, 'z': 18.49227}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102285133'"}]}]
+2024-04-15 16:22:59,983 - INFO - Received data from SDSS for object 1237646586102285133 for K now extracting data at index 119
+2024-04-15 16:22:59,985 - INFO - Successfully Added data from SDSS for object 1237646586102285133 for K at index 119
+2024-04-15 16:22:59,985 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:00,898 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102350009, 'u': 23.00122, 'g': 21.51626, 'r': 20.32544, 'i': 19.64096, 'z': 19.35657}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102350009'"}]}]
+2024-04-15 16:23:00,898 - INFO - Received data from SDSS for object 1237646586102350009 for K now extracting data at index 120
+2024-04-15 16:23:00,900 - INFO - Successfully Added data from SDSS for object 1237646586102350009 for K at index 120
+2024-04-15 16:23:00,900 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:01,825 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102350145, 'u': 24.22099, 'g': 21.4687, 'r': 19.61226, 'i': 19.17776, 'z': 18.08555}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102350145'"}]}]
+2024-04-15 16:23:01,825 - INFO - Received data from SDSS for object 1237646586102350145 for K now extracting data at index 121
+2024-04-15 16:23:01,827 - INFO - Successfully Added data from SDSS for object 1237646586102350145 for K at index 121
+2024-04-15 16:23:01,827 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:02,753 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102350445, 'u': 22.79696, 'g': 20.4397, 'r': 19.2958, 'i': 18.72725, 'z': 18.25955}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102350445'"}]}]
+2024-04-15 16:23:02,753 - INFO - Received data from SDSS for object 1237646586102350445 for K now extracting data at index 122
+2024-04-15 16:23:02,755 - INFO - Successfully Added data from SDSS for object 1237646586102350445 for K at index 122
+2024-04-15 16:23:02,755 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:03,677 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102350742, 'u': 23.61422, 'g': 20.98248, 'r': 19.59119, 'i': 18.93814, 'z': 18.44794}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102350742'"}]}]
+2024-04-15 16:23:03,677 - INFO - Received data from SDSS for object 1237646586102350742 for K now extracting data at index 123
+2024-04-15 16:23:03,679 - INFO - Successfully Added data from SDSS for object 1237646586102350742 for K at index 123
+2024-04-15 16:23:03,679 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:04,604 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102415661, 'u': 24.73789, 'g': 21.94794, 'r': 20.42072, 'i': 19.51349, 'z': 18.96269}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102415661'"}]}]
+2024-04-15 16:23:04,604 - INFO - Received data from SDSS for object 1237646586102415661 for K now extracting data at index 124
+2024-04-15 16:23:04,606 - INFO - Successfully Added data from SDSS for object 1237646586102415661 for K at index 124
+2024-04-15 16:23:04,606 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:05,519 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102415986, 'u': 23.00816, 'g': 20.63952, 'r': 19.37081, 'i': 18.70054, 'z': 18.22521}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102415986'"}]}]
+2024-04-15 16:23:05,519 - INFO - Received data from SDSS for object 1237646586102415986 for K now extracting data at index 125
+2024-04-15 16:23:05,521 - INFO - Successfully Added data from SDSS for object 1237646586102415986 for K at index 125
+2024-04-15 16:23:05,521 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:06,450 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102416062, 'u': 23.83282, 'g': 21.5013, 'r': 19.2783, 'i': 18.35171, 'z': 17.64585}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102416062'"}]}]
+2024-04-15 16:23:06,450 - INFO - Received data from SDSS for object 1237646586102416062 for K now extracting data at index 126
+2024-04-15 16:23:06,452 - INFO - Successfully Added data from SDSS for object 1237646586102416062 for K at index 126
+2024-04-15 16:23:06,452 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:07,377 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102416333, 'u': 23.81127, 'g': 21.73082, 'r': 20.41753, 'i': 19.68984, 'z': 19.22413}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102416333'"}]}]
+2024-04-15 16:23:07,377 - INFO - Received data from SDSS for object 1237646586102416333 for K now extracting data at index 127
+2024-04-15 16:23:07,379 - INFO - Successfully Added data from SDSS for object 1237646586102416333 for K at index 127
+2024-04-15 16:23:07,379 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:08,376 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102416400, 'u': 25.0641, 'g': 22.47252, 'r': 20.16461, 'i': 18.84669, 'z': 17.85623}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102416400'"}]}]
+2024-04-15 16:23:08,376 - INFO - Received data from SDSS for object 1237646586102416400 for K now extracting data at index 128
+2024-04-15 16:23:08,378 - INFO - Successfully Added data from SDSS for object 1237646586102416400 for K at index 128
+2024-04-15 16:23:08,378 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:09,304 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586102416447, 'u': 25.04912, 'g': 21.96797, 'r': 20.03846, 'i': 19.09675, 'z': 18.51685}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586102416447'"}]}]
+2024-04-15 16:23:09,304 - INFO - Received data from SDSS for object 1237646586102416447 for K now extracting data at index 129
+2024-04-15 16:23:09,306 - INFO - Successfully Added data from SDSS for object 1237646586102416447 for K at index 129
+2024-04-15 16:23:09,306 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:10,233 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586103005630, 'u': 20.39395, 'g': 18.74051, 'r': 17.86464, 'i': 17.45872, 'z': 17.21344}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586103005630'"}]}]
+2024-04-15 16:23:10,233 - INFO - Received data from SDSS for object 1237646586103005630 for K now extracting data at index 130
+2024-04-15 16:23:10,235 - INFO - Successfully Added data from SDSS for object 1237646586103005630 for K at index 130
+2024-04-15 16:23:10,235 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:11,162 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586103005650, 'u': 20.9875, 'g': 19.2413, 'r': 18.2566, 'i': 17.81259, 'z': 17.52122}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586103005650'"}]}]
+2024-04-15 16:23:11,162 - INFO - Received data from SDSS for object 1237646586103005650 for K now extracting data at index 131
+2024-04-15 16:23:11,164 - INFO - Successfully Added data from SDSS for object 1237646586103005650 for K at index 131
+2024-04-15 16:23:11,164 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:12,095 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586103006275, 'u': 22.15611, 'g': 20.36441, 'r': 19.28478, 'i': 18.81475, 'z': 18.51653}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586103006275'"}]}]
+2024-04-15 16:23:12,095 - INFO - Received data from SDSS for object 1237646586103006275 for K now extracting data at index 132
+2024-04-15 16:23:12,097 - INFO - Successfully Added data from SDSS for object 1237646586103006275 for K at index 132
+2024-04-15 16:23:12,097 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:13,022 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586104186179, 'u': 20.9325, 'g': 19.36744, 'r': 18.62527, 'i': 18.29389, 'z': 18.04481}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586104186179'"}]}]
+2024-04-15 16:23:13,022 - INFO - Received data from SDSS for object 1237646586104186179 for K now extracting data at index 133
+2024-04-15 16:23:13,024 - INFO - Successfully Added data from SDSS for object 1237646586104186179 for K at index 133
+2024-04-15 16:23:13,024 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:13,941 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586632274168, 'u': 22.76717, 'g': 20.38701, 'r': 19.06699, 'i': 18.70055, 'z': 18.57694}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586632274168'"}]}]
+2024-04-15 16:23:13,941 - INFO - Received data from SDSS for object 1237646586632274168 for K now extracting data at index 134
+2024-04-15 16:23:13,943 - INFO - Successfully Added data from SDSS for object 1237646586632274168 for K at index 134
+2024-04-15 16:23:13,943 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:14,872 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586632601881, 'u': 26.56535, 'g': 19.91222, 'r': 22.90475, 'i': 21.59637, 'z': 19.92515}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586632601881'"}]}]
+2024-04-15 16:23:14,872 - INFO - Received data from SDSS for object 1237646586632601881 for K now extracting data at index 135
+2024-04-15 16:23:14,874 - INFO - Successfully Added data from SDSS for object 1237646586632601881 for K at index 135
+2024-04-15 16:23:14,874 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:15,808 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586636927540, 'u': 22.9417, 'g': 19.82461, 'r': 18.49868, 'i': 17.9444, 'z': 17.61167}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586636927540'"}]}]
+2024-04-15 16:23:15,808 - INFO - Received data from SDSS for object 1237646586636927540 for K now extracting data at index 136
+2024-04-15 16:23:15,813 - INFO - Successfully Added data from SDSS for object 1237646586636927540 for K at index 136
+2024-04-15 16:23:15,813 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:16,766 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586637189555, 'u': 19.10843, 'g': 17.22146, 'r': 16.47985, 'i': 16.20813, 'z': 16.0626}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586637189555'"}]}]
+2024-04-15 16:23:16,766 - INFO - Received data from SDSS for object 1237646586637189555 for K now extracting data at index 137
+2024-04-15 16:23:16,768 - INFO - Successfully Added data from SDSS for object 1237646586637189555 for K at index 137
+2024-04-15 16:23:16,768 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:17,699 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586637452521, 'u': 22.55499, 'g': 20.61267, 'r': 19.45087, 'i': 18.92076, 'z': 18.59065}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586637452521'"}]}]
+2024-04-15 16:23:17,699 - INFO - Received data from SDSS for object 1237646586637452521 for K now extracting data at index 138
+2024-04-15 16:23:17,701 - INFO - Successfully Added data from SDSS for object 1237646586637452521 for K at index 138
+2024-04-15 16:23:17,701 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:18,632 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586637516892, 'u': 22.74981, 'g': 20.72383, 'r': 19.66401, 'i': 19.23016, 'z': 18.92721}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586637516892'"}]}]
+2024-04-15 16:23:18,632 - INFO - Received data from SDSS for object 1237646586637516892 for K now extracting data at index 139
+2024-04-15 16:23:18,634 - INFO - Successfully Added data from SDSS for object 1237646586637516892 for K at index 139
+2024-04-15 16:23:18,634 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:19,557 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586637516897, 'u': 22.9703, 'g': 20.99714, 'r': 19.79444, 'i': 19.325, 'z': 19.02297}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586637516897'"}]}]
+2024-04-15 16:23:19,557 - INFO - Received data from SDSS for object 1237646586637516897 for K now extracting data at index 140
+2024-04-15 16:23:19,559 - INFO - Successfully Added data from SDSS for object 1237646586637516897 for K at index 140
+2024-04-15 16:23:19,559 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:20,482 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638565648, 'u': 21.43027, 'g': 19.35876, 'r': 18.35085, 'i': 17.92494, 'z': 17.65791}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638565648'"}]}]
+2024-04-15 16:23:20,482 - INFO - Received data from SDSS for object 1237646586638565648 for K now extracting data at index 141
+2024-04-15 16:23:20,484 - INFO - Successfully Added data from SDSS for object 1237646586638565648 for K at index 141
+2024-04-15 16:23:20,484 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:21,393 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638565934, 'u': 21.63544, 'g': 20.10337, 'r': 19.17055, 'i': 18.7958, 'z': 18.51889}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638565934'"}]}]
+2024-04-15 16:23:21,393 - INFO - Received data from SDSS for object 1237646586638565934 for K now extracting data at index 142
+2024-04-15 16:23:21,395 - INFO - Successfully Added data from SDSS for object 1237646586638565934 for K at index 142
+2024-04-15 16:23:21,395 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:22,319 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638566150, 'u': 23.27395, 'g': 20.56271, 'r': 18.922, 'i': 18.17731, 'z': 17.73374}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638566150'"}]}]
+2024-04-15 16:23:22,319 - INFO - Received data from SDSS for object 1237646586638566150 for K now extracting data at index 143
+2024-04-15 16:23:22,321 - INFO - Successfully Added data from SDSS for object 1237646586638566150 for K at index 143
+2024-04-15 16:23:22,321 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:23,251 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638566496, 'u': 24.87664, 'g': 21.41276, 'r': 19.6679, 'i': 18.81168, 'z': 18.31586}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638566496'"}]}]
+2024-04-15 16:23:23,251 - INFO - Received data from SDSS for object 1237646586638566496 for K now extracting data at index 144
+2024-04-15 16:23:23,253 - INFO - Successfully Added data from SDSS for object 1237646586638566496 for K at index 144
+2024-04-15 16:23:23,253 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:24,180 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638566802, 'u': 23.16403, 'g': 21.26855, 'r': 20.0745, 'i': 19.5056, 'z': 19.03499}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638566802'"}]}]
+2024-04-15 16:23:24,180 - INFO - Received data from SDSS for object 1237646586638566802 for K now extracting data at index 145
+2024-04-15 16:23:24,182 - INFO - Successfully Added data from SDSS for object 1237646586638566802 for K at index 145
+2024-04-15 16:23:24,182 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:25,111 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638631048, 'u': 22.51581, 'g': 20.17154, 'r': 18.89927, 'i': 18.35579, 'z': 17.93823}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638631048'"}]}]
+2024-04-15 16:23:25,111 - INFO - Received data from SDSS for object 1237646586638631048 for K now extracting data at index 146
+2024-04-15 16:23:25,113 - INFO - Successfully Added data from SDSS for object 1237646586638631048 for K at index 146
+2024-04-15 16:23:25,113 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:26,041 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638631062, 'u': 23.67718, 'g': 21.32022, 'r': 20.25039, 'i': 19.71955, 'z': 19.34646}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638631062'"}]}]
+2024-04-15 16:23:26,041 - INFO - Received data from SDSS for object 1237646586638631062 for K now extracting data at index 147
+2024-04-15 16:23:26,043 - INFO - Successfully Added data from SDSS for object 1237646586638631062 for K at index 147
+2024-04-15 16:23:26,043 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:26,990 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638631307, 'u': 22.11267, 'g': 19.93863, 'r': 18.82179, 'i': 18.39805, 'z': 18.04484}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638631307'"}]}]
+2024-04-15 16:23:26,990 - INFO - Received data from SDSS for object 1237646586638631307 for K now extracting data at index 148
+2024-04-15 16:23:26,992 - INFO - Successfully Added data from SDSS for object 1237646586638631307 for K at index 148
+2024-04-15 16:23:26,992 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:27,922 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638697582, 'u': 25.53798, 'g': 21.96552, 'r': 20.14826, 'i': 19.38487, 'z': 18.83331}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638697582'"}]}]
+2024-04-15 16:23:27,923 - INFO - Received data from SDSS for object 1237646586638697582 for K now extracting data at index 149
+2024-04-15 16:23:27,924 - INFO - Successfully Added data from SDSS for object 1237646586638697582 for K at index 149
+2024-04-15 16:23:27,925 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:28,850 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638697808, 'u': 23.18439, 'g': 21.39148, 'r': 20.06946, 'i': 19.49013, 'z': 19.02995}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638697808'"}]}]
+2024-04-15 16:23:28,850 - INFO - Received data from SDSS for object 1237646586638697808 for K now extracting data at index 150
+2024-04-15 16:23:28,852 - INFO - Successfully Added data from SDSS for object 1237646586638697808 for K at index 150
+2024-04-15 16:23:28,852 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:29,778 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638762485, 'u': 22.65437, 'g': 19.94484, 'r': 18.53493, 'i': 17.85179, 'z': 17.34198}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638762485'"}]}]
+2024-04-15 16:23:29,778 - INFO - Received data from SDSS for object 1237646586638762485 for K now extracting data at index 151
+2024-04-15 16:23:29,780 - INFO - Successfully Added data from SDSS for object 1237646586638762485 for K at index 151
+2024-04-15 16:23:29,780 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:30,700 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638762545, 'u': 24.04362, 'g': 20.96991, 'r': 18.89103, 'i': 17.87762, 'z': 17.18576}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638762545'"}]}]
+2024-04-15 16:23:30,700 - INFO - Received data from SDSS for object 1237646586638762545 for K now extracting data at index 152
+2024-04-15 16:23:30,702 - INFO - Successfully Added data from SDSS for object 1237646586638762545 for K at index 152
+2024-04-15 16:23:30,702 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:31,616 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638762699, 'u': 23.80467, 'g': 21.31052, 'r': 19.79822, 'i': 19.04716, 'z': 18.5741}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638762699'"}]}]
+2024-04-15 16:23:31,616 - INFO - Received data from SDSS for object 1237646586638762699 for K now extracting data at index 153
+2024-04-15 16:23:31,618 - INFO - Successfully Added data from SDSS for object 1237646586638762699 for K at index 153
+2024-04-15 16:23:31,618 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:32,547 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638762878, 'u': 24.89566, 'g': 21.27895, 'r': 19.67966, 'i': 18.89694, 'z': 18.40915}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638762878'"}]}]
+2024-04-15 16:23:32,547 - INFO - Received data from SDSS for object 1237646586638762878 for K now extracting data at index 154
+2024-04-15 16:23:32,549 - INFO - Successfully Added data from SDSS for object 1237646586638762878 for K at index 154
+2024-04-15 16:23:32,549 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:33,476 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638827842, 'u': 23.58218, 'g': 21.33844, 'r': 19.36891, 'i': 18.30562, 'z': 17.48859}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638827842'"}]}]
+2024-04-15 16:23:33,476 - INFO - Received data from SDSS for object 1237646586638827842 for K now extracting data at index 155
+2024-04-15 16:23:33,478 - INFO - Successfully Added data from SDSS for object 1237646586638827842 for K at index 155
+2024-04-15 16:23:33,478 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:34,404 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638828067, 'u': 23.44603, 'g': 21.73852, 'r': 19.80924, 'i': 18.78232, 'z': 18.04273}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638828067'"}]}]
+2024-04-15 16:23:34,404 - INFO - Received data from SDSS for object 1237646586638828067 for K now extracting data at index 156
+2024-04-15 16:23:34,406 - INFO - Successfully Added data from SDSS for object 1237646586638828067 for K at index 156
+2024-04-15 16:23:34,406 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:35,333 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638828073, 'u': 24.50742, 'g': 21.84363, 'r': 19.88485, 'i': 18.84548, 'z': 18.12541}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638828073'"}]}]
+2024-04-15 16:23:35,333 - INFO - Received data from SDSS for object 1237646586638828073 for K now extracting data at index 157
+2024-04-15 16:23:35,335 - INFO - Successfully Added data from SDSS for object 1237646586638828073 for K at index 157
+2024-04-15 16:23:35,335 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:36,262 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638958843, 'u': 23.07564, 'g': 21.11415, 'r': 19.15376, 'i': 18.05695, 'z': 17.25666}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638958843'"}]}]
+2024-04-15 16:23:36,262 - INFO - Received data from SDSS for object 1237646586638958843 for K now extracting data at index 158
+2024-04-15 16:23:36,264 - INFO - Successfully Added data from SDSS for object 1237646586638958843 for K at index 158
+2024-04-15 16:23:36,264 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:37,191 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586638958862, 'u': 24.12706, 'g': 21.96962, 'r': 19.6427, 'i': 18.32205, 'z': 17.37589}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586638958862'"}]}]
+2024-04-15 16:23:37,191 - INFO - Received data from SDSS for object 1237646586638958862 for K now extracting data at index 159
+2024-04-15 16:23:37,193 - INFO - Successfully Added data from SDSS for object 1237646586638958862 for K at index 159
+2024-04-15 16:23:37,193 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:38,119 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639024529, 'u': 22.96989, 'g': 20.41612, 'r': 18.79943, 'i': 17.97626, 'z': 17.35562}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639024529'"}]}]
+2024-04-15 16:23:38,119 - INFO - Received data from SDSS for object 1237646586639024529 for K now extracting data at index 160
+2024-04-15 16:23:38,121 - INFO - Successfully Added data from SDSS for object 1237646586639024529 for K at index 160
+2024-04-15 16:23:38,121 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:39,048 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639024614, 'u': 23.13309, 'g': 20.65676, 'r': 18.62738, 'i': 17.62564, 'z': 16.90023}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639024614'"}]}]
+2024-04-15 16:23:39,048 - INFO - Received data from SDSS for object 1237646586639024614 for K now extracting data at index 161
+2024-04-15 16:23:39,050 - INFO - Successfully Added data from SDSS for object 1237646586639024614 for K at index 161
+2024-04-15 16:23:39,050 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:39,977 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639024643, 'u': 24.1964, 'g': 21.2748, 'r': 19.53592, 'i': 18.59188, 'z': 17.89205}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639024643'"}]}]
+2024-04-15 16:23:39,977 - INFO - Received data from SDSS for object 1237646586639024643 for K now extracting data at index 162
+2024-04-15 16:23:39,979 - INFO - Successfully Added data from SDSS for object 1237646586639024643 for K at index 162
+2024-04-15 16:23:39,979 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:40,907 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639024859, 'u': 24.70394, 'g': 21.77708, 'r': 19.97515, 'i': 19.07598, 'z': 18.37501}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639024859'"}]}]
+2024-04-15 16:23:40,907 - INFO - Received data from SDSS for object 1237646586639024859 for K now extracting data at index 163
+2024-04-15 16:23:40,909 - INFO - Successfully Added data from SDSS for object 1237646586639024859 for K at index 163
+2024-04-15 16:23:40,909 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:41,837 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639090295, 'u': 23.53734, 'g': 21.7769, 'r': 19.82088, 'i': 18.86478, 'z': 18.28664}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639090295'"}]}]
+2024-04-15 16:23:41,837 - INFO - Received data from SDSS for object 1237646586639090295 for K now extracting data at index 164
+2024-04-15 16:23:41,839 - INFO - Successfully Added data from SDSS for object 1237646586639090295 for K at index 164
+2024-04-15 16:23:41,839 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:42,765 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639155304, 'u': 22.65874, 'g': 20.16944, 'r': 18.75131, 'i': 18.00167, 'z': 17.47083}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639155304'"}]}]
+2024-04-15 16:23:42,766 - INFO - Received data from SDSS for object 1237646586639155304 for K now extracting data at index 165
+2024-04-15 16:23:42,768 - INFO - Successfully Added data from SDSS for object 1237646586639155304 for K at index 165
+2024-04-15 16:23:42,768 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:43,696 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639155674, 'u': 24.03287, 'g': 21.57227, 'r': 19.54418, 'i': 18.43551, 'z': 17.60709}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639155674'"}]}]
+2024-04-15 16:23:43,696 - INFO - Received data from SDSS for object 1237646586639155674 for K now extracting data at index 166
+2024-04-15 16:23:43,698 - INFO - Successfully Added data from SDSS for object 1237646586639155674 for K at index 166
+2024-04-15 16:23:43,698 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:44,620 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221106, 'u': 22.08626, 'g': 19.60646, 'r': 18.21362, 'i': 17.52139, 'z': 17.03502}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221106'"}]}]
+2024-04-15 16:23:44,620 - INFO - Received data from SDSS for object 1237646586639221106 for K now extracting data at index 167
+2024-04-15 16:23:44,622 - INFO - Successfully Added data from SDSS for object 1237646586639221106 for K at index 167
+2024-04-15 16:23:44,622 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:45,549 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221275, 'u': 22.3106, 'g': 20.04281, 'r': 18.69215, 'i': 17.99268, 'z': 17.51549}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221275'"}]}]
+2024-04-15 16:23:45,549 - INFO - Received data from SDSS for object 1237646586639221275 for K now extracting data at index 168
+2024-04-15 16:23:45,551 - INFO - Successfully Added data from SDSS for object 1237646586639221275 for K at index 168
+2024-04-15 16:23:45,551 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:46,481 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221584, 'u': 23.41705, 'g': 21.88585, 'r': 20.10322, 'i': 19.29413, 'z': 18.69633}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221584'"}]}]
+2024-04-15 16:23:46,481 - INFO - Received data from SDSS for object 1237646586639221584 for K now extracting data at index 169
+2024-04-15 16:23:46,483 - INFO - Successfully Added data from SDSS for object 1237646586639221584 for K at index 169
+2024-04-15 16:23:46,483 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:47,410 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221587, 'u': 22.63876, 'g': 20.69983, 'r': 19.4616, 'i': 18.84008, 'z': 18.39879}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221587'"}]}]
+2024-04-15 16:23:47,410 - INFO - Received data from SDSS for object 1237646586639221587 for K now extracting data at index 170
+2024-04-15 16:23:47,412 - INFO - Successfully Added data from SDSS for object 1237646586639221587 for K at index 170
+2024-04-15 16:23:47,412 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:48,336 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221650, 'u': 24.29688, 'g': 21.52224, 'r': 20.08373, 'i': 19.38585, 'z': 18.86038}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221650'"}]}]
+2024-04-15 16:23:48,336 - INFO - Received data from SDSS for object 1237646586639221650 for K now extracting data at index 171
+2024-04-15 16:23:48,338 - INFO - Successfully Added data from SDSS for object 1237646586639221650 for K at index 171
+2024-04-15 16:23:48,338 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:49,281 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221876, 'u': 23.9838, 'g': 21.52683, 'r': 20.25836, 'i': 19.66525, 'z': 19.22689}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221876'"}]}]
+2024-04-15 16:23:49,281 - INFO - Received data from SDSS for object 1237646586639221876 for K now extracting data at index 172
+2024-04-15 16:23:49,283 - INFO - Successfully Added data from SDSS for object 1237646586639221876 for K at index 172
+2024-04-15 16:23:49,283 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:50,210 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639221927, 'u': 23.10638, 'g': 21.90672, 'r': 20.88894, 'i': 20.16862, 'z': 19.96806}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639221927'"}]}]
+2024-04-15 16:23:50,210 - INFO - Received data from SDSS for object 1237646586639221927 for K now extracting data at index 173
+2024-04-15 16:23:50,212 - INFO - Successfully Added data from SDSS for object 1237646586639221927 for K at index 173
+2024-04-15 16:23:50,212 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:51,130 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639351910, 'u': 20.86439, 'g': 18.72519, 'r': 17.48716, 'i': 16.85108, 'z': 16.41669}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639351910'"}]}]
+2024-04-15 16:23:51,130 - INFO - Received data from SDSS for object 1237646586639351910 for K now extracting data at index 174
+2024-04-15 16:23:51,132 - INFO - Successfully Added data from SDSS for object 1237646586639351910 for K at index 174
+2024-04-15 16:23:51,132 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:52,061 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352359, 'u': 21.85829, 'g': 19.52144, 'r': 18.27886, 'i': 17.66191, 'z': 17.08464}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352359'"}]}]
+2024-04-15 16:23:52,061 - INFO - Received data from SDSS for object 1237646586639352359 for K now extracting data at index 175
+2024-04-15 16:23:52,063 - INFO - Successfully Added data from SDSS for object 1237646586639352359 for K at index 175
+2024-04-15 16:23:52,063 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:52,978 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352410, 'u': 22.86926, 'g': 19.92516, 'r': 18.39223, 'i': 17.66568, 'z': 17.12105}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352410'"}]}]
+2024-04-15 16:23:52,978 - INFO - Received data from SDSS for object 1237646586639352410 for K now extracting data at index 176
+2024-04-15 16:23:52,980 - INFO - Successfully Added data from SDSS for object 1237646586639352410 for K at index 176
+2024-04-15 16:23:52,980 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:53,906 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352511, 'u': 22.78676, 'g': 20.18419, 'r': 18.65356, 'i': 17.89418, 'z': 17.36704}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352511'"}]}]
+2024-04-15 16:23:53,906 - INFO - Received data from SDSS for object 1237646586639352511 for K now extracting data at index 177
+2024-04-15 16:23:53,908 - INFO - Successfully Added data from SDSS for object 1237646586639352511 for K at index 177
+2024-04-15 16:23:53,908 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:54,833 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352550, 'u': 22.92263, 'g': 20.71928, 'r': 19.25591, 'i': 18.53852, 'z': 17.9666}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352550'"}]}]
+2024-04-15 16:23:54,833 - INFO - Received data from SDSS for object 1237646586639352550 for K now extracting data at index 178
+2024-04-15 16:23:54,838 - INFO - Successfully Added data from SDSS for object 1237646586639352550 for K at index 178
+2024-04-15 16:23:54,838 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:55,752 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352797, 'u': 23.58657, 'g': 21.09651, 'r': 19.72216, 'i': 19.05974, 'z': 18.58348}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352797'"}]}]
+2024-04-15 16:23:55,752 - INFO - Received data from SDSS for object 1237646586639352797 for K now extracting data at index 179
+2024-04-15 16:23:55,754 - INFO - Successfully Added data from SDSS for object 1237646586639352797 for K at index 179
+2024-04-15 16:23:55,754 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:56,668 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352919, 'u': 23.68982, 'g': 21.03245, 'r': 19.68708, 'i': 18.99984, 'z': 18.50149}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352919'"}]}]
+2024-04-15 16:23:56,668 - INFO - Received data from SDSS for object 1237646586639352919 for K now extracting data at index 180
+2024-04-15 16:23:56,670 - INFO - Successfully Added data from SDSS for object 1237646586639352919 for K at index 180
+2024-04-15 16:23:56,670 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:57,586 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639352979, 'u': 23.6847, 'g': 21.54847, 'r': 20.17876, 'i': 19.51346, 'z': 19.10299}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639352979'"}]}]
+2024-04-15 16:23:57,586 - INFO - Received data from SDSS for object 1237646586639352979 for K now extracting data at index 181
+2024-04-15 16:23:57,588 - INFO - Successfully Added data from SDSS for object 1237646586639352979 for K at index 181
+2024-04-15 16:23:57,588 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:58,510 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639417817, 'u': 22.31771, 'g': 19.66612, 'r': 18.30877, 'i': 17.68612, 'z': 17.2114}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639417817'"}]}]
+2024-04-15 16:23:58,510 - INFO - Received data from SDSS for object 1237646586639417817 for K now extracting data at index 182
+2024-04-15 16:23:58,512 - INFO - Successfully Added data from SDSS for object 1237646586639417817 for K at index 182
+2024-04-15 16:23:58,512 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:23:59,489 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639417887, 'u': 20.84212, 'g': 18.70716, 'r': 17.58637, 'i': 17.03269, 'z': 16.67717}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639417887'"}]}]
+2024-04-15 16:23:59,489 - INFO - Received data from SDSS for object 1237646586639417887 for K now extracting data at index 183
+2024-04-15 16:23:59,491 - INFO - Successfully Added data from SDSS for object 1237646586639417887 for K at index 183
+2024-04-15 16:23:59,491 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:00,416 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639418008, 'u': 21.34451, 'g': 19.65341, 'r': 18.51493, 'i': 17.94167, 'z': 17.55314}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639418008'"}]}]
+2024-04-15 16:24:00,416 - INFO - Received data from SDSS for object 1237646586639418008 for K now extracting data at index 184
+2024-04-15 16:24:00,418 - INFO - Successfully Added data from SDSS for object 1237646586639418008 for K at index 184
+2024-04-15 16:24:00,418 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:01,346 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639418095, 'u': 22.39001, 'g': 20.32883, 'r': 19.08182, 'i': 18.4335, 'z': 17.9582}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639418095'"}]}]
+2024-04-15 16:24:01,346 - INFO - Received data from SDSS for object 1237646586639418095 for K now extracting data at index 185
+2024-04-15 16:24:01,348 - INFO - Successfully Added data from SDSS for object 1237646586639418095 for K at index 185
+2024-04-15 16:24:01,348 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:02,274 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639418257, 'u': 23.66213, 'g': 21.50156, 'r': 20.46037, 'i': 19.8395, 'z': 19.38238}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639418257'"}]}]
+2024-04-15 16:24:02,274 - INFO - Received data from SDSS for object 1237646586639418257 for K now extracting data at index 186
+2024-04-15 16:24:02,276 - INFO - Successfully Added data from SDSS for object 1237646586639418257 for K at index 186
+2024-04-15 16:24:02,276 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:03,203 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639483305, 'u': 21.78181, 'g': 19.4821, 'r': 18.18792, 'i': 17.54158, 'z': 17.10274}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639483305'"}]}]
+2024-04-15 16:24:03,203 - INFO - Received data from SDSS for object 1237646586639483305 for K now extracting data at index 187
+2024-04-15 16:24:03,205 - INFO - Successfully Added data from SDSS for object 1237646586639483305 for K at index 187
+2024-04-15 16:24:03,205 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:04,134 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646586639614732, 'u': 24.86022, 'g': 22.51067, 'r': 20.42545, 'i': 19.43279, 'z': 18.74541}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646586639614732'"}]}]
+2024-04-15 16:24:04,134 - INFO - Received data from SDSS for object 1237646586639614732 for K now extracting data at index 188
+2024-04-15 16:24:04,136 - INFO - Successfully Added data from SDSS for object 1237646586639614732 for K at index 188
+2024-04-15 16:24:04,136 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:05,051 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173667800, 'u': 20.14135, 'g': 18.13947, 'r': 17.25274, 'i': 16.90039, 'z': 16.71749}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173667800'"}]}]
+2024-04-15 16:24:05,051 - INFO - Received data from SDSS for object 1237646587173667800 for K now extracting data at index 189
+2024-04-15 16:24:05,053 - INFO - Successfully Added data from SDSS for object 1237646587173667800 for K at index 189
+2024-04-15 16:24:05,053 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:05,968 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173732823, 'u': 18.96279, 'g': 17.51183, 'r': 16.7999, 'i': 16.48147, 'z': 16.31169}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173732823'"}]}]
+2024-04-15 16:24:05,969 - INFO - Received data from SDSS for object 1237646587173732823 for K now extracting data at index 190
+2024-04-15 16:24:05,971 - INFO - Successfully Added data from SDSS for object 1237646587173732823 for K at index 190
+2024-04-15 16:24:05,971 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:06,897 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173733112, 'u': 21.18122, 'g': 19.55439, 'r': 18.84256, 'i': 18.56399, 'z': 18.45083}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173733112'"}]}]
+2024-04-15 16:24:06,897 - INFO - Received data from SDSS for object 1237646587173733112 for K now extracting data at index 191
+2024-04-15 16:24:06,899 - INFO - Successfully Added data from SDSS for object 1237646587173733112 for K at index 191
+2024-04-15 16:24:06,899 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:07,825 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173733375, 'u': 19.60654, 'g': 18.21931, 'r': 17.48623, 'i': 17.1492, 'z': 16.9374}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173733375'"}]}]
+2024-04-15 16:24:07,825 - INFO - Received data from SDSS for object 1237646587173733375 for K now extracting data at index 192
+2024-04-15 16:24:07,827 - INFO - Successfully Added data from SDSS for object 1237646587173733375 for K at index 192
+2024-04-15 16:24:07,827 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:08,755 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173798538, 'u': 21.25927, 'g': 19.4865, 'r': 18.77592, 'i': 18.51056, 'z': 18.43581}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173798538'"}]}]
+2024-04-15 16:24:08,755 - INFO - Received data from SDSS for object 1237646587173798538 for K now extracting data at index 193
+2024-04-15 16:24:08,757 - INFO - Successfully Added data from SDSS for object 1237646587173798538 for K at index 193
+2024-04-15 16:24:08,757 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:09,686 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173798654, 'u': 20.39432, 'g': 18.34539, 'r': 17.49937, 'i': 17.18438, 'z': 16.99655}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173798654'"}]}]
+2024-04-15 16:24:09,686 - INFO - Received data from SDSS for object 1237646587173798654 for K now extracting data at index 194
+2024-04-15 16:24:09,690 - INFO - Successfully Added data from SDSS for object 1237646587173798654 for K at index 194
+2024-04-15 16:24:09,690 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:10,617 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173798670, 'u': 21.77967, 'g': 19.99457, 'r': 19.28197, 'i': 19.03866, 'z': 18.90831}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173798670'"}]}]
+2024-04-15 16:24:10,617 - INFO - Received data from SDSS for object 1237646587173798670 for K now extracting data at index 195
+2024-04-15 16:24:10,619 - INFO - Successfully Added data from SDSS for object 1237646587173798670 for K at index 195
+2024-04-15 16:24:10,619 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:11,547 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173798744, 'u': 21.69111, 'g': 20.0784, 'r': 19.35437, 'i': 19.0965, 'z': 18.87896}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173798744'"}]}]
+2024-04-15 16:24:11,547 - INFO - Received data from SDSS for object 1237646587173798744 for K now extracting data at index 196
+2024-04-15 16:24:11,549 - INFO - Successfully Added data from SDSS for object 1237646587173798744 for K at index 196
+2024-04-15 16:24:11,549 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:12,477 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173798767, 'u': 21.31993, 'g': 19.68482, 'r': 18.96941, 'i': 18.69565, 'z': 18.56732}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173798767'"}]}]
+2024-04-15 16:24:12,477 - INFO - Received data from SDSS for object 1237646587173798767 for K now extracting data at index 197
+2024-04-15 16:24:12,479 - INFO - Successfully Added data from SDSS for object 1237646587173798767 for K at index 197
+2024-04-15 16:24:12,479 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:13,407 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173799198, 'u': 22.43636, 'g': 20.53381, 'r': 19.82039, 'i': 19.5989, 'z': 19.39043}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173799198'"}]}]
+2024-04-15 16:24:13,407 - INFO - Received data from SDSS for object 1237646587173799198 for K now extracting data at index 198
+2024-04-15 16:24:13,409 - INFO - Successfully Added data from SDSS for object 1237646587173799198 for K at index 198
+2024-04-15 16:24:13,409 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:14,337 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173863607, 'u': 22.39442, 'g': 20.24542, 'r': 19.48222, 'i': 19.21094, 'z': 19.13284}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173863607'"}]}]
+2024-04-15 16:24:14,337 - INFO - Received data from SDSS for object 1237646587173863607 for K now extracting data at index 199
+2024-04-15 16:24:14,339 - INFO - Successfully Added data from SDSS for object 1237646587173863607 for K at index 199
+2024-04-15 16:24:14,339 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:15,267 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173864135, 'u': 21.7824, 'g': 19.65328, 'r': 18.77466, 'i': 18.4431, 'z': 18.31826}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173864135'"}]}]
+2024-04-15 16:24:15,267 - INFO - Received data from SDSS for object 1237646587173864135 for K now extracting data at index 200
+2024-04-15 16:24:15,269 - INFO - Successfully Added data from SDSS for object 1237646587173864135 for K at index 200
+2024-04-15 16:24:15,269 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:16,197 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173864221, 'u': 21.12955, 'g': 19.14537, 'r': 18.29031, 'i': 17.96891, 'z': 17.80825}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173864221'"}]}]
+2024-04-15 16:24:16,197 - INFO - Received data from SDSS for object 1237646587173864221 for K now extracting data at index 201
+2024-04-15 16:24:16,199 - INFO - Successfully Added data from SDSS for object 1237646587173864221 for K at index 201
+2024-04-15 16:24:16,199 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:17,128 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173929197, 'u': 18.93509, 'g': 17.24372, 'r': 16.54756, 'i': 16.29378, 'z': 16.16748}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173929197'"}]}]
+2024-04-15 16:24:17,128 - INFO - Received data from SDSS for object 1237646587173929197 for K now extracting data at index 202
+2024-04-15 16:24:17,130 - INFO - Successfully Added data from SDSS for object 1237646587173929197 for K at index 202
+2024-04-15 16:24:17,130 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:18,057 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173929647, 'u': 20.80981, 'g': 19.21767, 'r': 18.53867, 'i': 18.32303, 'z': 18.19896}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173929647'"}]}]
+2024-04-15 16:24:18,058 - INFO - Received data from SDSS for object 1237646587173929647 for K now extracting data at index 203
+2024-04-15 16:24:18,059 - INFO - Successfully Added data from SDSS for object 1237646587173929647 for K at index 203
+2024-04-15 16:24:18,059 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:18,982 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173929709, 'u': 20.30179, 'g': 18.72549, 'r': 18.07645, 'i': 17.81047, 'z': 17.66665}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173929709'"}]}]
+2024-04-15 16:24:18,982 - INFO - Received data from SDSS for object 1237646587173929709 for K now extracting data at index 204
+2024-04-15 16:24:18,984 - INFO - Successfully Added data from SDSS for object 1237646587173929709 for K at index 204
+2024-04-15 16:24:18,984 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:19,906 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587173994822, 'u': 18.23205, 'g': 16.41209, 'r': 15.65359, 'i': 15.36861, 'z': 15.22048}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587173994822'"}]}]
+2024-04-15 16:24:19,906 - INFO - Received data from SDSS for object 1237646587173994822 for K now extracting data at index 205
+2024-04-15 16:24:19,908 - INFO - Successfully Added data from SDSS for object 1237646587173994822 for K at index 205
+2024-04-15 16:24:19,908 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:20,823 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587174060677, 'u': 21.56322, 'g': 19.93238, 'r': 19.21212, 'i': 18.91575, 'z': 18.86559}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587174060677'"}]}]
+2024-04-15 16:24:20,823 - INFO - Received data from SDSS for object 1237646587174060677 for K now extracting data at index 206
+2024-04-15 16:24:20,825 - INFO - Successfully Added data from SDSS for object 1237646587174060677 for K at index 206
+2024-04-15 16:24:20,825 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:21,753 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587174060871, 'u': 22.00994, 'g': 19.91842, 'r': 19.1343, 'i': 18.84831, 'z': 18.65901}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587174060871'"}]}]
+2024-04-15 16:24:21,753 - INFO - Received data from SDSS for object 1237646587174060871 for K now extracting data at index 207
+2024-04-15 16:24:21,755 - INFO - Successfully Added data from SDSS for object 1237646587174060871 for K at index 207
+2024-04-15 16:24:21,755 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:22,683 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587174061137, 'u': 22.18762, 'g': 20.72505, 'r': 19.98391, 'i': 19.7397, 'z': 19.40406}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587174061137'"}]}]
+2024-04-15 16:24:22,683 - INFO - Received data from SDSS for object 1237646587174061137 for K now extracting data at index 208
+2024-04-15 16:24:22,685 - INFO - Successfully Added data from SDSS for object 1237646587174061137 for K at index 208
+2024-04-15 16:24:22,685 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:23,611 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175240047, 'u': 23.75679, 'g': 19.93555, 'r': 18.45119, 'i': 17.79905, 'z': 17.41345}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175240047'"}]}]
+2024-04-15 16:24:23,611 - INFO - Received data from SDSS for object 1237646587175240047 for K now extracting data at index 209
+2024-04-15 16:24:23,613 - INFO - Successfully Added data from SDSS for object 1237646587175240047 for K at index 209
+2024-04-15 16:24:23,613 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:24,542 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175305938, 'u': 21.76536, 'g': 19.59257, 'r': 18.60594, 'i': 18.13289, 'z': 17.80506}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175305938'"}]}]
+2024-04-15 16:24:24,542 - INFO - Received data from SDSS for object 1237646587175305938 for K now extracting data at index 210
+2024-04-15 16:24:24,544 - INFO - Successfully Added data from SDSS for object 1237646587175305938 for K at index 210
+2024-04-15 16:24:24,544 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:25,462 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175306562, 'u': 24.28818, 'g': 21.16061, 'r': 19.87893, 'i': 19.35085, 'z': 18.97363}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175306562'"}]}]
+2024-04-15 16:24:25,462 - INFO - Received data from SDSS for object 1237646587175306562 for K now extracting data at index 211
+2024-04-15 16:24:25,464 - INFO - Successfully Added data from SDSS for object 1237646587175306562 for K at index 211
+2024-04-15 16:24:25,464 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:26,391 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175306740, 'u': 23.48953, 'g': 21.73631, 'r': 20.68395, 'i': 20.23843, 'z': 19.85989}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175306740'"}]}]
+2024-04-15 16:24:26,391 - INFO - Received data from SDSS for object 1237646587175306740 for K now extracting data at index 212
+2024-04-15 16:24:26,393 - INFO - Successfully Added data from SDSS for object 1237646587175306740 for K at index 212
+2024-04-15 16:24:26,393 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:27,309 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175371426, 'u': 21.31507, 'g': 19.61964, 'r': 18.81407, 'i': 18.48204, 'z': 18.28327}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175371426'"}]}]
+2024-04-15 16:24:27,309 - INFO - Received data from SDSS for object 1237646587175371426 for K now extracting data at index 213
+2024-04-15 16:24:27,311 - INFO - Successfully Added data from SDSS for object 1237646587175371426 for K at index 213
+2024-04-15 16:24:27,311 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:28,239 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175371432, 'u': 22.91525, 'g': 21.09839, 'r': 20.16076, 'i': 19.79883, 'z': 19.51247}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175371432'"}]}]
+2024-04-15 16:24:28,239 - INFO - Received data from SDSS for object 1237646587175371432 for K now extracting data at index 214
+2024-04-15 16:24:28,241 - INFO - Successfully Added data from SDSS for object 1237646587175371432 for K at index 214
+2024-04-15 16:24:28,241 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:29,169 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175371806, 'u': 22.95582, 'g': 20.74965, 'r': 19.42553, 'i': 18.82265, 'z': 18.43529}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175371806'"}]}]
+2024-04-15 16:24:29,169 - INFO - Received data from SDSS for object 1237646587175371806 for K now extracting data at index 215
+2024-04-15 16:24:29,171 - INFO - Successfully Added data from SDSS for object 1237646587175371806 for K at index 215
+2024-04-15 16:24:29,171 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:30,099 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175372402, 'u': 23.72826, 'g': 21.42491, 'r': 20.27463, 'i': 19.74137, 'z': 19.33426}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175372402'"}]}]
+2024-04-15 16:24:30,099 - INFO - Received data from SDSS for object 1237646587175372402 for K now extracting data at index 216
+2024-04-15 16:24:30,101 - INFO - Successfully Added data from SDSS for object 1237646587175372402 for K at index 216
+2024-04-15 16:24:30,101 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:31,032 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175436329, 'u': 23.55768, 'g': 21.22718, 'r': 19.95896, 'i': 19.44031, 'z': 19.09834}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175436329'"}]}]
+2024-04-15 16:24:31,032 - INFO - Received data from SDSS for object 1237646587175436329 for K now extracting data at index 217
+2024-04-15 16:24:31,034 - INFO - Successfully Added data from SDSS for object 1237646587175436329 for K at index 217
+2024-04-15 16:24:31,034 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:31,962 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175436560, 'u': 24.20928, 'g': 21.6938, 'r': 20.30287, 'i': 19.70354, 'z': 19.47381}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175436560'"}]}]
+2024-04-15 16:24:31,962 - INFO - Received data from SDSS for object 1237646587175436560 for K now extracting data at index 218
+2024-04-15 16:24:31,964 - INFO - Successfully Added data from SDSS for object 1237646587175436560 for K at index 218
+2024-04-15 16:24:31,964 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:32,894 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175436955, 'u': 24.08936, 'g': 20.75874, 'r': 19.41145, 'i': 18.91455, 'z': 18.53617}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175436955'"}]}]
+2024-04-15 16:24:32,894 - INFO - Received data from SDSS for object 1237646587175436955 for K now extracting data at index 219
+2024-04-15 16:24:32,896 - INFO - Successfully Added data from SDSS for object 1237646587175436955 for K at index 219
+2024-04-15 16:24:32,896 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:33,825 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175437795, 'u': 24.36677, 'g': 21.76825, 'r': 20.26077, 'i': 19.5978, 'z': 19.31933}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175437795'"}]}]
+2024-04-15 16:24:33,825 - INFO - Received data from SDSS for object 1237646587175437795 for K now extracting data at index 220
+2024-04-15 16:24:33,827 - INFO - Successfully Added data from SDSS for object 1237646587175437795 for K at index 220
+2024-04-15 16:24:33,827 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:34,757 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175502530, 'u': 21.27354, 'g': 18.49694, 'r': 17.1806, 'i': 16.64989, 'z': 16.30606}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175502530'"}]}]
+2024-04-15 16:24:34,758 - INFO - Received data from SDSS for object 1237646587175502530 for K now extracting data at index 221
+2024-04-15 16:24:34,759 - INFO - Successfully Added data from SDSS for object 1237646587175502530 for K at index 221
+2024-04-15 16:24:34,759 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:35,690 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175503512, 'u': 23.66386, 'g': 21.44235, 'r': 19.96777, 'i': 19.26194, 'z': 18.78011}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175503512'"}]}]
+2024-04-15 16:24:35,691 - INFO - Received data from SDSS for object 1237646587175503512 for K now extracting data at index 222
+2024-04-15 16:24:35,692 - INFO - Successfully Added data from SDSS for object 1237646587175503512 for K at index 222
+2024-04-15 16:24:35,692 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:36,620 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175568438, 'u': 22.55863, 'g': 20.48786, 'r': 19.55894, 'i': 19.10798, 'z': 18.84195}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175568438'"}]}]
+2024-04-15 16:24:36,620 - INFO - Received data from SDSS for object 1237646587175568438 for K now extracting data at index 223
+2024-04-15 16:24:36,622 - INFO - Successfully Added data from SDSS for object 1237646587175568438 for K at index 223
+2024-04-15 16:24:36,622 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:37,551 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175698713, 'u': 23.57304, 'g': 20.20344, 'r': 18.40826, 'i': 17.55132, 'z': 16.90395}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175698713'"}]}]
+2024-04-15 16:24:37,551 - INFO - Received data from SDSS for object 1237646587175698713 for K now extracting data at index 224
+2024-04-15 16:24:37,553 - INFO - Successfully Added data from SDSS for object 1237646587175698713 for K at index 224
+2024-04-15 16:24:37,553 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:38,481 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175698890, 'u': 25.02658, 'g': 22.12057, 'r': 19.92333, 'i': 18.67892, 'z': 17.86789}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175698890'"}]}]
+2024-04-15 16:24:38,481 - INFO - Received data from SDSS for object 1237646587175698890 for K now extracting data at index 225
+2024-04-15 16:24:38,483 - INFO - Successfully Added data from SDSS for object 1237646587175698890 for K at index 225
+2024-04-15 16:24:38,483 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:39,410 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175699229, 'u': 24.19699, 'g': 22.26999, 'r': 20.3874, 'i': 19.40802, 'z': 18.70756}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175699229'"}]}]
+2024-04-15 16:24:39,410 - INFO - Received data from SDSS for object 1237646587175699229 for K now extracting data at index 226
+2024-04-15 16:24:39,412 - INFO - Successfully Added data from SDSS for object 1237646587175699229 for K at index 226
+2024-04-15 16:24:39,412 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:40,327 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175960789, 'u': 23.85631, 'g': 21.01041, 'r': 19.00546, 'i': 17.7781, 'z': 16.84471}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175960789'"}]}]
+2024-04-15 16:24:40,327 - INFO - Received data from SDSS for object 1237646587175960789 for K now extracting data at index 227
+2024-04-15 16:24:40,332 - INFO - Successfully Added data from SDSS for object 1237646587175960789 for K at index 227
+2024-04-15 16:24:40,332 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:41,262 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587175960825, 'u': 25.86871, 'g': 22.09354, 'r': 19.76516, 'i': 18.57436, 'z': 17.77767}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587175960825'"}]}]
+2024-04-15 16:24:41,262 - INFO - Received data from SDSS for object 1237646587175960825 for K now extracting data at index 228
+2024-04-15 16:24:41,264 - INFO - Successfully Added data from SDSS for object 1237646587175960825 for K at index 228
+2024-04-15 16:24:41,264 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:42,254 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176026267, 'u': 23.10616, 'g': 21.46567, 'r': 24.80217, 'i': 20.05227, 'z': 22.82707}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176026267'"}]}]
+2024-04-15 16:24:42,254 - INFO - Received data from SDSS for object 1237646587176026267 for K now extracting data at index 229
+2024-04-15 16:24:42,256 - INFO - Successfully Added data from SDSS for object 1237646587176026267 for K at index 229
+2024-04-15 16:24:42,256 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:43,173 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176026470, 'u': 23.63289, 'g': 21.75404, 'r': 19.32992, 'i': 17.82576, 'z': 16.6362}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176026470'"}]}]
+2024-04-15 16:24:43,173 - INFO - Received data from SDSS for object 1237646587176026470 for K now extracting data at index 230
+2024-04-15 16:24:43,175 - INFO - Successfully Added data from SDSS for object 1237646587176026470 for K at index 230
+2024-04-15 16:24:43,175 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:44,088 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176026554, 'u': 24.94173, 'g': 21.38393, 'r': 20.04407, 'i': 19.24106, 'z': 18.86301}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176026554'"}]}]
+2024-04-15 16:24:44,088 - INFO - Received data from SDSS for object 1237646587176026554 for K now extracting data at index 231
+2024-04-15 16:24:44,090 - INFO - Successfully Added data from SDSS for object 1237646587176026554 for K at index 231
+2024-04-15 16:24:44,090 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:45,006 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176026634, 'u': 23.75531, 'g': 21.95995, 'r': 20.06932, 'i': 19.01004, 'z': 18.28101}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176026634'"}]}]
+2024-04-15 16:24:45,006 - INFO - Received data from SDSS for object 1237646587176026634 for K now extracting data at index 232
+2024-04-15 16:24:45,008 - INFO - Successfully Added data from SDSS for object 1237646587176026634 for K at index 232
+2024-04-15 16:24:45,008 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:45,925 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176091741, 'u': 22.74612, 'g': 19.86079, 'r': 18.24734, 'i': 17.38725, 'z': 16.72395}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176091741'"}]}]
+2024-04-15 16:24:45,925 - INFO - Received data from SDSS for object 1237646587176091741 for K now extracting data at index 233
+2024-04-15 16:24:45,927 - INFO - Successfully Added data from SDSS for object 1237646587176091741 for K at index 233
+2024-04-15 16:24:45,927 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:46,856 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176157647, 'u': 22.59831, 'g': 20.93246, 'r': 19.68542, 'i': 19.02744, 'z': 18.57817}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176157647'"}]}]
+2024-04-15 16:24:46,856 - INFO - Received data from SDSS for object 1237646587176157647 for K now extracting data at index 234
+2024-04-15 16:24:46,858 - INFO - Successfully Added data from SDSS for object 1237646587176157647 for K at index 234
+2024-04-15 16:24:46,858 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:47,785 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176223042, 'u': 23.92008, 'g': 20.16455, 'r': 18.53107, 'i': 17.80296, 'z': 17.2596}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176223042'"}]}]
+2024-04-15 16:24:47,785 - INFO - Received data from SDSS for object 1237646587176223042 for K now extracting data at index 235
+2024-04-15 16:24:47,787 - INFO - Successfully Added data from SDSS for object 1237646587176223042 for K at index 235
+2024-04-15 16:24:47,787 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:48,714 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176223614, 'u': 23.85991, 'g': 21.54708, 'r': 19.96898, 'i': 19.28433, 'z': 18.75725}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176223614'"}]}]
+2024-04-15 16:24:48,714 - INFO - Received data from SDSS for object 1237646587176223614 for K now extracting data at index 236
+2024-04-15 16:24:48,716 - INFO - Successfully Added data from SDSS for object 1237646587176223614 for K at index 236
+2024-04-15 16:24:48,716 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:49,644 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176289596, 'u': 23.05519, 'g': 21.0844, 'r': 20.05263, 'i': 19.5202, 'z': 19.15112}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176289596'"}]}]
+2024-04-15 16:24:49,644 - INFO - Received data from SDSS for object 1237646587176289596 for K now extracting data at index 237
+2024-04-15 16:24:49,646 - INFO - Successfully Added data from SDSS for object 1237646587176289596 for K at index 237
+2024-04-15 16:24:49,646 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:50,637 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176289661, 'u': 23.5549, 'g': 21.80305, 'r': 20.52037, 'i': 19.90325, 'z': 19.38485}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176289661'"}]}]
+2024-04-15 16:24:50,637 - INFO - Received data from SDSS for object 1237646587176289661 for K now extracting data at index 238
+2024-04-15 16:24:50,639 - INFO - Successfully Added data from SDSS for object 1237646587176289661 for K at index 238
+2024-04-15 16:24:50,639 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:51,566 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176353992, 'u': 23.4298, 'g': 21.84564, 'r': 20.46704, 'i': 19.8272, 'z': 19.33112}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176353992'"}]}]
+2024-04-15 16:24:51,566 - INFO - Received data from SDSS for object 1237646587176353992 for K now extracting data at index 239
+2024-04-15 16:24:51,568 - INFO - Successfully Added data from SDSS for object 1237646587176353992 for K at index 239
+2024-04-15 16:24:51,568 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:52,498 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176354864, 'u': 24.12604, 'g': 21.7941, 'r': 20.50462, 'i': 19.89066, 'z': 19.45485}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176354864'"}]}]
+2024-04-15 16:24:52,498 - INFO - Received data from SDSS for object 1237646587176354864 for K now extracting data at index 240
+2024-04-15 16:24:52,500 - INFO - Successfully Added data from SDSS for object 1237646587176354864 for K at index 240
+2024-04-15 16:24:52,500 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:53,429 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176486183, 'u': 24.83616, 'g': 22.27909, 'r': 20.22554, 'i': 19.27011, 'z': 18.50372}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176486183'"}]}]
+2024-04-15 16:24:53,429 - INFO - Received data from SDSS for object 1237646587176486183 for K now extracting data at index 241
+2024-04-15 16:24:53,431 - INFO - Successfully Added data from SDSS for object 1237646587176486183 for K at index 241
+2024-04-15 16:24:53,431 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:54,360 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587176879183, 'u': 23.28258, 'g': 20.60897, 'r': 19.44103, 'i': 18.8289, 'z': 18.3732}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587176879183'"}]}]
+2024-04-15 16:24:54,360 - INFO - Received data from SDSS for object 1237646587176879183 for K now extracting data at index 242
+2024-04-15 16:24:54,362 - INFO - Successfully Added data from SDSS for object 1237646587176879183 for K at index 242
+2024-04-15 16:24:54,362 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:55,295 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587699331269, 'u': 20.8526, 'g': 19.0393, 'r': 18.19971, 'i': 17.81955, 'z': 17.58896}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587699331269'"}]}]
+2024-04-15 16:24:55,295 - INFO - Received data from SDSS for object 1237646587699331269 for K now extracting data at index 243
+2024-04-15 16:24:55,297 - INFO - Successfully Added data from SDSS for object 1237646587699331269 for K at index 243
+2024-04-15 16:24:55,297 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:56,227 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587699658835, 'u': 19.23049, 'g': 17.21716, 'r': 16.38172, 'i': 16.05841, 'z': 15.88405}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587699658835'"}]}]
+2024-04-15 16:24:56,227 - INFO - Received data from SDSS for object 1237646587699658835 for K now extracting data at index 244
+2024-04-15 16:24:56,229 - INFO - Successfully Added data from SDSS for object 1237646587699658835 for K at index 244
+2024-04-15 16:24:56,229 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:57,157 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587710931670, 'u': 21.89268, 'g': 20.01649, 'r': 19.21969, 'i': 18.92585, 'z': 18.65686}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587710931670'"}]}]
+2024-04-15 16:24:57,157 - INFO - Received data from SDSS for object 1237646587710931670 for K now extracting data at index 245
+2024-04-15 16:24:57,159 - INFO - Successfully Added data from SDSS for object 1237646587710931670 for K at index 245
+2024-04-15 16:24:57,159 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:58,070 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711194110, 'u': 22.39853, 'g': 20.48488, 'r': 19.54464, 'i': 19.21526, 'z': 19.02751}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711194110'"}]}]
+2024-04-15 16:24:58,070 - INFO - Received data from SDSS for object 1237646587711194110 for K now extracting data at index 246
+2024-04-15 16:24:58,072 - INFO - Successfully Added data from SDSS for object 1237646587711194110 for K at index 246
+2024-04-15 16:24:58,072 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:59,000 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711259138, 'u': 21.30477, 'g': 19.49363, 'r': 18.67424, 'i': 18.30886, 'z': 18.08066}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711259138'"}]}]
+2024-04-15 16:24:59,001 - INFO - Received data from SDSS for object 1237646587711259138 for K now extracting data at index 247
+2024-04-15 16:24:59,003 - INFO - Successfully Added data from SDSS for object 1237646587711259138 for K at index 247
+2024-04-15 16:24:59,003 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:24:59,930 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711324967, 'u': 20.32341, 'g': 18.43156, 'r': 17.64912, 'i': 17.34635, 'z': 17.19296}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711324967'"}]}]
+2024-04-15 16:24:59,930 - INFO - Received data from SDSS for object 1237646587711324967 for K now extracting data at index 248
+2024-04-15 16:24:59,932 - INFO - Successfully Added data from SDSS for object 1237646587711324967 for K at index 248
+2024-04-15 16:24:59,932 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:25:00,846 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711390256, 'u': 20.2094, 'g': 18.31591, 'r': 17.44896, 'i': 17.06503, 'z': 16.78512}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711390256'"}]}]
+2024-04-15 16:25:00,846 - INFO - Received data from SDSS for object 1237646587711390256 for K now extracting data at index 249
+2024-04-15 16:25:00,848 - INFO - Successfully Added data from SDSS for object 1237646587711390256 for K at index 249
+2024-04-15 16:25:00,848 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:25:01,777 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711390266, 'u': 21.08039, 'g': 19.42331, 'r': 18.70857, 'i': 18.4018, 'z': 18.20023}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711390266'"}]}]
+2024-04-15 16:25:01,777 - INFO - Received data from SDSS for object 1237646587711390266 for K now extracting data at index 250
+2024-04-15 16:25:01,779 - INFO - Successfully Added data from SDSS for object 1237646587711390266 for K at index 250
+2024-04-15 16:25:01,779 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:25:02,707 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711390430, 'u': 20.98644, 'g': 19.05851, 'r': 18.20383, 'i': 17.86769, 'z': 17.68045}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711390430'"}]}]
+2024-04-15 16:25:02,707 - INFO - Received data from SDSS for object 1237646587711390430 for K now extracting data at index 251
+2024-04-15 16:25:02,709 - INFO - Successfully Added data from SDSS for object 1237646587711390430 for K at index 251
+2024-04-15 16:25:02,709 - INFO - Respecting API Limits now sleeping for 500 ms
+2024-04-15 16:25:03,639 - INFO - [{'TableName': 'Table1', 'Rows': [{'objid': 1237646587711521496, 'u': 21.61865, 'g': 19.48707, 'r': 18.47991, 'i': 18.03006, 'z': 17.75932}]}, {'TableName': 'SqlQuery', 'Rows': [{'query': "select objid, u, g, r, i, z from PhotoObjAll where objid = '1237646587711521496'"}]}]
+2024-04-15 16:25:03,639 - INFO - Received data from SDSS for object 1237646587711521496 for K now extracting data at index 252
+2024-04-15 16:25:03,641 - INFO - Successfully Added data from SDSS for object 1237646587711521496 for K at index 252
+2024-04-15 16:25:03,641 - INFO - Respecting API Limits now sleeping for 500 ms

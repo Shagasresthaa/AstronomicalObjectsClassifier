@@ -1,0 +1,38 @@
+Epochs: 1
+Batch size: 32
+Optimizer: Adam
+Learning rate: 0.001
+Loss function: CrossEntropyLoss
+Epoch: Step: Loss:
+1/1, 1, 0.7239
+1/1, 101, 0.3912
+1/1, 201, 0.3617
+1/1, 301, 0.1602
+1/1, 401, 0.2321
+1/1, 501, 0.1392
+1/1, 601, 0.2956
+1/1, 701, 0.1798
+1/1, 801, 0.2422
+1/1, 901, 0.2711
+1/1, 1001, 0.1974
+1/1, 1101, 0.1733
+1/1, 1201, 0.2360
+1/1, 1301, 0.1875
+1/1, 1401, 0.1996
+1/1, 1501, 0.2359
+1/1, 1601, 0.1295
+Training completed in 0 hours, 6 minutes, 2 secondsAccuracy on test set: 94.13%
+Star precision: 94.10%
+Star recall: 97.30%
+Star F1 score: 95.67%
+
+Galaxy precision: 94.21%
+Galaxy recall: 87.80%
+Galaxy F1 score: 90.89%
+
+Confusion matrix:
+[[0.973 0.054]
+ [0.122 0.878]]
+
+Average star confidence: 68.93%
+Average galaxy confidence: 31.07%

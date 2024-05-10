@@ -44,12 +44,12 @@ def split_data(processed_dir, raw_dir, class_names):
     for class_name in class_names:
         source_dir = os.path.join(raw_dir, class_name)
         file_names = os.listdir(source_dir)
-        t = tqdm(total=len(train_files) + len(test_files) + len(val_files), desc=f'Splitting data...')
         # Split file names into train, test, and val sets
         train_files, test_files = train_test_split(
             file_names, test_size=0.2, random_state=42, stratify= [class_name] * len(file_names)
         )
         train_files, val_files = train_test_split(train_files, test_size=0.125, random_state=42, stratify= [class_name] * len(train_files))
+        t = tqdm(total=len(train_files) + len(test_files) + len(val_files), desc=f'Splitting data...')
         for file_name in train_files:
             shutil.copy(os.path.join(source_dir, file_name), os.path.join(processed_dir, 'train', class_name))
             t.update(1)
